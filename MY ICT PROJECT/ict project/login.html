@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United State of Hasilpur - Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.html">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #b29aff, #5d6470, #903ff2, #131f6d);
+        </div>
+		    <div class="col-lg-6 col-sm-6 col-xs-12">	
+		        <div class="ourgroup.jpg">
+					<img src="assets/img/our group.jpg" class="ourgroup" width="550" alt="ourgroup.jpg" />
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        .form-box {
+            margin-top: 20px;
+        }
+        .form-box.hidden {
+            display: none;
+        }
+        input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        button {
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: linear-gradient(135deg, #ff5e78, #ff6aa2);
+        }
+        a {
+            color: #141414;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="color: #ff5e78;">United State of Hasilpur</h2>
+        <div class="form-box">
+            <h3>Login</h3>
+            <form action="index.html" method="POST">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" id="signup-link">Sign Up</a></p>
+        </div>
+        
+        <div class="form-box hidden" id="signup-form">
+            <h3>Sign Up</h3>
+            <form action="index.html" method="POST">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+                
+            </form>
+            <p>Already have an account? <a href="#" id="login-link">Login</a></p>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById("signup-link").addEventListener("click", function() {
+            document.querySelector(".form-box").classList.add("hidden");
+            document.getElementById("signup-form").classList.remove("hidden");
+            
+        });
+        
+        document.getElementById("login-link").addEventListener("click", function() {
+            document.getElementById("signup-form").classList.add("hidden");
+            document.querySelector(".form-box").classList.remove("hidden");
+            window.location.href="index.html"
+        });
+    </script>
+</body>
+</html>

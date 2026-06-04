@@ -1,0 +1,3500 @@
+1. What is the main purpose of the logging module?
+A. Store images
+B. Record system events
+C. Create UI
+D. Perform calculations
+ANSWER: B
+
+2. Which module is used for JSON handling?
+A. pickle
+B. json
+C. gzip
+D. sqlite3
+ANSWER: B
+
+3. What does sqlite3 provide?
+A. Compression
+B. Database functionality
+C. Debugging
+D. Networking
+ANSWER: B
+
+4. Which keyword defines a class?
+A. def
+B. class
+C. func
+D. object
+ANSWER: B
+
+5. Dataclass is mainly used for:
+A. Complex logic
+B. Data representation
+C. UI design
+D. Networking
+ANSWER: B
+
+6. Enum is used to:
+A. Loop values
+B. Restrict constants
+C. Store files
+D. Debug code
+ANSWER: B
+
+7. Default access modifier in Python:
+A. Private
+B. Protected
+C. Public
+D. Static
+ANSWER: C
+
+8. _variable indicates:
+A. Private
+B. Protected
+C. Public
+D. Static
+ANSWER: B
+
+9. __variable indicates:
+A. Protected
+B. Private
+C. Public
+D. Static
+ANSWER: B
+
+10. JSON is:
+A. Binary format
+B. Text format
+C. Image format
+D. Audio format
+ANSWER: B
+
+11. XML uses:
+A. Arrays
+B. Tags
+C. Numbers
+D. Loops
+ANSWER: B
+
+12. pickle is used for:
+A. Compression
+B. Serialization
+C. Logging
+D. Debugging
+ANSWER: B
+
+13. gzip is used for:
+A. Debugging
+B. Compression
+C. Database
+D. Looping
+ANSWER: B
+
+14. sqlite3 stores:
+A. Files
+B. Databases
+C. Logs
+D. Images
+ANSWER: B
+
+15. logging.basicConfig is used to:
+A. Disable logging
+B. Configure logging
+C. Delete logs
+D. Compress logs
+ANSWER: B
+
+16. Dataclass reduces:
+A. Execution time
+B. Boilerplate code
+C. Memory
+D. Errors
+ANSWER: B
+
+17. Enum improves:
+A. Performance
+B. Validation
+C. UI
+D. Storage
+ANSWER: B
+
+18. JSON structure is:
+A. Tuple
+B. Key-value
+C. List only
+D. Set
+ANSWER: B
+
+19. XML is:
+A. Unstructured
+B. Structured
+C. Binary
+D. Random
+ANSWER: B
+
+20. Pickle converts:
+A. Text to object
+B. Object to byte stream
+C. File to DB
+D. JSON to XML
+ANSWER: B
+
+21. Which concept hides data?
+A. Inheritance
+B. Encapsulation
+C. Polymorphism
+D. Abstraction
+ANSWER: B
+
+22. Encapsulation improves:
+A. Speed
+B. Security
+C. UI
+D. Memory
+ANSWER: B
+
+23. Inheritance allows:
+A. Deletion
+B. Reuse
+C. Debugging
+D. Printing
+ANSWER: B
+
+24. Polymorphism means:
+A. Looping
+B. Same method different behavior
+C. File handling
+D. Logging
+ANSWER: B
+
+25. Base class is:
+A. Child
+B. Parent
+C. Object
+D. Enum
+ANSWER: B
+
+26. Derived class is:
+A. Parent
+B. Child
+C. Enum
+D. Function
+ANSWER: B
+
+27. Method overriding is:
+A. New method
+B. Same method redefined
+C. Delete method
+D. Loop
+ANSWER: B
+
+28. Getter method is used to:
+A. Set value
+B. Retrieve value
+C. Delete value
+D. Loop
+ANSWER: B
+
+29. Encapsulation protects:
+A. UI
+B. Data
+C. Logs
+D. Files
+ANSWER: B
+
+30. Polymorphism increases:
+A. Memory
+B. Flexibility
+C. Errors
+D. Speed
+ANSWER: B
+
+31. Factory Pattern is used for:
+A. Looping
+B. Object creation
+C. Debugging
+D. Storage
+ANSWER: B
+
+32. Factory hides:
+A. Errors
+B. Creation logic
+C. UI
+D. Loop
+ANSWER: B
+
+33. Factory method returns:
+A. String
+B. Object
+C. Integer
+D. Boolean
+ANSWER: B
+
+34. Strategy Pattern allows:
+A. Static behavior
+B. Runtime behavior change
+C. Compile time change
+D. No change
+ANSWER: B
+
+35. Abstract class contains:
+A. Concrete methods only
+B. Abstract methods
+C. Variables
+D. Loops
+ANSWER: B
+
+36. @abstractmethod ensures:
+A. Execution
+B. Implementation
+C. Deletion
+D. Logging
+ANSWER: B
+
+37. Strategy Pattern improves:
+A. UI
+B. Flexibility
+C. Speed
+D. Memory
+ANSWER: B
+
+38. Singleton ensures:
+A. Multiple instances
+B. Single instance
+C. No instance
+D. Loop
+ANSWER: B
+
+39. __new__ controls:
+A. Deletion
+B. Object creation
+C. Logging
+D. Debugging
+ANSWER: B
+
+40. Singleton is used for:
+A. UI
+B. Logging
+C. Loop
+D. DB
+ANSWER: B
+
+41. Custom exception is:
+A. Built-in
+B. User-defined
+C. Syntax
+D. Runtime
+ANSWER: B
+
+42. try block:
+A. Loop
+B. Error handling
+C. Debug
+D. File
+ANSWER: B
+
+43. except block:
+A. Loop
+B. Handles error
+C. Prints
+D. Saves
+ANSWER: B
+
+44. finally block:
+A. Executes always
+B. Executes sometimes
+C. Never executes
+D. Loop
+ANSWER: A
+
+45. assert is used for:
+A. Loop
+B. Validation
+C. Debug
+D. UI
+ANSWER: B
+
+46. pdb is:
+A. Database
+B. Debugger
+C. Logger
+D. File
+ANSWER: B
+
+47. JSON dump means:
+A. Load
+B. Save
+C. Delete
+D. Debug
+ANSWER: B
+
+48. JSON load means:
+A. Save
+B. Read
+C. Delete
+D. Loop
+ANSWER: B
+
+49. gzip reduces:
+A. Speed
+B. Size
+C. Memory
+D. UI
+ANSWER: B
+
+50. Integration means:
+A. Delete modules
+B. Combine modules
+C. Debug
+D. Loop
+ANSWER: B
+
+51. Account class represents:
+A. Data
+B. Behavior + data
+C. UI
+D. File
+ANSWER: B
+
+52. SavingsAccount is:
+A. Base
+B. Child
+C. Enum
+D. Module
+ANSWER: B
+
+53. CurrentAccount is:
+A. Base
+B. Child
+C. Enum
+D. Function
+ANSWER: B
+
+54. deposit() method:
+A. Subtracts money
+B. Adds money
+C. Deletes money
+D. Logs
+ANSWER: B
+
+55. withdraw() method:
+A. Adds money
+B. Removes money
+C. Prints money
+D. Logs
+ANSWER: B
+
+56. Factory pattern reduces:
+A. UI
+B. Coupling
+C. Memory
+D. Debug
+ANSWER: B
+
+57. Strategy pattern uses:
+A. Inheritance
+B. Composition
+C. Loop
+D. Debug
+ANSWER: B
+
+58. Logger ensures:
+A. Multiple logs
+B. Single instance
+C. Loop
+D. UI
+ANSWER: B
+
+59. Exception improves:
+A. UI
+B. Robustness
+C. Loop
+D. Memory
+ANSWER: B
+
+60. Persistence means:
+A. Temporary storage
+B. Permanent storage
+C. Debug
+D. Loop
+ANSWER: B
+
+61. SQLite uses:
+A. SQL
+B. JSON
+C. XML
+D. Loop
+ANSWER: A
+
+62. File writing uses:
+A. open()
+B. print()
+C. log()
+D. save()
+ANSWER: A
+
+63. Pickle load means:
+A. Save
+B. Load object
+C. Delete
+D. Loop
+ANSWER: B
+
+64. XML parsing means:
+A. Writing
+B. Reading
+C. Deleting
+D. Loop
+ANSWER: B
+
+65. gzip open is used for:
+A. File read/write compressed
+B. Debug
+C. Loop
+D. DB
+ANSWER: A
+
+66. Polymorphism uses:
+A. Same name different behavior
+B. Same name same behavior
+C. Different names
+D. No behavior
+ANSWER: A
+
+67. Abstraction hides:
+A. Implementation
+B. Data
+C. Loop
+D. Debug
+ANSWER: A
+
+68. Abstract class cannot:
+A. Be inherited
+B. Be instantiated directly
+C. Contain methods
+D. Use variables
+ANSWER: B
+
+69. PaymentMethod is:
+A. Concrete
+B. Abstract
+C. Static
+D. Global
+ANSWER: B
+
+70. Strategy used in:
+A. Payment system
+B. Logger
+C. DB
+D. Enum
+ANSWER: A
+
+71. Singleton avoids:
+A. Duplication
+B. Loop
+C. Debug
+D. UI
+ANSWER: A
+
+72. Exception occurs at:
+A. Compile time
+B. Runtime
+C. Debug time
+D. Load time
+ANSWER: B
+
+73. Assertion error occurs when:
+A. Condition true
+B. Condition false
+C. Loop
+D. Debug
+ANSWER: B
+
+74. Logging level INFO means:
+A. Error
+B. Normal message
+C. Critical
+D. Debug only
+ANSWER: B
+
+75. Database ensures:
+A. Temporary data
+B. Persistent data
+C. Debug
+D. Loop
+ANSWER: B
+
+76. Serialization converts:
+A. Object to bytes
+B. Bytes to object
+C. Loop
+D. Debug
+ANSWER: A
+
+77. Deserialization converts:
+A. Object to bytes
+B. Bytes to object
+C. Loop
+D. Debug
+ANSWER: B
+
+78. JSON is human:
+A. Unreadable
+B. Readable
+C. Binary
+D. Loop
+ANSWER: B
+
+79. XML supports:
+A. Hierarchy
+B. Loop
+C. Debug
+D. Memory
+ANSWER: A
+
+80. Pickle is:
+A. Safe text
+B. Binary format
+C. Loop
+D. Debug
+ANSWER: B
+
+81. gzip compression:
+A. Increases size
+B. Reduces size
+C. Deletes data
+D. Debug
+ANSWER: B
+
+82. Integration improves:
+A. UI
+B. Workflow
+C. Debug
+D. Loop
+ANSWER: B
+
+83. Final report provides:
+A. Error
+B. Summary
+C. Code
+D. UI
+ANSWER: B
+
+84. OOP improves:
+A. Structure
+B. UI
+C. Debug
+D. Loop
+ANSWER: A
+
+85. Design patterns provide:
+A. Random solutions
+B. Standard solutions
+C. Errors
+D. Loops
+ANSWER: B
+
+86. Factory + Strategy gives:
+A. UI
+B. Flexibility
+C. Memory
+D. Debug
+ANSWER: B
+
+87. Logging helps:
+A. UI
+B. Tracking
+C. Loop
+D. DB
+ANSWER: B
+
+88. Exception handling:
+A. Crashes system
+B. Handles errors
+C. Deletes data
+D. Loop
+ANSWER: B
+
+89. Assertions:
+A. Ignore errors
+B. Validate assumptions
+C. Loop
+D. Debug
+ANSWER: B
+
+90. Debugging helps:
+A. UI
+B. Find errors
+C. Loop
+D. DB
+ANSWER: B
+
+91. Payment strategy change:
+A. Compile time
+B. Runtime
+C. Never
+D. Debug
+ANSWER: B
+
+92. Factory pattern scalability:
+A. Low
+B. High
+C. None
+D. Debug
+ANSWER: B
+
+93. Singleton limitation:
+A. Global state issue
+B. Speed
+C. UI
+D. Loop
+ANSWER: A
+
+94. Exception hierarchy:
+A. Flat
+B. Tree
+C. Loop
+D. Debug
+ANSWER: B
+
+95. Logging format:
+A. Random
+B. Structured
+C. Loop
+D. Debug
+ANSWER: B
+
+96. Database query language:
+A. SQL
+B. JSON
+C. XML
+D. Loop
+ANSWER: A
+
+97. File persistence:
+A. Temporary
+B. Permanent
+C. Debug
+D. Loop
+ANSWER: B
+
+98. Strategy pattern reduces:
+A. Coupling
+B. Memory
+C. UI
+D. Loop
+ANSWER: A
+
+99. Factory pattern improves:
+A. Creation logic
+B. UI
+C. Debug
+D. Loop
+ANSWER: A
+
+100. Complete system ensures:
+A. Partial workflow
+B. Full workflow
+C. Debug only
+D. UI only
+ANSWER: B
+
+101. What is tight coupling?
+A. Independent modules
+B. Strong dependency between modules
+C. No dependency
+D. Logging system
+ANSWER: B
+
+102. Loose coupling improves:
+A. Dependency
+B. Flexibility
+C. Errors
+D. Memory usage
+ANSWER: B
+
+103. High cohesion means:
+A. Unrelated tasks
+B. Focused functionality
+C. Multiple roles
+D. No structure
+ANSWER: B
+
+104. Which principle promotes loose coupling?
+A. Encapsulation
+B. Abstraction
+C. Inheritance
+D. Polymorphism
+ANSWER: B
+
+105. Composition is preferred over inheritance because:
+A. Faster
+B. More flexible
+C. Less memory
+D. Easier syntax
+ANSWER: B
+
+106. Dependency Injection supports:
+A. Tight coupling
+B. Loose coupling
+C. No coupling
+D. Static behavior
+ANSWER: B
+
+107. Open/Closed Principle means:
+A. Closed for extension
+B. Open for modification
+C. Open for extension, closed for modification
+D. No change allowed
+ANSWER: C
+
+108. Liskov Substitution Principle ensures:
+A. Child replaces parent safely
+B. Parent replaces child
+C. No inheritance
+D. Looping
+ANSWER: A
+
+109. Interface Segregation Principle means:
+A. One large interface
+B. Multiple small interfaces
+C. No interface
+D. Loop
+ANSWER: B
+
+110. Dependency Inversion Principle states:
+A. High-level depends on low-level
+B. Low-level depends on high-level
+C. Both depend on abstraction
+D. No dependency
+ANSWER: C
+
+111. Abstraction focuses on:
+A. Implementation
+B. Essential features
+C. Debugging
+D. Logging
+ANSWER: B
+
+112. Encapsulation hides:
+A. Interface
+B. Implementation details
+C. Class name
+D. Variables only
+ANSWER: B
+
+113. Polymorphism supports:
+A. Static binding
+B. Dynamic behavior
+C. No binding
+D. Debugging
+ANSWER: B
+
+114. Method overloading in Python is:
+A. Supported directly
+B. Not supported directly
+C. Required
+D. Compile-time
+ANSWER: B
+
+115. Duck typing means:
+A. Strict types
+B. Behavior-based typing
+C. No typing
+D. Static typing
+ANSWER: B
+
+116. Magic method __init__ is:
+A. Destructor
+B. Constructor
+C. Logger
+D. Debugger
+ANSWER: B
+
+117. Magic method __str__ is used for:
+A. Object creation
+B. String representation
+C. Deletion
+D. Debugging
+ANSWER: B
+
+118. Magic method __del__ is:
+A. Constructor
+B. Destructor
+C. Logger
+D. Loop
+ANSWER: B
+
+119. Class variable is:
+A. Instance-specific
+B. Shared across instances
+C. Local
+D. Private
+ANSWER: B
+
+120. Instance variable is:
+A. Shared
+B. Unique per object
+C. Global
+D. Static
+ANSWER: B
+
+121. Static method uses:
+A. self
+B. cls
+C. No instance reference
+D. Only class
+ANSWER: C
+
+122. Class method uses:
+A. self
+B. cls
+C. None
+D. Global
+ANSWER: B
+
+123. Decorator for class method:
+A. @staticmethod
+B. @classmethod
+C. @abstractmethod
+D. @property
+ANSWER: B
+
+124. Decorator for static method:
+A. @staticmethod
+B. @classmethod
+C. @abstractmethod
+D. @property
+ANSWER: A
+
+125. Property decorator is used for:
+A. Loop
+B. Getter/setter
+C. Debug
+D. Logging
+ANSWER: B
+
+126. Setter method updates:
+A. Class
+B. Value
+C. Loop
+D. Debug
+ANSWER: B
+
+127. Getter method returns:
+A. Value
+B. Loop
+C. Debug
+D. File
+ANSWER: A
+
+128. Private variables accessed via:
+A. Direct
+B. Getter/setter
+C. Global
+D. Loop
+ANSWER: B
+
+129. Composition means:
+A. “is-a” relationship
+B. “has-a” relationship
+C. No relationship
+D. Loop
+ANSWER: B
+
+130. Inheritance means:
+A. has-a
+B. is-a
+C. no relation
+D. loop
+ANSWER: B
+
+131. Multiple inheritance means:
+A. One parent
+B. Many parents
+C. No parent
+D. Loop
+ANSWER: B
+
+132. MRO stands for:
+A. Method Resolution Order
+B. Memory Resource Object
+C. Module Runtime Order
+D. Debug Order
+ANSWER: A
+
+133. super() is used for:
+A. Parent access
+B. Debug
+C. Loop
+D. Logging
+ANSWER: A
+
+134. Abstract class uses:
+A. abc module
+B. json
+C. gzip
+D. sqlite
+ANSWER: A
+
+135. ABC stands for:
+A. Abstract Base Class
+B. Advanced Base Class
+C. Abstract Basic Code
+D. None
+ANSWER: A
+
+136. Abstract method must:
+A. Be optional
+B. Be implemented
+C. Be deleted
+D. Loop
+ANSWER: B
+
+137. Factory Pattern type:
+A. Structural
+B. Creational
+C. Behavioral
+D. Functional
+ANSWER: B
+
+138. Strategy Pattern type:
+A. Structural
+B. Creational
+C. Behavioral
+D. Functional
+ANSWER: C
+
+139. Singleton Pattern type:
+A. Behavioral
+B. Creational
+C. Structural
+D. Functional
+ANSWER: B
+
+140. Design patterns are:
+A. Random solutions
+B. Reusable solutions
+C. Errors
+D. Loops
+ANSWER: B
+
+141. Coupling should be:
+A. High
+B. Low
+C. Medium
+D. None
+ANSWER: B
+
+142. Cohesion should be:
+A. Low
+B. High
+C. None
+D. Random
+ANSWER: B
+
+143. Logging level DEBUG is:
+A. Lowest level
+B. Highest level
+C. Medium
+D. Error
+ANSWER: A
+
+144. Logging level ERROR is:
+A. Info
+B. Error condition
+C. Debug
+D. Loop
+ANSWER: B
+
+145. Logging level CRITICAL is:
+A. Normal
+B. Severe error
+C. Debug
+D. Loop
+ANSWER: B
+
+146. Logging helps in:
+A. UI
+B. Monitoring
+C. Loop
+D. DB
+ANSWER: B
+
+147. Exception handling prevents:
+A. Errors
+B. Crashes
+C. Logs
+D. UI
+ANSWER: B
+
+148. Raising exception uses:
+A. throw
+B. raise
+C. error
+D. catch
+ANSWER: B
+
+149. Custom exception inherits:
+A. int
+B. Exception
+C. str
+D. object
+ANSWER: B
+
+150. finally block is used for:
+A. Loop
+B. Cleanup
+C. Debug
+D. Print
+ANSWER: B
+
+151. Assertion checks:
+A. Loop
+B. Condition
+C. File
+D. Debug
+ANSWER: B
+
+152. pdb.set_trace() is used to:
+A. Stop program
+B. Start debugging
+C. Save file
+D. Loop
+ANSWER: B
+
+153. JSON file extension:
+A. .xml
+B. .json
+C. .txt
+D. .db
+ANSWER: B
+
+154. XML file extension:
+A. .json
+B. .xml
+C. .txt
+D. .db
+ANSWER: B
+
+155. Pickle file extension:
+A. .pkl
+B. .json
+C. .xml
+D. .txt
+ANSWER: A
+
+156. gzip file extension:
+A. .zip
+B. .gz
+C. .rar
+D. .txt
+ANSWER: B
+
+157. SQLite DB extension:
+A. .sql
+B. .db
+C. .txt
+D. .json
+ANSWER: B
+
+158. SQL command to fetch data:
+A. INSERT
+B. SELECT
+C. DELETE
+D. UPDATE
+ANSWER: B
+
+159. SQL command to insert:
+A. SELECT
+B. INSERT
+C. DELETE
+D. UPDATE
+ANSWER: B
+
+160. SQL command to delete:
+A. SELECT
+B. INSERT
+C. DELETE
+D. UPDATE
+ANSWER: C
+
+161. SQL command to update:
+A. SELECT
+B. INSERT
+C. DELETE
+D. UPDATE
+ANSWER: D
+
+162. File open mode “r” means:
+A. Write
+B. Read
+C. Append
+D. Binary
+ANSWER: B
+
+163. File open mode “w” means:
+A. Write
+B. Read
+C. Append
+D. Binary
+ANSWER: A
+
+164. File open mode “a” means:
+A. Append
+B. Read
+C. Write
+D. Binary
+ANSWER: A
+
+165. Binary mode uses:
+A. t
+B. b
+C. r
+D. w
+ANSWER: B
+
+166. Serialization ensures:
+A. Storage
+B. Conversion
+C. Debug
+D. Loop
+ANSWER: B
+
+167. Deserialization restores:
+A. Bytes
+B. Object
+C. Loop
+D. Debug
+ANSWER: B
+
+168. Compression reduces:
+A. Speed
+B. Size
+C. Memory
+D. UI
+ANSWER: B
+
+169. Persistence ensures:
+A. Temporary data
+B. Permanent data
+C. Debug
+D. Loop
+ANSWER: B
+
+170. Integration combines:
+A. Files
+B. Modules
+C. UI
+D. Debug
+ANSWER: B
+
+171. System design includes:
+A. UI
+B. Architecture
+C. Loop
+D. Debug
+ANSWER: B
+
+172. Banking system requires:
+A. UI only
+B. Full system
+C. Loop
+D. Debug
+ANSWER: B
+
+173. Transaction log stores:
+A. UI
+B. History
+C. Loop
+D. Debug
+ANSWER: B
+
+174. Error logging helps:
+A. UI
+B. Debugging
+C. Loop
+D. DB
+ANSWER: B
+
+175. Strategy pattern allows:
+A. Fixed behavior
+B. Dynamic behavior
+C. No behavior
+D. Loop
+ANSWER: B
+
+176. Factory pattern reduces:
+A. Code duplication
+B. Speed
+C. Memory
+D. Debug
+ANSWER: A
+
+177. Singleton ensures:
+A. Single resource
+B. Multiple resources
+C. Loop
+D. Debug
+ANSWER: A
+
+178. Exception handling increases:
+A. Errors
+B. Reliability
+C. UI
+D. Loop
+ANSWER: B
+
+179. Logging improves:
+A. Monitoring
+B. UI
+C. Loop
+D. DB
+ANSWER: A
+
+180. OOP promotes:
+A. Structure
+B. UI
+C. Debug
+D. Loop
+ANSWER: A
+
+181. Design patterns improve:
+A. Reusability
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+182. JSON is platform:
+A. Dependent
+B. Independent
+C. Loop
+D. Debug
+ANSWER: B
+
+183. XML is:
+A. Platform dependent
+B. Platform independent
+C. Loop
+D. Debug
+ANSWER: B
+
+184. Pickle is:
+A. Human readable
+B. Binary
+C. Loop
+D. Debug
+ANSWER: B
+
+185. gzip is:
+A. DB
+B. Compression tool
+C. Loop
+D. Debug
+ANSWER: B
+
+186. SQLite is:
+A. Server DB
+B. Embedded DB
+C. Loop
+D. Debug
+ANSWER: B
+
+187. SQL stands for:
+A. Structured Query Language
+B. System Query Logic
+C. Sequential Query Language
+D. None
+ANSWER: A
+
+188. Data persistence is:
+A. Temporary
+B. Permanent
+C. Loop
+D. Debug
+ANSWER: B
+
+189. Debugging identifies:
+A. UI
+B. Errors
+C. Loop
+D. DB
+ANSWER: B
+
+190. Assertion failure causes:
+A. Crash
+B. Error
+C. Loop
+D. Debug
+ANSWER: B
+
+191. Logging file stores:
+A. UI
+B. Events
+C. Loop
+D. DB
+ANSWER: B
+
+192. Database stores:
+A. Temporary data
+B. Persistent data
+C. Loop
+D. Debug
+ANSWER: B
+
+193. Integration testing ensures:
+A. UI
+B. Combined functionality
+C. Loop
+D. Debug
+ANSWER: B
+
+194. Unit testing tests:
+A. Whole system
+B. Small unit
+C. UI
+D. Debug
+ANSWER: B
+
+195. System testing tests:
+A. Unit
+B. Whole system
+C. UI
+D. Debug
+ANSWER: B
+
+196. Strategy pattern example:
+A. Payment
+B. Logger
+C. DB
+D. Enum
+ANSWER: A
+
+197. Factory example:
+A. Account creation
+B. Logging
+C. Debugging
+D. Loop
+ANSWER: A
+
+198. Singleton example:
+A. Logger
+B. Account
+C. Payment
+D. Enum
+ANSWER: A
+
+199. Exception example:
+A. Insufficient funds
+B. Logging
+C. Debug
+D. Loop
+ANSWER: A
+
+200. Complete system includes:
+A. Only UI
+B. Full modules integration
+C. Loop
+D. Debug
+ANSWER: B
+
+201. In a banking system, encapsulation ensures:
+A. Faster UI
+B. Data protection
+C. More memory
+D. Loop execution
+ANSWER: B
+
+202. A real-world example of inheritance is:
+A. Logger system
+B. SavingsAccount from Account
+C. JSON file
+D. Debugger
+ANSWER: B
+
+203. Polymorphism allows:
+A. Single behavior
+B. Multiple behaviors
+C. No behavior
+D. Static behavior
+ANSWER: B
+
+204. Factory Pattern is useful when:
+A. One object only
+B. Multiple object types
+C. No objects
+D. Looping
+ANSWER: B
+
+205. Strategy Pattern is useful when:
+A. Fixed logic
+B. Changeable algorithms
+C. No logic
+D. Debugging
+ANSWER: B
+
+206. Singleton Pattern ensures:
+A. Multiple instances
+B. Single instance
+C. No instance
+D. Loop
+ANSWER: B
+
+207. Logging in banking helps:
+A. UI design
+B. Audit trail
+C. Looping
+D. Memory
+ANSWER: B
+
+208. Exception handling prevents:
+A. Errors
+B. System crash
+C. UI
+D. Logging
+ANSWER: B
+
+209. JSON is best for:
+A. Binary storage
+B. Data exchange
+C. Debugging
+D. Looping
+ANSWER: B
+
+210. XML is best for:
+A. Hierarchical data
+B. Binary data
+C. Debugging
+D. Looping
+ANSWER: A
+
+211. Pickle is used for:
+A. Human-readable data
+B. Object serialization
+C. Debugging
+D. UI
+ANSWER: B
+
+212. gzip is used to:
+A. Increase size
+B. Compress files
+C. Delete files
+D. Debug
+ANSWER: B
+
+213. SQLite is:
+A. Distributed DB
+B. Embedded DB
+C. Cloud DB
+D. Loop
+ANSWER: B
+
+214. Database ensures:
+A. Temporary data
+B. Persistent storage
+C. UI
+D. Debug
+ANSWER: B
+
+215. Integration step combines:
+A. Only classes
+B. All components
+C. Only UI
+D. Only DB
+ANSWER: B
+
+216. Customer class stores:
+A. Logs
+B. Customer data
+C. Debug
+D. Loop
+ANSWER: B
+
+217. Account class handles:
+A. UI
+B. Transactions
+C. Logging
+D. Debug
+ANSWER: B
+
+218. Deposit increases:
+A. Balance
+B. Error
+C. Debug
+D. Loop
+ANSWER: A
+
+219. Withdraw decreases:
+A. Balance
+B. Error
+C. Debug
+D. Loop
+ANSWER: A
+
+220. InsufficientFundsError occurs when:
+A. Enough balance
+B. Low balance
+C. High balance
+D. Loop
+ANSWER: B
+
+221. try block is for:
+A. Looping
+B. Risky code
+C. Debugging
+D. Logging
+ANSWER: B
+
+222. except block is for:
+A. Handling error
+B. Loop
+C. Debug
+D. UI
+ANSWER: A
+
+223. finally block ensures:
+A. Skip execution
+B. Always execute
+C. Never execute
+D. Loop
+ANSWER: B
+
+224. assert ensures:
+A. UI
+B. Condition validation
+C. Debug
+D. Loop
+ANSWER: B
+
+225. pdb is used for:
+A. Logging
+B. Debugging
+C. UI
+D. DB
+ANSWER: B
+
+226. Logging INFO level:
+A. Error
+B. Normal message
+C. Critical
+D. Debug only
+ANSWER: B
+
+227. Logging ERROR level:
+A. Info
+B. Error condition
+C. Debug
+D. Loop
+ANSWER: B
+
+228. Logging DEBUG level:
+A. Detailed info
+B. Error
+C. Critical
+D. Loop
+ANSWER: A
+
+229. JSON dump:
+A. Load
+B. Save
+C. Delete
+D. Debug
+ANSWER: B
+
+230. JSON load:
+A. Save
+B. Read
+C. Delete
+D. Loop
+ANSWER: B
+
+231. XML parse:
+A. Write
+B. Read
+C. Delete
+D. Loop
+ANSWER: B
+
+232. Pickle dump:
+A. Save object
+B. Load object
+C. Delete
+D. Loop
+ANSWER: A
+
+233. Pickle load:
+A. Save
+B. Load
+C. Delete
+D. Debug
+ANSWER: B
+
+234. gzip compress:
+A. Expand
+B. Reduce size
+C. Delete
+D. Loop
+ANSWER: B
+
+235. gzip decompress:
+A. Compress
+B. Expand
+C. Delete
+D. Loop
+ANSWER: B
+
+236. SQLite query SELECT:
+A. Insert
+B. Fetch data
+C. Delete
+D. Update
+ANSWER: B
+
+237. SQLite INSERT:
+A. Add data
+B. Delete data
+C. Update data
+D. Fetch data
+ANSWER: A
+
+238. SQLite DELETE:
+A. Add data
+B. Remove data
+C. Update data
+D. Fetch data
+ANSWER: B
+
+239. SQLite UPDATE:
+A. Add data
+B. Modify data
+C. Delete data
+D. Fetch data
+ANSWER: B
+
+240. File open “r”:
+A. Write
+B. Read
+C. Append
+D. Binary
+ANSWER: B
+
+241. File open “w”:
+A. Read
+B. Write
+C. Append
+D. Binary
+ANSWER: B
+
+242. File open “a”:
+A. Read
+B. Write
+C. Append
+D. Binary
+ANSWER: C
+
+243. Binary mode:
+A. t
+B. b
+C. r
+D. w
+ANSWER: B
+
+244. Serialization converts:
+A. Object → bytes
+B. Bytes → object
+C. Loop
+D. Debug
+ANSWER: A
+
+245. Deserialization converts:
+A. Object → bytes
+B. Bytes → object
+C. Loop
+D. Debug
+ANSWER: B
+
+246. Compression saves:
+A. Memory
+B. Storage
+C. UI
+D. Loop
+ANSWER: B
+
+247. Persistence ensures:
+A. Temporary storage
+B. Long-term storage
+C. Debug
+D. Loop
+ANSWER: B
+
+248. Integration testing:
+A. Unit testing
+B. Combined modules
+C. UI testing
+D. Debug
+ANSWER: B
+
+249. Unit testing:
+A. Whole system
+B. Small component
+C. UI
+D. Debug
+ANSWER: B
+
+250. System testing:
+A. Unit
+B. Full system
+C. UI
+D. Debug
+ANSWER: B
+
+251. Strategy pattern real example:
+A. Payment methods
+B. Logging
+C. DB
+D. Enum
+ANSWER: A
+
+252. Factory pattern real example:
+A. Account creation
+B. Logging
+C. Debugging
+D. Loop
+ANSWER: A
+
+253. Singleton pattern real example:
+A. Logger
+B. Account
+C. Payment
+D. Enum
+ANSWER: A
+
+254. Exception real example:
+A. Insufficient funds
+B. Logging
+C. Debug
+D. Loop
+ANSWER: A
+
+255. Logging file stores:
+A. UI
+B. Events
+C. Loop
+D. DB
+ANSWER: B
+
+256. Database stores:
+A. Temporary
+B. Permanent
+C. Debug
+D. Loop
+ANSWER: B
+
+257. JSON is:
+A. Binary
+B. Text
+C. Loop
+D. Debug
+ANSWER: B
+
+258. XML is:
+A. Binary
+B. Text structured
+C. Loop
+D. Debug
+ANSWER: B
+
+259. Pickle is:
+A. Text
+B. Binary
+C. Loop
+D. Debug
+ANSWER: B
+
+260. gzip is:
+A. DB
+B. Compression
+C. Loop
+D. Debug
+ANSWER: B
+
+261. SQLite is:
+A. File system
+B. Embedded DB
+C. Loop
+D. Debug
+ANSWER: B
+
+262. SQL stands for:
+A. Structured Query Language
+B. Simple Query Logic
+C. Sequential Query Language
+D. None
+ANSWER: A
+
+263. Logging improves:
+A. Monitoring
+B. UI
+C. Loop
+D. DB
+ANSWER: A
+
+264. Exception improves:
+A. Reliability
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+265. Assertion improves:
+A. UI
+B. Validation
+C. Loop
+D. Debug
+ANSWER: B
+
+266. Debugging improves:
+A. UI
+B. Error detection
+C. Loop
+D. DB
+ANSWER: B
+
+267. OOP improves:
+A. Structure
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+268. Design patterns improve:
+A. Reusability
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+269. Factory + Strategy:
+A. Flexibility
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+270. Singleton avoids:
+A. Duplication
+B. Loop
+C. Debug
+D. UI
+ANSWER: A
+
+271. Banking system requires:
+A. UI only
+B. Complete workflow
+C. Loop
+D. Debug
+ANSWER: B
+
+272. Transaction history:
+A. UI
+B. Logs
+C. Loop
+D. Debug
+ANSWER: B
+
+273. Error logging:
+A. UI
+B. Debugging help
+C. Loop
+D. DB
+ANSWER: B
+
+274. Payment system:
+A. Static
+B. Dynamic
+C. Loop
+D. Debug
+ANSWER: B
+
+275. Account creation:
+A. Manual
+B. Factory
+C. Loop
+D. Debug
+ANSWER: B
+
+276. Logging system:
+A. Multiple
+B. Singleton
+C. Loop
+D. Debug
+ANSWER: B
+
+277. Exception system:
+A. Crash
+B. Handle error
+C. Loop
+D. Debug
+ANSWER: B
+
+278. Persistence system:
+A. Temporary
+B. Permanent
+C. Loop
+D. Debug
+ANSWER: B
+
+279. Compression system:
+A. Increase size
+B. Reduce size
+C. Delete data
+D. Loop
+ANSWER: B
+
+280. Database system:
+A. Temporary
+B. Persistent
+C. Loop
+D. Debug
+ANSWER: B
+
+281. Integration:
+A. Split modules
+B. Combine modules
+C. Loop
+D. Debug
+ANSWER: B
+
+282. Final report:
+A. UI
+B. Summary
+C. Loop
+D. Debug
+ANSWER: B
+
+283. OOP advantage:
+A. Structure
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+284. Pattern advantage:
+A. Reusability
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+285. Logging advantage:
+A. Monitoring
+B. UI
+C. Loop
+D. DB
+ANSWER: A
+
+286. Exception advantage:
+A. Reliability
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+287. Assertion advantage:
+A. Validation
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+288. Debugging advantage:
+A. Error fixing
+B. UI
+C. Loop
+D. DB
+ANSWER: A
+
+289. Persistence advantage:
+A. Data safety
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+290. Compression advantage:
+A. Space saving
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+291. Database advantage:
+A. Querying
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+292. Integration advantage:
+A. Complete system
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+293. System design advantage:
+A. Scalability
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+294. Banking app example:
+A. OOP system
+B. UI only
+C. Loop
+D. Debug
+ANSWER: A
+
+295. Real-world system requires:
+A. Only code
+B. Complete architecture
+C. Loop
+D. Debug
+ANSWER: B
+
+296. Modular design:
+A. Monolithic
+B. Independent modules
+C. Loop
+D. Debug
+ANSWER: B
+
+297. Reusability:
+A. One-time use
+B. Multiple use
+C. Loop
+D. Debug
+ANSWER: B
+
+298. Maintainability:
+A. Hard to change
+B. Easy to update
+C. Loop
+D. Debug
+ANSWER: B
+
+299. Scalability:
+A. Fixed system
+B. Expandable system
+C. Loop
+D. Debug
+ANSWER: B
+
+300. Final goal of system:
+A. UI only
+B. Real-world solution
+C. Loop
+D. Debug
+ANSWER: B
+
+301. A banking system exposes balance publicly. What is the main risk?
+A. Performance drop
+B. Data tampering
+C. Memory leak
+D. Logging failure
+ANSWER: B
+
+302. You need to prevent direct balance modification. Best approach?
+A. Public variable
+B. Encapsulation with private variable
+C. Global variable
+D. Static method
+ANSWER: B
+
+303. When should inheritance be avoided?
+A. When reuse is needed
+B. When relationship is weak
+C. When polymorphism required
+D. When abstraction needed
+ANSWER: B
+
+304. A system requires runtime behavior switching. Which pattern fits?
+A. Factory
+B. Singleton
+C. Strategy
+D. Observer
+ANSWER: C
+
+305. A factory method returns wrong object type. What principle is violated?
+A. SRP
+B. LSP
+C. OCP
+D. DIP
+ANSWER: B
+
+306. A singleton logger is accessed globally. What is a drawback?
+A. Slow execution
+B. Hidden dependencies
+C. Memory leak
+D. UI issue
+ANSWER: B
+
+307. Which pattern is best for creating families of related objects?
+A. Factory Method
+B. Abstract Factory
+C. Singleton
+D. Strategy
+ANSWER: B
+
+308. Strategy pattern mainly reduces:
+A. Inheritance
+B. Conditional statements
+C. Memory
+D. Logging
+ANSWER: B
+
+309. If multiple modules create logger instances, what issue arises?
+A. Faster execution
+B. Inconsistent logs
+C. Memory optimization
+D. Debugging ease
+ANSWER: B
+
+310. Which concept ensures method override correctness?
+A. Encapsulation
+B. Liskov Substitution
+C. Abstraction
+D. Logging
+ANSWER: B
+
+311. If subclass changes behavior drastically, what is violated?
+A. OCP
+B. LSP
+C. SRP
+D. DIP
+ANSWER: B
+
+312. A payment system frequently adds new methods. Best design?
+A. if-else chain
+B. Strategy Pattern
+C. Singleton
+D. Enum
+ANSWER: B
+
+313. Why avoid long if-else for object creation?
+A. Performance
+B. Maintainability
+C. Memory
+D. UI
+ANSWER: B
+
+314. Which pattern isolates object creation logic?
+A. Strategy
+B. Factory
+C. Singleton
+D. Observer
+ANSWER: B
+
+315. When debugging financial error, best tool?
+A. JSON
+B. pdb
+C. gzip
+D. sqlite
+ANSWER: B
+
+316. Assertion failure indicates:
+A. Syntax error
+B. Logical assumption failure
+C. Runtime crash only
+D. Logging issue
+ANSWER: B
+
+317. Which persistence method is fastest but least secure?
+A. JSON
+B. XML
+C. Pickle
+D. SQLite
+ANSWER: C
+
+318. Pickle risk is:
+A. Slow speed
+B. Security vulnerability
+C. No storage
+D. No support
+ANSWER: B
+
+319. JSON is preferred over pickle because:
+A. Faster
+B. Safer and readable
+C. Smaller
+D. Binary
+ANSWER: B
+
+320. XML is best when:
+A. Flat data
+B. Hierarchical data
+C. Binary data
+D. Logging
+ANSWER: B
+
+321. SQLite is preferred when:
+A. Distributed DB needed
+B. Lightweight local storage
+C. Cloud system
+D. Logging only
+ANSWER: B
+
+322. Compression is useful when:
+A. CPU bound
+B. Storage limited
+C. UI issue
+D. Debugging
+ANSWER: B
+
+323. What is trade-off of compression?
+A. Memory increase
+B. CPU usage
+C. UI complexity
+D. Debugging
+ANSWER: B
+
+324. Which design ensures extensibility?
+A. Hardcoding
+B. Open/Closed Principle
+C. Global variables
+D. Logging
+ANSWER: B
+
+325. Which pattern helps avoid code duplication?
+A. Singleton
+B. Factory
+C. Loop
+D. Debug
+ANSWER: B
+
+326. Strategy pattern improves:
+A. Compile-time flexibility
+B. Runtime flexibility
+C. Static behavior
+D. UI
+ANSWER: B
+
+327. Which principle avoids god class?
+A. SRP
+B. OCP
+C. LSP
+D. DIP
+ANSWER: A
+
+328. A class handling DB + UI violates:
+A. SRP
+B. LSP
+C. DIP
+D. OCP
+ANSWER: A
+
+329. Dependency inversion promotes:
+A. Concrete dependency
+B. Abstract dependency
+C. No dependency
+D. Loop
+ANSWER: B
+
+330. Interface segregation avoids:
+A. Small interfaces
+B. Large interfaces
+C. No interface
+D. Debug
+ANSWER: B
+
+331. Which is better for API communication?
+A. Pickle
+B. JSON
+C. gzip
+D. sqlite
+ANSWER: B
+
+332. Which format is human readable?
+A. Pickle
+B. JSON
+C. gzip
+D. Binary
+ANSWER: B
+
+333. Which format is compact but not readable?
+A. JSON
+B. XML
+C. Pickle
+D. CSV
+ANSWER: C
+
+334. Error handling improves:
+A. Speed
+B. Reliability
+C. Memory
+D. UI
+ANSWER: B
+
+335. Logging improves:
+A. UI
+B. Observability
+C. Loop
+D. DB
+ANSWER: B
+
+336. Singleton pattern fails in:
+A. Multi-threading
+B. Single thread
+C. UI
+D. Debug
+ANSWER: A
+
+337. Thread-safe singleton requires:
+A. Locking
+B. Loop
+C. Debug
+D. JSON
+ANSWER: A
+
+338. Factory pattern violates:
+A. DIP
+B. If tightly coupled
+C. SRP
+D. LSP
+ANSWER: B
+
+339. Strategy pattern uses:
+A. Composition
+B. Inheritance
+C. Loop
+D. Debug
+ANSWER: A
+
+340. Composition is better than inheritance when:
+A. Fixed behavior
+B. Dynamic behavior
+C. Static system
+D. Debug
+ANSWER: B
+
+341. Banking system scalability requires:
+A. Hardcoding
+B. Modular design
+C. Global variables
+D. Debug
+ANSWER: B
+
+342. Transaction consistency requires:
+A. Logging
+B. Atomic operations
+C. UI
+D. Loop
+ANSWER: B
+
+343. ACID property ensures:
+A. UI
+B. Database reliability
+C. Loop
+D. Debug
+ANSWER: B
+
+344. Atomicity means:
+A. Partial execution
+B. Complete or none
+C. Loop
+D. Debug
+ANSWER: B
+
+345. Consistency ensures:
+A. Valid state
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+346. Isolation ensures:
+A. Concurrent safety
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+347. Durability ensures:
+A. Data persistence
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+348. Which pattern is not creational?
+A. Factory
+B. Singleton
+C. Strategy
+D. Abstract Factory
+ANSWER: C
+
+349. Which pattern is behavioral?
+A. Factory
+B. Singleton
+C. Strategy
+D. Builder
+ANSWER: C
+
+350. Which improves maintainability most?
+A. Hardcoding
+B. Design patterns
+C. Global variables
+D. Debugging
+ANSWER: B
+
+351. A system frequently modifies core classes for new features. What is violated?
+A. SRP
+B. OCP
+C. LSP
+D. ISP
+ANSWER: B
+
+352. If subclasses override methods with incompatible behavior, it violates:
+A. SRP
+B. LSP
+C. OCP
+D. DIP
+ANSWER: B
+
+353. A class depending directly on database implementation violates:
+A. DIP
+B. SRP
+C. LSP
+D. ISP
+ANSWER: A
+
+354. Excessive use of global variables leads to:
+A. Loose coupling
+B. Tight coupling
+C. Better abstraction
+D. Faster execution
+ANSWER: B
+
+355. Which pattern helps encapsulate object creation logic?
+A. Strategy
+B. Factory
+C. Observer
+D. Decorator
+ANSWER: B
+
+356. Strategy pattern replaces:
+A. Inheritance
+B. Conditional branching
+C. Logging
+D. Debugging
+ANSWER: B
+
+357. A logging system with multiple instances may cause:
+A. Consistency
+B. Duplicate logs
+C. Faster execution
+D. UI improvement
+ANSWER: B
+
+358. Singleton pattern drawback includes:
+A. No global access
+B. Hidden dependencies
+C. No instance creation
+D. UI issues
+ANSWER: B
+
+359. Which principle ensures each class has one responsibility?
+A. OCP
+B. SRP
+C. LSP
+D. DIP
+ANSWER: B
+
+360. A class doing UI + DB operations violates:
+A. SRP
+B. LSP
+C. OCP
+D. ISP
+ANSWER: A
+
+361. Strategy pattern uses:
+A. Inheritance
+B. Composition
+C. Global variables
+D. Debugging
+ANSWER: B
+
+362. Factory pattern improves:
+A. UI
+B. Maintainability
+C. Logging
+D. Debugging
+ANSWER: B
+
+363. Abstract Factory is useful when:
+A. One object needed
+B. Multiple related objects needed
+C. No objects needed
+D. Debugging
+ANSWER: B
+
+364. Which design principle reduces dependency on concrete classes?
+A. SRP
+B. DIP
+C. LSP
+D. OCP
+ANSWER: B
+
+365. Tight coupling makes system:
+A. Flexible
+B. Rigid
+C. Scalable
+D. Maintainable
+ANSWER: B
+
+366. Loose coupling makes system:
+A. Rigid
+B. Flexible
+C. Complex
+D. Slow
+ANSWER: B
+
+367. High cohesion means:
+A. Unrelated tasks
+B. Related tasks grouped
+C. No tasks
+D. Debugging
+ANSWER: B
+
+368. Low cohesion leads to:
+A. Maintainability
+B. Confusion
+C. Performance gain
+D. Debugging
+ANSWER: B
+
+369. Encapsulation prevents:
+A. Direct access
+B. Debugging
+C. Logging
+D. Looping
+ANSWER: A
+
+370. Abstraction focuses on:
+A. Implementation details
+B. Essential features
+C. Logging
+D. Debugging
+ANSWER: B
+
+371. Polymorphism improves:
+A. Static behavior
+B. Dynamic behavior
+C. No behavior
+D. Debugging
+ANSWER: B
+
+372. Inheritance misuse causes:
+A. Flexibility
+B. Fragile design
+C. Speed
+D. Debugging
+ANSWER: B
+
+373. Composition avoids:
+A. Flexibility
+B. Tight inheritance coupling
+C. Logging
+D. Debugging
+ANSWER: B
+
+374. Dependency Injection improves:
+A. Tight coupling
+B. Testability
+C. Memory usage
+D. Debugging
+ANSWER: B
+
+375. Unit testing focuses on:
+A. Whole system
+B. Individual components
+C. UI
+D. Debugging
+ANSWER: B
+
+376. Integration testing checks:
+A. Single unit
+B. Interaction between modules
+C. UI
+D. Debugging
+ANSWER: B
+
+377. System testing checks:
+A. Unit
+B. Entire system
+C. UI
+D. Debugging
+ANSWER: B
+
+378. Logging helps in:
+A. UI design
+B. Monitoring system behavior
+C. Looping
+D. Debugging only
+ANSWER: B
+
+379. Debugging helps in:
+A. UI
+B. Identifying root cause
+C. Loop
+D. DB
+ANSWER: B
+
+380. Exception handling improves:
+A. Performance
+B. Reliability
+C. UI
+D. Loop
+ANSWER: B
+
+381. Catching broad exceptions leads to:
+A. Better control
+B. Hidden bugs
+C. Faster execution
+D. Debugging
+ANSWER: B
+
+382. Custom exceptions provide:
+A. Generic errors
+B. Specific error handling
+C. UI
+D. Debugging
+ANSWER: B
+
+383. Assertion is mainly used for:
+A. Runtime errors
+B. Development checks
+C. UI
+D. Debugging
+ANSWER: B
+
+384. Logging sensitive data is:
+A. Good practice
+B. Security risk
+C. Required
+D. Debugging
+ANSWER: B
+
+385. JSON is preferred because:
+A. Binary
+B. Human readable
+C. Complex
+D. Debugging
+ANSWER: B
+
+386. XML is preferred when:
+A. Flat data
+B. Structured hierarchical data
+C. Binary data
+D. Debugging
+ANSWER: B
+
+387. Pickle is risky because:
+A. Slow
+B. Unsafe with untrusted data
+C. Large
+D. Debugging
+ANSWER: B
+
+388. SQLite is best for:
+A. Distributed systems
+B. Embedded systems
+C. Cloud DB
+D. Debugging
+ANSWER: B
+
+389. Compression reduces:
+A. Speed
+B. File size
+C. UI
+D. Debugging
+ANSWER: B
+
+390. Compression trade-off:
+A. Memory
+B. CPU usage
+C. UI
+D. Debugging
+ANSWER: B
+
+391. ACID ensures:
+A. UI
+B. Data integrity
+C. Loop
+D. Debugging
+ANSWER: B
+
+392. Atomicity means:
+A. Partial execution
+B. All or nothing
+C. UI
+D. Debugging
+ANSWER: B
+
+393. Consistency ensures:
+A. Invalid state
+B. Valid state
+C. UI
+D. Debugging
+ANSWER: B
+
+394. Isolation ensures:
+A. Shared data issues
+B. Safe concurrency
+C. UI
+D. Debugging
+ANSWER: B
+
+395. Durability ensures:
+A. Temporary data
+B. Persistent data
+C. UI
+D. Debugging
+ANSWER: B
+
+396. Race condition occurs due to:
+A. Single thread
+B. Concurrent access
+C. Logging
+D. Debugging
+ANSWER: B
+
+397. Deadlock occurs due to:
+A. Single process
+B. Circular dependency
+C. Logging
+D. Debugging
+ANSWER: B
+
+398. Locking ensures:
+A. Speed
+B. Mutual exclusion
+C. UI
+D. Debugging
+ANSWER: B
+
+399. Too much locking causes:
+A. Speed
+B. Deadlock risk
+C. UI
+D. Debugging
+ANSWER: B
+
+400. Final goal of good design:
+A. UI only
+B. Scalable and maintainable system
+C. Loop
+D. Debugging
+ANSWER: B
+
+401. A banking module directly accesses DB queries inside UI layer. What issue arises?
+A. Faster performance
+B. Tight coupling
+C. Better abstraction
+D. Improved UI
+ANSWER: B
+
+402. Best way to decouple UI from DB logic?
+A. Global variables
+B. Service layer abstraction
+C. Direct queries
+D. Debugging
+ANSWER: B
+
+403. A class has too many responsibilities. This violates:
+A. LSP
+B. SRP
+C. OCP
+D. DIP
+ANSWER: B
+
+404. Frequent modification of class for new features violates:
+A. SRP
+B. OCP
+C. LSP
+D. ISP
+ANSWER: B
+
+405. Strategy pattern replaces:
+A. Inheritance hierarchy
+B. Conditional logic
+C. Logging
+D. Debugging
+ANSWER: B
+
+406. Factory pattern is useful when:
+A. Single object type
+B. Multiple subclasses exist
+C. No object needed
+D. Debugging
+ANSWER: B
+
+407. Abstract Factory differs from Factory by:
+A. Creating single object
+B. Creating families of objects
+C. Logging
+D. Debugging
+ANSWER: B
+
+408. Singleton pattern drawback in testing:
+A. Easy mocking
+B. Hard to mock
+C. Faster test
+D. UI issue
+ANSWER: B
+
+409. Which pattern improves testability?
+A. Singleton
+B. Dependency Injection
+C. Hardcoding
+D. Global state
+ANSWER: B
+
+410. Dependency Injection reduces:
+A. Memory
+B. Coupling
+C. Speed
+D. Logging
+ANSWER: B
+
+411. Which pattern is best for plugin systems?
+A. Singleton
+B. Strategy
+C. Factory
+D. Observer
+ANSWER: B
+
+412. If subclass cannot replace parent safely:
+A. SRP violated
+B. LSP violated
+C. OCP violated
+D. DIP violated
+ANSWER: B
+
+413. Overusing inheritance leads to:
+A. Flexibility
+B. Fragile base class problem
+C. Speed
+D. UI improvement
+ANSWER: B
+
+414. Composition improves:
+A. Rigidity
+B. Flexibility
+C. Complexity
+D. Debugging
+ANSWER: B
+
+415. Which pattern is best for logging system?
+A. Factory
+B. Singleton
+C. Strategy
+D. Adapter
+ANSWER: B
+
+416. Multi-threaded singleton requires:
+A. No change
+B. Synchronization
+C. Loop
+D. Debug
+ANSWER: B
+
+417. Which structure supports hierarchical data best?
+A. JSON flat
+B. XML
+C. Pickle
+D. CSV
+ANSWER: B
+
+418. JSON limitation:
+A. Human unreadable
+B. No schema enforcement
+C. Binary
+D. Loop
+ANSWER: B
+
+419. XML advantage:
+A. Lightweight
+B. Schema validation
+C. Faster
+D. Debug
+ANSWER: B
+
+420. Pickle limitation:
+A. Large size
+B. Security risk
+C. Slow
+D. Loop
+ANSWER: B
+
+421. SQLite limitation:
+A. Heavy
+B. Limited concurrency
+C. No storage
+D. Debug
+ANSWER: B
+
+422. Compression overhead:
+A. Memory
+B. CPU usage
+C. UI
+D. Debug
+ANSWER: B
+
+423. Logging excessive data causes:
+A. Better debugging
+B. Performance issue
+C. UI improvement
+D. Loop
+ANSWER: B
+
+424. Best logging practice:
+A. Log everything
+B. Log meaningful events
+C. No logging
+D. Loop
+ANSWER: B
+
+425. Exception swallowing leads to:
+A. Better system
+B. Hidden bugs
+C. Faster execution
+D. Debug
+ANSWER: B
+
+426. Raising generic exception is:
+A. Good practice
+B. Bad practice
+C. Required
+D. Loop
+ANSWER: B
+
+427. Custom exceptions improve:
+A. Debugging clarity
+B. Speed
+C. Memory
+D. UI
+ANSWER: A
+
+428. Assertion should not be used for:
+A. Debugging
+B. Production error handling
+C. Validation
+D. Testing
+ANSWER: B
+
+429. pdb is best used during:
+A. Production
+B. Development
+C. Deployment
+D. UI
+ANSWER: B
+
+430. Database normalization reduces:
+A. Redundancy
+B. Performance
+C. UI
+D. Debug
+ANSWER: A
+
+431. Denormalization improves:
+A. Storage
+B. Performance
+C. UI
+D. Debug
+ANSWER: B
+
+432. ACID ensures:
+A. UI
+B. Data integrity
+C. Loop
+D. Debug
+ANSWER: B
+
+433. Transaction rollback ensures:
+A. Data consistency
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+434. Factory pattern violates SRP if:
+A. Handles creation only
+B. Handles multiple responsibilities
+C. Uses abstraction
+D. Debug
+ANSWER: B
+
+435. Strategy pattern uses polymorphism for:
+A. Data hiding
+B. Behavior switching
+C. Logging
+D. Debug
+ANSWER: B
+
+436. Singleton should be avoided when:
+A. Shared resource
+B. Global state harmful
+C. Logging
+D. Debug
+ANSWER: B
+
+437. Dependency inversion uses:
+A. Concrete classes
+B. Interfaces/abstractions
+C. Loops
+D. Debug
+ANSWER: B
+
+438. Interface segregation promotes:
+A. Fat interfaces
+B. Specific interfaces
+C. No interfaces
+D. Debug
+ANSWER: B
+
+439. Banking system security requires:
+A. Public variables
+B. Encapsulation
+C. Global access
+D. Debug
+ANSWER: B
+
+440. Transaction log ensures:
+A. UI
+B. Audit trail
+C. Loop
+D. Debug
+ANSWER: B
+
+441. Logging level hierarchy lowest:
+A. ERROR
+B. DEBUG
+C. INFO
+D. CRITICAL
+ANSWER: B
+
+442. Logging level highest:
+A. DEBUG
+B. INFO
+C. ERROR
+D. CRITICAL
+ANSWER: D
+
+443. JSON parsing error occurs when:
+A. Valid syntax
+B. Invalid format
+C. Loop
+D. Debug
+ANSWER: B
+
+444. XML parsing error occurs when:
+A. Well-formed
+B. Invalid tags
+C. Loop
+D. Debug
+ANSWER: B
+
+445. Pickle loading unsafe from:
+A. Trusted source
+B. Untrusted source
+C. Loop
+D. Debug
+ANSWER: B
+
+446. SQLite transactions use:
+A. BEGIN/COMMIT
+B. JSON
+C. XML
+D. Loop
+ANSWER: A
+
+447. File handling risk:
+A. UI
+B. Resource leak
+C. Loop
+D. Debug
+ANSWER: B
+
+448. Use with statement ensures:
+A. Loop
+B. Auto close file
+C. Debug
+D. UI
+ANSWER: B
+
+449. Memory leak occurs due to:
+A. Proper closing
+B. Unreleased resources
+C. Debug
+D. Loop
+ANSWER: B
+
+450. Strategy pattern scalability:
+A. Low
+B. High
+C. None
+D. Debug
+ANSWER: B
+
+451. Factory pattern scalability:
+A. Low
+B. High
+C. None
+D. Debug
+ANSWER: B
+
+452. Singleton scalability:
+A. High
+B. Limited
+C. None
+D. Debug
+ANSWER: B
+
+453. OOP abstraction reduces:
+A. Complexity
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+454. Encapsulation prevents:
+A. Direct access
+B. Logging
+C. Debug
+D. Loop
+ANSWER: A
+
+455. Polymorphism enables:
+A. Static behavior
+B. Dynamic behavior
+C. No behavior
+D. Debug
+ANSWER: B
+
+456. Inheritance risk:
+A. Code reuse
+B. Tight coupling
+C. Debug
+D. UI
+ANSWER: B
+
+457. Composition reduces:
+A. Flexibility
+B. Coupling
+C. Memory
+D. Debug
+ANSWER: B
+
+458. Modular design supports:
+A. Scalability
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+459. System integration ensures:
+A. Isolated modules
+B. Working system
+C. UI
+D. Debug
+ANSWER: B
+
+460. Logging critical errors:
+A. Ignore
+B. Record immediately
+C. Loop
+D. Debug
+ANSWER: B
+
+461. Exception propagation:
+A. Stops error
+B. Passes error up
+C. Loop
+D. Debug
+ANSWER: B
+
+462. try-except nesting:
+A. Bad always
+B. Sometimes needed
+C. Never needed
+D. Debug
+ANSWER: B
+
+463. Finally block used for:
+A. UI
+B. Cleanup
+C. Loop
+D. Debug
+ANSWER: B
+
+464. Assertion best for:
+A. Runtime errors
+B. Debug checks
+C. UI
+D. Loop
+ANSWER: B
+
+465. Debugging step:
+A. Ignore error
+B. Identify root cause
+C. Loop
+D. UI
+ANSWER: B
+
+466. Data redundancy causes:
+A. Efficiency
+B. Inconsistency
+C. UI
+D. Debug
+ANSWER: B
+
+467. Normalization removes:
+A. Redundancy
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+468. Denormalization adds:
+A. Redundancy
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+469. ACID important for:
+A. UI
+B. Transactions
+C. Loop
+D. Debug
+ANSWER: B
+
+470. Banking system failure risk:
+A. UI issue
+B. Data loss
+C. Loop
+D. Debug
+ANSWER: B
+
+471. Backup ensures:
+A. UI
+B. Recovery
+C. Loop
+D. Debug
+ANSWER: B
+
+472. Compression trade-off:
+A. Speed gain
+B. CPU cost
+C. UI
+D. Debug
+ANSWER: B
+
+473. Serialization trade-off:
+A. Size
+B. Speed vs compatibility
+C. UI
+D. Debug
+ANSWER: B
+
+474. JSON vs XML:
+A. Same
+B. JSON lighter
+C. XML lighter
+D. Debug
+ANSWER: B
+
+475. Pickle vs JSON:
+A. Same
+B. Pickle faster but unsafe
+C. JSON unsafe
+D. Debug
+ANSWER: B
+
+476. SQLite vs MySQL:
+A. Same
+B. SQLite lighter
+C. MySQL lighter
+D. Debug
+ANSWER: B
+
+477. Logging vs Debugging:
+A. Same
+B. Logging records, debugging fixes
+C. Debugging records
+D. Loop
+ANSWER: B
+
+478. Exception vs Error:
+A. Same
+B. Exception handled
+C. Error handled
+D. Loop
+ANSWER: B
+
+479. OOP vs Procedural:
+A. Same
+B. OOP structured
+C. Procedural structured
+D. Debug
+ANSWER: B
+
+480. Pattern usage:
+A. Always needed
+B. Context dependent
+C. Never needed
+D. Debug
+ANSWER: B
+
+481. Overengineering causes:
+A. Simplicity
+B. Complexity
+C. UI
+D. Debug
+ANSWER: B
+
+482. Underengineering causes:
+A. Simplicity
+B. Poor design
+C. UI
+D. Debug
+ANSWER: B
+
+483. Best design:
+A. Balanced
+B. Overcomplex
+C. Underbuilt
+D. Debug
+ANSWER: A
+
+484. Code smell indicates:
+A. Good code
+B. Potential issue
+C. UI
+D. Debug
+ANSWER: B
+
+485. Refactoring improves:
+A. Structure
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+486. Clean code principle:
+A. Complex
+B. Simple
+C. Random
+D. Debug
+ANSWER: B
+
+487. Naming convention improves:
+A. Readability
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+488. Documentation helps:
+A. UI
+B. Understanding
+C. Loop
+D. Debug
+ANSWER: B
+
+489. Testing ensures:
+A. UI
+B. Correctness
+C. Loop
+D. Debug
+ANSWER: B
+
+490. Unit testing scope:
+A. Full system
+B. Small part
+C. UI
+D. Debug
+ANSWER: B
+
+491. Integration testing scope:
+A. Single unit
+B. Combined units
+C. UI
+D. Debug
+ANSWER: B
+
+492. System testing scope:
+A. Unit
+B. Whole system
+C. UI
+D. Debug
+ANSWER: B
+
+493. Automation testing improves:
+A. Speed
+B. UI
+C. Loop
+D. Debug
+ANSWER: A
+
+494. Manual testing:
+A. Slow
+B. Fast
+C. Loop
+D. Debug
+ANSWER: A
+
+495. Logging best practice:
+A. Ignore errors
+B. Log critical info
+C. Loop
+D. Debug
+ANSWER: B
+
+496. Exception best practice:
+A. Ignore
+B. Handle properly
+C. Loop
+D. Debug
+ANSWER: B
+
+497. Design best practice:
+A. Hardcoding
+B. Abstraction
+C. Loop
+D. Debug
+ANSWER: B
+
+498. OOP best practice:
+A. Global variables
+B. Encapsulation
+C. Loop
+D. Debug
+ANSWER: B
+
+499. Pattern best practice:
+A. Overuse
+B. Appropriate use
+C. Avoid
+D. Debug
+ANSWER: B
+
+500. Final system goal:
+A. UI only
+B. Robust scalable solution
+C. Loop
+D. Debug
+ANSWER: B
+

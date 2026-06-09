@@ -1,0 +1,6445 @@
+What is the primary characteristic that distinguishes a LAN from a WAN?
+A. LAN uses fiber optic cables exclusively
+B. LAN covers a limited geographical area
+C. LAN requires a minimum of 1000 hosts
+D. LAN operates only on wireless technology
+ANSWER: B
+
+Which OSI layer is responsible for logical addressing and routing?
+A. Data Link Layer
+B. Transport Layer
+C. Network Layer
+D. Session Layer
+ANSWER: C
+
+In the TCP/IP model, which layer combines the functions of OSI Session, Presentation, and Application layers?
+A. Internet Layer
+B. Transport Layer
+C. Application Layer
+D. Network Access Layer
+ANSWER: C
+
+What does bandwidth represent in a network?
+A. The delay before data transfer begins
+B. The maximum data transfer rate of a connection
+C. The total number of packets lost
+D. The physical length of the cable
+ANSWER: B
+
+Which term describes the time taken for a data packet to travel from source to destination?
+A. Throughput
+B. Latency
+C. Jitter
+D. Bandwidth
+ANSWER: B
+
+Which network type typically covers a city or large campus?
+A. LAN
+B. PAN
+C. MAN
+D. WLAN
+ANSWER: C
+
+At which OSI layer do switches primarily operate?
+A. Layer 1
+B. Layer 2
+C. Layer 3
+D. Layer 4
+ANSWER: B
+
+Which TCP/IP layer corresponds to the OSI Data Link and Physical layers?
+A. Internet Layer
+B. Transport Layer
+C. Network Access Layer
+D. Application Layer
+ANSWER: C
+
+What is the function of the Transport Layer in both OSI and TCP/IP models?
+A. Logical addressing
+B. End-to-end communication and flow control
+C. Physical signal transmission
+D. Data encryption
+ANSWER: B
+
+In Packet Tracer, which device category does a router belong to?
+A. End Device
+B. Intermediate Device
+C. Peripheral Device
+D. Storage Device
+ANSWER: B
+
+Which of the following is classified as an end device in a network?
+A. Switch
+B. Router
+C. Server
+D. Access Point
+ANSWER: C
+
+What is the primary purpose of packet sniffing in network analysis?
+A. To increase network bandwidth
+B. To capture and analyze network traffic
+C. To assign IP addresses automatically
+D. To encrypt data packets
+ANSWER: B
+
+Which cable type is used to connect a PC to a switch in Packet Tracer?
+A. Crossover cable
+B. Console cable
+C. Straight-through cable
+D. Serial cable
+ANSWER: C
+
+When connecting two switches together, which cable type is typically required?
+A. Straight-through cable
+B. Crossover cable
+C. Rollover cable
+D. Fiber optic cable only
+ANSWER: B
+
+Which port on a router is used for initial configuration in Packet Tracer?
+A. Ethernet port
+B. Serial port
+C. Console port
+D. USB port
+ANSWER: C
+
+What is the primary function of an intermediate device like a router?
+A. To generate data packets
+B. To forward data between different networks
+C. To display web pages
+D. To store user files
+ANSWER: B
+
+In Packet Tracer, which mode allows you to configure global settings on a router?
+A. User EXEC mode
+B. Privileged EXEC mode
+C. Global Configuration mode
+D. Interface Configuration mode
+ANSWER: C
+
+Which command enters privileged EXEC mode from user EXEC mode on a Cisco device?
+A. configure terminal
+B. enable
+C. login
+D. admin
+ANSWER: B
+
+What type of device is a printer in network terminology?
+A. Intermediate device
+B. End device
+C. Networking device
+D. Security device
+ANSWER: B
+
+Which command is used to set the hostname on a Cisco router?
+A. set hostname
+B. hostname RouterName
+C. name RouterName
+D. system-name RouterName
+ANSWER: B
+
+What is the purpose of configuring an enable secret password on a router?
+A. To encrypt console access only
+B. To provide encrypted privileged mode access
+C. To block all incoming traffic
+D. To configure IP addresses
+ANSWER: B
+
+Which type of banner displays before the username and password prompt?
+A. MOTD banner
+B. Login banner
+C. Exec banner
+D. Incoming banner
+ANSWER: B
+
+What does the CDP protocol stand for?
+A. Cisco Discovery Protocol
+B. Central Data Protocol
+C. Common Discovery Process
+D. Configured Device Protocol
+ANSWER: A
+
+Which command enables CDP globally on a Cisco device?
+A. cdp enable
+B. cdp run
+C. enable cdp
+D. cdp start
+ANSWER: B
+
+What is the main difference between CDP and LLDP?
+A. CDP is proprietary to Cisco, while LLDP is an open standard
+B. LLDP is faster than CDP
+C. CDP works only on wireless networks
+D. LLDP requires encryption
+ANSWER: A
+
+Which command is used to verify connectivity to a remote host at the IP layer?
+A. tracert
+B. ping
+C. show ip route
+D. telnet
+ANSWER: B
+
+What information does the traceroute command provide that ping does not?
+A. Packet loss percentage
+B. Each hop/router along the path
+C. DNS resolution time
+D. Bandwidth utilization
+ANSWER: B
+
+When connecting two routers directly via Ethernet interfaces, which cable type is used?
+A. Straight-through cable
+B. Crossover cable
+C. Console cable
+D. Rollover cable
+ANSWER: B
+
+Which command displays the CDP neighbors connected to a device?
+A. show cdp
+B. show cdp neighbors
+C. display cdp
+D. cdp show neighbors
+ANSWER: B
+
+What does VLSM stand for?
+A. Variable Length Subnet Masking
+B. Virtual Link Subnet Mapping
+C. Variable Link Subnet Mask
+D. Virtual LAN Subnet Management
+ANSWER: A
+
+Why is VLSM considered more efficient than fixed-length subnet masking?
+A. It uses fewer IP addresses overall
+B. It allows subnets of different sizes, reducing IP waste
+C. It eliminates the need for routers
+D. It automatically assigns IP addresses
+ANSWER: B
+
+Given the network 192.168.10.0/24, what subnet mask would provide 30 usable hosts per subnet?
+A. 255.255.255.224
+B. 255.255.255.240
+C. 255.255.255.192
+D. 255.255.255.248
+ANSWER: A
+
+How many usable host addresses are available in a /28 subnet?
+A. 16
+B. 14
+C. 30
+D. 62
+ANSWER: B
+
+Which prefix length provides exactly 2 usable host addresses?
+A. /30
+B. /31
+C. /29
+D. /28
+ANSWER: A
+
+In VLSM, which subnet should be allocated first when dividing a network?
+A. The smallest subnet requirement
+B. The largest subnet requirement
+C. Any random subnet size
+D. The subnet for WAN links
+ANSWER: B
+
+What is the block size of a subnet with mask 255.255.255.240?
+A. 8
+B. 16
+C. 32
+D. 64
+ANSWER: B
+
+Which command on a Cisco router displays the IP address configuration of interfaces?
+A. show running-config
+B. show ip interface brief
+C. show interfaces
+D. show ip route
+ANSWER: B
+
+When using VLSM, what is the primary goal of subnet optimization?
+A. To maximize the number of subnets regardless of host needs
+B. To minimize wasted IP addresses by matching subnet size to host requirements
+C. To ensure all subnets are the same size
+D. To eliminate the need for default gateways
+ANSWER: B
+
+What is the network address of the subnet containing host 172.16.45.67/26?
+A. 172.16.45.0
+B. 172.16.45.64
+C. 172.16.45.128
+D. 172.16.45.32
+ANSWER: B
+
+What is the primary purpose of VLANs in a network?
+A. To increase physical cable length
+B. To logically segment a network at Layer 2
+C. To replace routers entirely
+D. To encrypt all network traffic
+ANSWER: B
+
+Which IEEE standard defines VLAN trunking?
+A. 802.1D
+B. 802.1Q
+C. 802.11
+D. 802.3
+ANSWER: B
+
+Which command creates VLAN 10 on a Cisco switch?
+A. create vlan 10
+B. vlan 10
+C. switchport vlan 10
+D. interface vlan 10
+ANSWER: B
+
+What is the default VLAN on a Cisco switch?
+A. VLAN 0
+B. VLAN 1
+C. VLAN 100
+D. VLAN 999
+ANSWER: B
+
+Which command configures a switch port as a trunk?
+A. switchport mode access
+B. switchport mode trunk
+C. trunk enable
+D. port trunk
+ANSWER: B
+
+What is Inter-VLAN routing?
+A. Routing between different physical switches
+B. Routing traffic between different VLANs
+C. Switching within the same VLAN
+D. Blocking traffic between VLANs
+ANSWER: B
+
+Which device is typically used to perform Inter-VLAN routing?
+A. Layer 2 switch
+B. Router or Layer 3 switch
+C. Hub
+D. Bridge
+ANSWER: B
+
+What happens to broadcast traffic within a VLAN?
+A. It is forwarded to all VLANs
+B. It is contained within the same VLAN
+C. It is blocked by default
+D. It is sent to the router only
+ANSWER: B
+
+Which command verifies VLAN configuration on a switch?
+A. show vlan brief
+B. show vlans
+C. display vlan
+D. show switch vlan
+ANSWER: A
+
+What is the primary function of a DHCP server?
+A. To resolve domain names to IP addresses
+B. To automatically assign IP addresses to hosts
+C. To route packets between networks
+D. To encrypt network traffic
+ANSWER: B
+
+Which DHCP message does a client send to discover available DHCP servers?
+A. DHCP Offer
+B. DHCP Request
+C. DHCP Discover
+D. DHCP Acknowledge
+ANSWER: C
+
+What is a DHCP relay agent used for?
+A. To assign static IP addresses
+B. To forward DHCP messages between subnets
+C. To block DHCP requests
+D. To encrypt DHCP traffic
+ANSWER: B
+
+Which command configures a DHCP address pool on a Cisco router?
+A. dhcp pool PoolName
+B. ip dhcp pool PoolName
+C. pool dhcp PoolName
+D. address pool PoolName
+ANSWER: B
+
+What is the purpose of DHCP exclusions?
+A. To prevent DHCP from assigning specific IP addresses
+B. To exclude certain MAC addresses
+C. To block all DHCP traffic
+D. To limit the number of DHCP servers
+ANSWER: A
+
+Which command excludes IP addresses 192.168.1.1 through 192.168.1.10 from a DHCP pool?
+A. ip dhcp excluded-address 192.168.1.1 192.168.1.10
+B. exclude 192.168.1.1 192.168.1.10
+C. dhcp exclude 192.168.1.1 192.168.1.10
+D. no dhcp 192.168.1.1 192.168.1.10
+ANSWER: A
+
+What information does a DHCP server typically provide to a client?
+A. Only an IP address
+B. IP address, subnet mask, default gateway, and DNS server
+C. Only MAC address
+D. Only hostname
+ANSWER: B
+
+Which command verifies DHCP bindings on a Cisco router?
+A. show dhcp bindings
+B. show ip dhcp binding
+C. display dhcp leases
+D. show dhcp pool
+ANSWER: B
+
+What happens if a DHCP client fails to receive a DHCP offer?
+A. It automatically uses the last known IP address
+B. It may use an APIPA address (169.254.x.x)
+C. It shuts down the network interface
+D. It requests a static IP from the DNS server
+ANSWER: B
+
+In which scenario would you need a DHCP relay agent?
+A. When the DHCP server and clients are on the same subnet
+B. When the DHCP server is on a different subnet than the clients
+C. When using static IP addressing
+D. When configuring VLANs on a switch
+ANSWER: B
+
+Which command configures a static route to network 192.168.2.0/24 via next-hop 10.1.1.2?
+A. route static 192.168.2.0 255.255.255.0 10.1.1.2
+B. ip route 192.168.2.0 255.255.255.0 10.1.1.2
+C. static route 192.168.2.0 /24 10.1.1.2
+D. add route 192.168.2.0 10.1.1.2
+ANSWER: B
+
+What is a default route also known as?
+A. Specific route
+B. Gateway of last resort
+C. Dynamic route
+D. Host route
+ANSWER: B
+
+Which command displays the routing table on a Cisco router?
+A. show routes
+B. show ip route
+C. display routing table
+D. show route table
+ANSWER: B
+
+What does the code 'C' represent in a Cisco routing table?
+A. Static route
+B. Connected directly network
+C. RIP route
+D. OSPF route
+ANSWER: B
+
+Which command configures a floating static route with administrative distance 150?
+A. ip route 10.0.0.0 255.0.0.0 192.168.1.1 150
+B. ip route 10.0.0.0 255.0.0.0 192.168.1.1 distance 150
+C. static route 10.0.0.0 255.0.0.0 192.168.1.1 150
+D. ip route 10.0.0.0 255.0.0.0 192.168.1.1 admin 150
+ANSWER: A
+
+Which dynamic routing protocol uses hop count as its metric?
+A. EIGRP
+B. OSPF
+C. RIP
+D. BGP
+ANSWER: C
+
+Which routing protocol is a Cisco proprietary advanced distance-vector protocol?
+A. RIP
+B. OSPF
+C. EIGRP
+D. BGP
+ANSWER: C
+
+What type of routing protocol is OSPF?
+A. Distance-vector
+B. Link-state
+C. Path-vector
+D. Hybrid
+ANSWER: B
+
+Which command enables RIP version 2 on a Cisco router?
+A. router rip v2
+B. router rip; version 2
+C. enable rip version 2
+D. rip version 2
+ANSWER: B
+
+What is the administrative distance of OSPF?
+A. 90
+B. 100
+C. 110
+D. 120
+ANSWER: C
+
+What does the EIGRP composite metric include by default?
+A. Hop count only
+B. Bandwidth and delay
+C. Load and reliability
+D. MTU only
+ANSWER: B
+
+Which OSPF packet type is used to establish and maintain neighbor relationships?
+A. LSU
+B. LSR
+C. Hello
+D. DBD
+ANSWER: C
+
+What does NAT stand for?
+A. Network Address Translation
+B. Network Allocation Table
+C. Node Address Transfer
+D. Network Access Technology
+ANSWER: A
+
+Which type of NAT maps a private IP to a specific public IP address one-to-one?
+A. Dynamic NAT
+B. PAT
+C. Static NAT
+D. Overloading
+ANSWER: C
+
+What is PAT also known as?
+A. Static NAT
+B. NAT Overload
+C. Dynamic NAT
+D. Portless NAT
+ANSWER: B
+
+Which command configures static NAT on a Cisco router?
+A. nat static inside source
+B. ip nat inside source static
+C. static nat inside
+D. nat source static
+ANSWER: B
+
+What is the primary purpose of using NAT in a network?
+A. To increase network speed
+B. To conserve public IPv4 addresses
+C. To encrypt all traffic
+D. To eliminate the need for routers
+ANSWER: B
+
+Which command defines the inside interface for NAT?
+A. ip nat inside
+B. nat inside interface
+C. interface nat inside
+D. ip nat interface inside
+ANSWER: A
+
+In Dynamic NAT, what is an address pool?
+A. A group of private IP addresses
+B. A group of public IP addresses available for translation
+C. A list of excluded IP addresses
+D. A DHCP scope
+ANSWER: B
+
+Which command configures PAT with overload using a single public IP address?
+A. ip nat inside source list 1 pool NAT-POOL
+B. ip nat inside source list 1 interface serial0/0/0 overload
+C. ip nat overload source list 1
+D. nat pat enable
+ANSWER: B
+
+What does the 'inside local' address refer to in NAT terminology?
+A. The public IP address seen on the Internet
+B. The private IP address assigned to a host inside the network
+C. The IP address of the NAT router's outside interface
+D. The DNS server address
+ANSWER: B
+
+Which NAT type allows multiple inside hosts to share a single public IP address?
+A. Static NAT
+B. Dynamic NAT
+C. PAT
+D. Bidirectional NAT
+ANSWER: C
+
+What does ACL stand for?
+A. Access Control List
+B. Advanced Configuration Link
+C. Address Control Logic
+D. Automatic Connection List
+ANSWER: A
+
+Which type of ACL can filter traffic based on source IP only?
+A. Extended ACL
+B. Standard ACL
+C. Named ACL
+D. Dynamic ACL
+ANSWER: B
+
+Which type of ACL can filter based on source IP, destination IP, protocol, and port numbers?
+A. Standard ACL
+B. Extended ACL
+C. Reflexive ACL
+D. Time-based ACL
+ANSWER: B
+
+What is the range of standard ACL numbers on Cisco routers?
+A. 1-99 and 1300-1999
+B. 100-199 and 2000-2699
+C. 1-199
+D. 1000-1999
+ANSWER: A
+
+Where should a standard ACL be placed for optimal effectiveness?
+A. Close to the destination
+B. Close to the source
+C. In the middle of the network
+D. On the Internet-facing interface
+ANSWER: B
+
+What is the implicit rule at the end of every ACL?
+A. Permit all traffic
+B. Deny all traffic
+C. Log all traffic
+D. Forward all traffic
+ANSWER: B
+
+Which command applies an ACL to an interface?
+A. access-group
+B. ip access-group
+C. apply acl
+D. interface acl
+ANSWER: B
+
+In an extended ACL, which parameter is checked first when processing a packet?
+A. Destination port
+B. The ACL is checked line by line from top to bottom
+C. Protocol type
+D. Source IP only
+ANSWER: B
+
+What does STP stand for?
+A. Standard Transfer Protocol
+B. Spanning Tree Protocol
+C. Switch Trunking Protocol
+D. Static Tree Path
+ANSWER: B
+
+What is the primary purpose of STP in a switched network?
+A. To increase switching speed
+B. To prevent Layer 2 loops
+C. To encrypt switch traffic
+D. To assign VLANs automatically
+ANSWER: B
+
+Which port state in STP forwards traffic but does not learn MAC addresses?
+A. Blocking
+B. Listening
+C. Learning
+D. Forwarding
+ANSWER: C
+
+What is the default bridge priority value on a Cisco switch?
+A. 4096
+B. 8192
+C. 32768
+D. 65535
+ANSWER: C
+
+Which command enables PortFast on a Cisco switch interface?
+A. spanning-tree portfast
+B. portfast enable
+C. stp portfast
+D. spanning-tree fast
+ANSWER: A
+
+What happens to BPDUs when a port is in Blocking state?
+A. They are forwarded
+B. They are received but not forwarded
+C. They are discarded completely
+D. They are converted to data frames
+ANSWER: B
+
+What is the purpose of the BID in STP?
+A. To identify the fastest port
+B. To elect the root bridge
+C. To assign IP addresses
+D. To create VLANs
+ANSWER: B
+
+Which command displays detailed STP information on a Cisco switch?
+A. show spanning-tree
+B. show stp
+C. display spanning-tree
+D. show tree
+ANSWER: A
+
+What is the purpose of the 'service password-encryption' command?
+A. To encrypt all passwords in the running configuration
+B. To disable password authentication
+C. To create a new password
+D. To delete existing passwords
+ANSWER: A
+
+Which subnet mask corresponds to the /27 prefix?
+A. 255.255.255.224
+B. 255.255.255.240
+C. 255.255.255.192
+D. 255.255.255.128
+ANSWER: A
+
+What is the broadcast address of the subnet 10.0.0.0/26?
+A. 10.0.0.63
+B. 10.0.0.64
+C. 10.0.0.255
+D. 10.0.0.127
+ANSWER: A
+
+A company has offices in New York, London, and Tokyo connected via leased lines. What network type connects these geographically dispersed locations?
+A. LAN
+B. MAN
+C. WAN
+D. PAN
+ANSWER: C
+
+A network engineer notices that increasing the bandwidth from 100 Mbps to 1 Gbps did not reduce the time users wait for a web page to load. What is the most likely explanation?
+A. The throughput has decreased
+B. The latency is the bottleneck, not bandwidth
+C. The OSI model is malfunctioning
+D. The TCP/IP model needs reconfiguration
+ANSWER: B
+
+In a TCP/IP model implementation, a web browser at the Application layer sends HTTP data. At which layer is this data encapsulated into segments?
+A. Network Access Layer
+B. Internet Layer
+C. Transport Layer
+D. Physical Layer
+ANSWER: C
+
+A network administrator is troubleshooting slow file transfers. The link shows 1 Gbps bandwidth but actual throughput is only 200 Mbps. Which factor is LEAST likely responsible?
+A. Network congestion
+B. Protocol overhead
+C. High latency on a local LAN segment
+D. Jitter in the physical layer signal
+ANSWER: C
+
+An organization has a campus network spanning 5 buildings connected via fiber optic cables. This best describes which network type?
+A. LAN
+B. MAN
+C. WAN
+D. WLAN
+ANSWER: B
+
+A student in Packet Tracer connects a PC to a router's FastEthernet port using a straight-through cable but gets no link light. What is the most likely cause?
+A. The router interface is administratively down
+B. Straight-through cables cannot connect PC to router
+C. The PC needs a crossover cable to connect to a router
+D. The console port should be used instead
+ANSWER: A
+
+A network engineer captures packets and notices that ARP requests are flooding the network. Which tool was most likely used to discover this?
+A. CDP
+B. LLDP
+C. Wireshark / Packet Sniffer
+D. Traceroute
+ANSWER: C
+
+In a Packet Tracer lab, two switches are connected but VLAN 10 traffic is not passing between them. All other VLANs work fine. What is the most likely issue?
+A. The trunk link is down
+B. VLAN 10 is not allowed on the trunk
+C. The switches are using different VTP domains
+D. The native VLAN mismatch exists
+ANSWER: B
+
+A junior admin connects a switch to another switch using a straight-through cable in Packet Tracer. The link does not come up. What cable should have been used?
+A. Console cable
+B. Crossover cable
+C. Serial cable
+D. Fiber optic cable
+ANSWER: B
+
+During a packet sniffing session, an analyst sees TCP segments with the RST flag set immediately after a SYN. What does this indicate?
+A. Successful connection establishment
+B. The destination port is closed or filtered
+C. Normal data transfer in progress
+D. The connection is being gracefully closed
+ANSWER: B
+
+A company policy requires that all device passwords be encrypted in the configuration file. Which command ensures this?
+A. password encryption
+B. service password-encryption
+C. encrypt passwords
+D. security passwords encryption
+ANSWER: B
+
+A network engineer runs `show cdp neighbors detail` and sees a neighboring device but no IP address is displayed. What is the most likely reason?
+A. CDP is disabled on the neighbor
+B. The neighbor interface has no IP address configured
+C. LLDP is interfering with CDP
+D. The link is physically down
+ANSWER: B
+
+An admin runs `traceroute 8.8.8.8` and sees `* * *` at hop 3, but the trace completes successfully. What does `* * *` most likely indicate?
+A. The destination is unreachable
+B. Hop 3 is not responding to ICMP due to firewall rules
+C. The packet was lost at hop 3
+D. The TTL expired at hop 3
+ANSWER: B
+
+A company needs subnets for: 120 hosts, 60 hosts, 30 hosts, and 2 point-to-point WAN links from network 192.168.1.0/24. Which subnet should be allocated FIRST using VLSM?
+A. The 30-host subnet
+B. The 60-host subnet
+C. The 120-host subnet
+D. The WAN link subnet
+ANSWER: C
+
+Using VLSM on 192.168.10.0/24, a network needs 50 hosts, 25 hosts, 10 hosts, and 2 WAN links. What is the subnet mask for the 50-host requirement?
+A. /25
+B. /26
+C. /27
+D. /28
+ANSWER: B
+
+An IP plan uses 172.16.0.0/16. The first subnet is 172.16.0.0/20. What is the network address of the FOURTH subnet in this scheme?
+A. 172.16.48.0
+B. 172.16.64.0
+C. 172.16.32.0
+D. 172.16.128.0
+ANSWER: A
+
+A network engineer needs exactly 7 usable host addresses per subnet. Which prefix length is the MOST efficient choice?
+A. /27
+B. /28
+C. /29
+D. /30
+ANSWER: B
+
+Given the IP 10.1.1.193/27, what is the valid host range for this subnet?
+A. 10.1.1.192 to 10.1.1.223
+B. 10.1.1.193 to 10.1.1.222
+C. 10.1.1.193 to 10.1.1.223
+D. 10.1.1.192 to 10.1.1.254
+ANSWER: B
+
+A /30 subnet is used for a point-to-point WAN link between two routers. How many total IP addresses are wasted in this configuration?
+A. 0
+B. 1
+C. 2
+D. 4
+ANSWER: A
+
+An organization has been allocated 2001:DB8::/32. They need to subnet this for 500 branch offices. What prefix length should each branch receive to allow approximately 65,000 subnets per branch?
+A. /48
+B. /56
+C. /64
+D. /96
+ANSWER: A
+
+A network admin configures `ip address 192.168.1.65 255.255.255.224` on an interface but receives an overlap error. Which existing subnet is most likely causing this?
+A. 192.168.1.0/27
+B. 192.168.1.32/27
+C. 192.168.1.64/27
+D. 192.168.1.96/27
+ANSWER: C
+
+A switch has VLANs 10, 20, and 30. A trunk port is configured with `switchport trunk allowed vlan 10,20`. What happens to VLAN 30 traffic on this trunk?
+A. It is forwarded with native VLAN tagging
+B. It is dropped and not forwarded
+C. It is forwarded untagged
+D. It causes a native VLAN mismatch error
+ANSWER: B
+
+A router-on-a-stick configuration uses subinterface Fa0/0.10 for VLAN 10. Which encapsulation command is required on this subinterface?
+A. encapsulation dot1q 10
+B. encapsulation 802.1q 10
+C. switchport trunk encapsulation dot1q
+D. vlan encapsulation 10
+ANSWER: A
+
+In an Inter-VLAN routing setup, a host in VLAN 10 (192.168.10.0/24) cannot reach a host in VLAN 20 (192.168.20.0/24). The default gateway is correct. What is the MOST likely issue?
+A. The switch does not have VLAN 20 created
+B. The router subinterface for VLAN 20 is down or misconfigured
+C. The hosts are using the wrong DNS server
+D. The physical cable between router and switch is disconnected
+ANSWER: B
+
+A network uses native VLAN 99 on all trunks. One trunk is accidentally configured with native VLAN 1. What security risk does this create?
+A. VLAN hopping attack
+B. STP root bridge compromise
+C. DHCP starvation
+D. MAC flooding
+ANSWER: A
+
+A Layer 3 switch is configured with `ip routing`. Which additional command is needed to enable Inter-VLAN routing for VLAN 10?
+A. router rip
+B. interface vlan 10 with an IP address
+C. switchport mode trunk
+D. ip helper-address
+ANSWER: B
+
+A DHCP server is on VLAN 10 (192.168.10.0/24). Clients on VLAN 20 (192.168.20.0/24) are not receiving IP addresses. The router between VLANs has `ip helper-address 192.168.10.10` on the VLAN 20 interface. What additional check is needed?
+A. The DHCP scope for 192.168.20.0 must exist on the server
+B. The router interface for VLAN 10 must be shut down
+C. The clients must disable APIPA
+D. The DHCP server must be moved to VLAN 20
+ANSWER: A
+
+A DHCP pool is configured with `network 192.168.1.0 255.255.255.0` and `default-router 192.168.1.1`. The admin adds `ip dhcp excluded-address 192.168.1.1 192.168.1.10`. How many usable addresses can the pool assign?
+A. 244
+B. 254
+C. 245
+D. 240
+ANSWER: A
+
+A client receives IP 169.254.5.10. The DHCP server is online and other clients are working. What is the most likely cause for this specific client?
+A. The DHCP scope is exhausted
+B. The client is on a different subnet without a relay agent
+C. The client has a static IP configured
+D. The DHCP server service is stopped
+ANSWER: B
+
+A DHCP server has two scopes: 192.168.1.0/24 and 192.168.2.0/24. A relay agent forwards a request from 192.168.3.0/24. What happens?
+A. The server assigns an address from the first scope
+B. The server assigns an address from the largest scope
+C. The server cannot assign an address (no matching scope)
+D. The server assigns a random address from any scope
+ANSWER: C
+
+A network uses EIGRP. Router A learns a route from Router B with a feasible distance of 1000. Router A's current successor has a feasible distance of 500. What is the reported distance from Router B?
+A. 1000
+B. 500
+C. Cannot be determined from given information
+D. 1500
+ANSWER: C
+
+An admin configures `ip route 0.0.0.0 0.0.0.0 192.168.1.1`. What is the purpose of this route?
+A. To create a loopback interface
+B. To provide a gateway of last resort for unknown destinations
+C. To block all incoming traffic
+D. To summarize all internal routes
+ANSWER: B
+
+A router running OSPF has interfaces in Area 0 and Area 1. What type of OSPF router is this?
+A. Internal Router
+B. Backbone Router
+C. Area Border Router (ABR)
+D. Autonomous System Boundary Router (ASBR)
+ANSWER: C
+
+In an OSPF network, all routers in Area 0 have synchronized LSDBs. What does this synchronization ensure?
+A. All routers have identical routing tables
+B. All routers have identical link-state databases
+C. All routers use the same DR and BDR
+D. All routers have the same number of interfaces
+ANSWER: B
+
+A routing table shows `O 192.168.10.0/24 [110/2] via 10.1.1.2, 00:00:15, Gig0/0`. What does the number 2 represent?
+A. Hop count
+B. OSPF cost
+C. Administrative distance
+D. Interface bandwidth in Mbps
+ANSWER: B
+
+RIP version 2 is configured on a router. What is a key advantage over RIP version 1?
+A. Lower administrative distance
+B. Support for VLSM and CIDR
+C. Faster convergence using DUAL algorithm
+D. Link-state routing capabilities
+ANSWER: B
+
+A company has 5 public IP addresses (203.0.113.1 to 203.0.113.5) and 50 internal hosts. Which NAT solution allows all 50 hosts to access the Internet simultaneously?
+A. Static NAT
+B. Dynamic NAT without overload
+C. PAT (NAT Overload)
+D. No NAT is needed
+ANSWER: C
+
+A web server inside the network needs to be accessible from the Internet using a fixed public IP. Which NAT type is required?
+A. Dynamic NAT
+B. PAT
+C. Static NAT
+D. NAT exemption
+ANSWER: C
+
+A router is configured with `ip nat inside source list 1 interface Gig0/0 overload`. What does `overload` signify?
+A. Multiple public IP addresses are used
+B. Multiple inside hosts share one public IP using port numbers
+C. The router CPU is overloaded
+D. The interface bandwidth is overloaded
+ANSWER: B
+
+An admin configures NAT but forgets the `ip nat outside` command on the external interface. What is the result?
+A. Inside hosts can access the Internet but return traffic fails
+B. NAT translation does not occur at all
+C. Only static NAT works
+D. The router crashes
+ANSWER: B
+
+A packet from inside local 192.168.1.50:5555 is translated to outside global 203.0.113.5:8080. Which NAT type is being used?
+A. Static NAT
+B. Dynamic NAT
+C. PAT (NAT Overload)
+D. Identity NAT
+ANSWER: C
+
+A standard ACL 10 is applied inbound on a router's Fa0/0 interface (connected to 192.168.1.0/24). The ACL has `deny 192.168.1.50` and `permit any`. Where else in the network can host 192.168.1.50 still send traffic?
+A. Nowhere, it is completely blocked
+B. To other hosts on the same subnet without passing through the router
+C. To the router's other interfaces directly
+D. To the Internet only
+ANSWER: B
+
+An extended ACL needs to block HTTP traffic from 192.168.10.0/24 to a web server at 10.1.1.100. Which is the correct first line?
+A. access-list 101 deny tcp 192.168.10.0 0.0.0.255 host 10.1.1.100 eq 80
+B. access-list 101 deny ip 192.168.10.0 0.0.0.255 host 10.1.1.100
+C. access-list 101 deny tcp any any eq 80
+D. access-list 10 deny 192.168.10.0 0.0.0.255
+ANSWER: A
+
+An admin applies an ACL with `ip access-group 101 in` on an interface. The ACL has no entries. What is the effect?
+A. All traffic is permitted
+B. All traffic is denied
+C. Only established connections are permitted
+D. Only ICMP traffic is permitted
+ANSWER: B
+
+An extended ACL 150 has: `permit tcp any any established`, `deny tcp any any eq 23`, `permit ip any any`. A user tries to Telnet from inside to outside. What happens?
+A. Telnet is permitted because of the last line
+B. Telnet is denied by the second line
+C. Telnet is permitted by the first line
+D. Telnet works only if established first
+ANSWER: B
+
+A standard ACL is applied outbound on a router interface connected to a server farm. The ACL denies a specific host. What traffic is affected?
+A. Traffic coming INTO the interface from the server farm
+B. Traffic going OUT of the interface TO the server farm
+C. All traffic through the router
+D. Only broadcast traffic
+ANSWER: B
+
+A switch network has redundant links between Switch A and Switch B. STP has blocked one link. If the active link fails, how long does it take for the blocked port to transition to forwarding using default STP timers?
+A. Immediately
+B. Approximately 30-50 seconds
+C. 15 seconds
+D. 2 seconds
+ANSWER: B
+
+Which STP port role forwards traffic and has the lowest cost path to the root bridge?
+A. Root Port
+B. Designated Port
+C. Alternate Port
+D. Backup Port
+ANSWER: B
+
+In RSTP (802.1w), what is the equivalent of the STP Listening state?
+A. Discarding
+B. Learning
+C. Forwarding
+D. Blocking
+ANSWER: A
+
+A switch has bridge priority 4096 and MAC address 0000.0C12.3456. Another switch has priority 4096 and MAC 0000.0C12.3457. Which becomes the root bridge?
+A. The first switch (lower MAC)
+B. The second switch (higher MAC)
+C. Neither, priorities must be unique
+D. Both become root bridges
+ANSWER: A
+
+PortFast should be enabled on which type of switch ports?
+A. Ports connected to other switches
+B. Ports connected to routers
+C. Ports connected to end-user devices (PCs, printers)
+D. Trunk ports only
+ANSWER: C
+
+A network has three switches in a triangle topology. STP blocks one port to prevent loops. If the root bridge fails, what happens?
+A. The network remains partitioned until manual intervention
+B. A new root bridge election occurs and the blocked port may transition to forwarding
+C. All switches become isolated
+D. STP is disabled automatically
+ANSWER: B
+
+What is the purpose of the Root Guard feature in STP?
+A. To prevent a rogue switch from becoming the root bridge
+B. To speed up convergence
+C. To enable PortFast on all ports
+D. To disable STP on specific ports
+ANSWER: A
+
+A network engineer needs to verify which NAT translations are currently active. Which command should be used?
+A. show nat translations
+B. show ip nat translations
+C. display nat table
+D. show nat table
+ANSWER: B
+
+A router interface shows `up/down` in `show ip interface brief`. The physical layer is operational but the data link layer is not. What is the most likely cause on a serial interface?
+A. No clock rate configured on the DCE end
+B. Wrong IP address
+C. Missing static route
+D. ACL blocking all traffic
+ANSWER: A
+
+A company implements VLSM on 172.16.0.0/16. They allocate /22 subnets for regional offices. How many regional offices can be supported?
+A. 32
+B. 64
+C. 128
+D. 256
+ANSWER: B
+
+In a DHCP relay configuration, the `ip helper-address` command is configured on which device?
+A. The DHCP server
+B. The client workstation
+C. The router interface facing the client subnet
+D. The Layer 2 switch
+ANSWER: C
+
+An OSPF network has routers in Area 0, Area 1, and Area 2. A router connects Area 1 to Area 0. What is this router called?
+A. Internal Router
+B. Area Border Router
+C. Backbone Router
+D. ASBR
+ANSWER: B
+
+A network admin wants to prevent VLAN 10 users from accessing VLAN 20 servers using an ACL. Where should the ACL be applied?
+A. On the VLAN 10 interface inbound
+B. On the VLAN 20 interface outbound
+C. On the trunk port between switches
+D. On the router subinterface for VLAN 10 outbound
+ANSWER: D
+
+In EIGRP, what is a feasible successor?
+A. The primary path to a destination
+B. A backup path that meets the feasibility condition
+C. The router with the highest priority
+D. A static route redistributed into EIGRP
+ANSWER: B
+
+A PAT configuration uses `ip nat inside source list 1 interface Gig0/1 overload`. What happens when the NAT translation table is full?
+A. New connections are dropped
+B. Older translations are removed to make room
+C. The router reboots
+D. All existing connections are terminated
+ANSWER: A
+
+A switch port configured with `spanning-tree bpduguard enable` receives a BPDU. What happens?
+A. The port transitions to forwarding immediately
+B. The port is placed in err-disabled state
+C. The port becomes the root port
+D. BPDU Guard is automatically disabled
+ANSWER: B
+
+What does LAN stand for?
+A. Large Area Network
+B. Local Area Network
+C. Linked Access Node
+D. Longitudinal Addressing Network
+ANSWER: B
+
+What does WAN stand for?
+A. Wireless Area Network
+B. Wide Area Network
+C. Web Access Node
+D. Wired Address Network
+ANSWER: B
+
+Which device connects a home network to the Internet?
+A. Switch
+B. Hub
+C. Router
+D. Bridge
+ANSWER: C
+
+What is the main function of a switch in a network?
+A. To connect different networks together
+B. To forward data frames based on MAC addresses
+C. To assign IP addresses to devices
+D. To encrypt network traffic
+ANSWER: B
+
+Which OSI layer is closest to the physical network cable?
+A. Layer 1
+B. Layer 3
+C. Layer 5
+D. Layer 7
+ANSWER: A
+
+How many layers are in the OSI model?
+A. 5
+B. 6
+C. 7
+D. 8
+ANSWER: C
+
+Which layer of the OSI model deals with physical addresses (MAC addresses)?
+A. Layer 1
+B. Layer 2
+C. Layer 3
+D. Layer 4
+ANSWER: B
+
+TCP/IP model has how many layers?
+A. 4
+B. 5
+C. 6
+D. 7
+ANSWER: A
+
+Which protocol operates at the Transport layer?
+A. IP
+B. TCP
+C. HTTP
+D. Ethernet
+ANSWER: B
+
+What is Cisco Packet Tracer used for?
+A. To manufacture network cables
+B. To simulate and practice network configurations
+C. To scan for viruses
+D. To browse the Internet
+ANSWER: B
+
+Which of the following is an end device?
+A. Router
+B. Switch
+C. Laptop
+D. Firewall
+ANSWER: C
+
+Which of the following is an intermediate device?
+A. Printer
+B. Smartphone
+C. Router
+D. Webcam
+ANSWER: C
+
+What does a hub do when it receives data?
+A. Sends it only to the intended recipient
+B. Broadcasts it to all connected ports
+C. Drops the data
+D. Encrypts the data
+ANSWER: B
+
+Which device is smarter: a hub or a switch?
+A. Hub
+B. Switch
+C. Both are equally smart
+D. Neither is smart
+ANSWER: B
+
+What type of cable connects a PC to a switch?
+A. Crossover cable
+B. Console cable
+C. Straight-through cable
+D. Serial cable
+ANSWER: C
+
+What type of cable connects a router to a PC console port for initial setup?
+A. Straight-through cable
+B. Crossover cable
+C. Console (rollover) cable
+D. Fiber optic cable
+ANSWER: C
+
+Which device operates at Layer 3 of the OSI model?
+A. Hub
+B. Switch
+C. Router
+D. Bridge
+ANSWER: C
+
+What is the purpose of a NIC (Network Interface Card)?
+A. To store files
+B. To connect a computer to a network
+C. To display web pages
+D. To encrypt passwords
+ANSWER: B
+
+Which device regenerates and forwards signals to extend network distance?
+A. Router
+B. Switch
+C. Repeater
+D. Firewall
+ANSWER: C
+
+What is an IP address used for?
+A. To identify a device on a network
+B. To store website content
+C. To encrypt data
+D. To physically connect devices
+ANSWER: A
+
+How many bits are in an IPv4 address?
+A. 16
+B. 32
+C. 64
+D. 128
+ANSWER: B
+
+How many octets are in an IPv4 address?
+A. 2
+B. 4
+C. 6
+D. 8
+ANSWER: B
+
+What is the default subnet mask for a Class C network?
+A. 255.0.0.0
+B. 255.255.0.0
+C. 255.255.255.0
+D. 255.255.255.255
+ANSWER: C
+
+Which IP address range is reserved for private networks (Class A)?
+A. 10.0.0.0 to 10.255.255.255
+B. 172.16.0.0 to 172.31.255.255
+C. 192.168.0.0 to 192.168.255.255
+D. 127.0.0.0 to 127.255.255.255
+ANSWER: A
+
+What is the loopback IP address?
+A. 192.168.1.1
+B. 10.0.0.1
+C. 127.0.0.1
+D. 255.255.255.255
+ANSWER: C
+
+What does a subnet mask determine?
+A. The speed of the network
+B. Which portion of an IP address is the network and which is the host
+C. The physical location of a device
+D. The encryption level
+ANSWER: B
+
+How many usable host addresses are in a /24 network?
+A. 254
+B. 256
+C. 255
+D. 252
+ANSWER: A
+
+What is the network address of 192.168.5.50/24?
+A. 192.168.5.0
+B. 192.168.5.1
+C. 192.168.0.0
+D. 192.168.5.255
+ANSWER: A
+
+What is the broadcast address of 192.168.10.0/24?
+A. 192.168.10.0
+B. 192.168.10.1
+C. 192.168.10.254
+D. 192.168.10.255
+ANSWER: D
+
+What is the first mode you enter when connecting to a Cisco device?
+A. Privileged EXEC mode
+B. Global Configuration mode
+C. User EXEC mode
+D. Interface Configuration mode
+ANSWER: C
+
+What symbol appears at the prompt in User EXEC mode?
+A. #
+B. (config)#
+C. >
+D. !
+ANSWER: C
+
+Which command takes you from User EXEC mode to Privileged EXEC mode?
+A. configure terminal
+B. enable
+C. login
+D. admin
+ANSWER: B
+
+What symbol appears at the prompt in Privileged EXEC mode?
+A. >
+B. (config)#
+C. #
+D. $
+ANSWER: C
+
+Which command enters Global Configuration mode?
+A. enable
+B. configure terminal
+C. interface fa0/0
+D. exit
+ANSWER: B
+
+What does the command `hostname R1` do?
+A. Changes the router's IP address
+B. Changes the device's display name
+C. Creates a new user account
+D. Sets the domain name
+ANSWER: B
+
+Which command is used to assign an IP address to a router interface?
+A. ip address 192.168.1.1 255.255.255.0
+B. set ip 192.168.1.1
+C. address ip 192.168.1.1
+D. configure ip 192.168.1.1
+ANSWER: A
+
+What command brings a router interface up?
+A. start
+B. no shutdown
+C. enable interface
+D. activate
+ANSWER: B
+
+What does `show running-config` display?
+A. The saved startup configuration
+B. The currently active configuration in RAM
+C. The routing table
+D. The interface status
+ANSWER: B
+
+What does VLAN stand for?
+A. Virtual Local Area Network
+B. Very Large Area Network
+C. Virtual Link Access Node
+D. Variable Length Address Network
+ANSWER: A
+
+What is the main benefit of using VLANs?
+A. They increase Internet speed
+B. They logically separate broadcast domains
+C. They replace routers
+D. They eliminate the need for cables
+ANSWER: B
+
+Which command creates a new VLAN on a switch?
+A. create vlan 10
+B. vlan 10
+C. new vlan 10
+D. add vlan 10
+ANSWER: B
+
+What command assigns a switch port to VLAN 20?
+A. switchport access vlan 20
+B. vlan access 20
+C. port vlan 20
+D. assign vlan 20
+ANSWER: A
+
+What is a trunk port used for?
+A. To connect end devices like PCs
+B. To carry multiple VLAN traffic between switches
+C. To connect to the Internet
+D. To disable VLANs
+ANSWER: B
+
+Which trunking protocol is an IEEE standard?
+A. ISL
+B. VTP
+C. 802.1Q
+D. STP
+ANSWER: C
+
+Can two devices in different VLANs communicate directly without a router?
+A. Yes, always
+B. No, a Layer 3 device is required
+C. Only if they are on the same switch
+D. Only on weekends
+ANSWER: B
+
+Which device can perform Inter-VLAN routing?
+A. Layer 2 switch only
+B. Router or Layer 3 switch
+C. Hub
+D. Repeater
+ANSWER: B
+
+What does DHCP stand for?
+A. Dynamic Host Configuration Protocol
+B. Domain Host Control Protocol
+C. Data Handling Control Process
+D. Digital Host Connection Protocol
+ANSWER: A
+
+What is the main purpose of DHCP?
+A. To translate domain names to IP addresses
+B. To automatically assign IP addresses to devices
+C. To route packets between networks
+D. To encrypt network traffic
+ANSWER: B
+
+What is the first message sent by a DHCP client?
+A. DHCP Offer
+B. DHCP Request
+C. DHCP Discover
+D. DHCP Acknowledge
+ANSWER: C
+
+Which server responds to a DHCP Discover message?
+A. DNS server
+B. DHCP server
+C. Web server
+D. FTP server
+ANSWER: B
+
+What IP address range does APIPA use?
+A. 192.168.x.x
+B. 10.x.x.x
+C. 169.254.x.x
+D. 172.16.x.x
+ANSWER: C
+
+What does a DHCP scope define?
+A. The physical location of the server
+B. The range of IP addresses that can be assigned
+C. The network cable type
+D. The router model
+ANSWER: B
+
+What is a DHCP reservation?
+A. A blocked IP address
+B. An IP address permanently assigned to a specific MAC address
+C. A temporary IP address
+D. A DNS record
+ANSWER: B
+
+What is the purpose of a routing table?
+A. To store website passwords
+B. To determine the best path to destination networks
+C. To assign MAC addresses
+D. To encrypt data packets
+ANSWER: B
+
+What is a static route?
+A. A route learned automatically from another router
+B. A route manually configured by an administrator
+C. A route that changes every minute
+D. A route used only for wireless networks
+ANSWER: B
+
+What is a default route used for?
+A. To reach specific known networks
+B. To reach destinations not in the routing table
+C. To block all traffic
+D. To create VLANs
+ANSWER: B
+
+Which dynamic routing protocol is the oldest and uses hop count?
+A. OSPF
+B. EIGRP
+C. RIP
+D. BGP
+ANSWER: C
+
+What is the maximum hop count for RIP?
+A. 10
+B. 15
+C. 16
+D. 100
+ANSWER: B
+
+What does OSPF stand for?
+A. Open Shortest Path First
+B. Optimized Switching Protocol Framework
+C. Operational System Path Finder
+D. Open Source Packet Forwarding
+ANSWER: A
+
+What does NAT do?
+A. Encrypts network traffic
+B. Translates private IP addresses to public IP addresses
+C. Assigns MAC addresses
+D. Creates VLANs
+ANSWER: B
+
+Why is NAT commonly used?
+A. To increase network speed
+B. To conserve public IPv4 addresses
+C. To replace firewalls
+D. To eliminate routers
+ANSWER: B
+
+What does PAT allow?
+A. One public IP for one private IP
+B. Multiple private IPs to share one public IP
+C. No translation at all
+D. Only static mappings
+ANSWER: B
+
+What is the purpose of an ACL?
+A. To assign IP addresses
+B. To filter network traffic
+C. To encrypt passwords
+D. To create VLANs
+ANSWER: B
+
+What problem does STP solve?
+A. Slow Internet speed
+B. Layer 2 loops in redundant networks
+C. IP address exhaustion
+D. Wireless interference
+ANSWER: B
+
+What is a broadcast storm?
+A. A weather phenomenon
+B. Excessive broadcast traffic causing network failure
+C. A type of virus
+D. A wireless signal boost
+ANSWER: B
+
+What is the root bridge in STP?
+A. The slowest switch
+B. The switch with the lowest bridge ID elected as the reference point
+C. The switch closest to the Internet
+D. A wireless access point
+ANSWER: B
+
+What does PortFast do?
+A. Blocks all ports
+B. Speeds up transition to forwarding state on access ports
+C. Disables STP
+D. Creates VLANs
+ANSWER: B
+
+What does the `ping` command test?
+A. DNS resolution
+B. Connectivity between two devices
+C. Cable quality
+D. Virus presence
+ANSWER: B
+
+What does `tracert` (or `traceroute`) show?
+A. Only whether the destination is reachable
+B. The path/route taken to reach the destination
+C. The password of the destination
+D. The MAC address table
+ANSWER: B
+
+If a PC cannot get an IP address from DHCP, what IP might it self-assign?
+A. 192.168.1.1
+B. 10.0.0.1
+C. 169.254.x.x
+D. 127.0.0.1
+ANSWER: C
+
+What command shows the IP configuration on a Windows PC?
+A. show ip
+B. ipconfig
+C. ifconfig
+D. netstat
+ANSWER: B
+
+What command shows the IP configuration on a Cisco router?
+A. ipconfig
+B. show ip interface brief
+C. netstat
+D. ping
+ANSWER: B
+
+Which topology connects each device to exactly two other devices, forming a closed loop?
+A. Bus
+B. Star
+C. Ring
+D. Mesh
+ANSWER: C
+
+In a bus topology, what happens if the main cable breaks?
+A. Only one device loses connectivity
+B. The entire network segment fails
+C. Nothing, redundancy handles it
+D. Only the server goes down
+ANSWER: B
+
+Which topology has a single central point of failure if the central device fails?
+A. Mesh
+B. Star
+C. Ring
+D. Bus
+ANSWER: B
+
+In a full mesh topology with 5 routers, how many total links are required?
+A. 5
+B. 8
+C. 10
+D. 15
+ANSWER: C
+
+Which topology is most commonly used in modern LANs due to easy troubleshooting?
+A. Bus
+B. Ring
+C. Star
+D. Mesh
+ANSWER: C
+
+Which topology provides the highest redundancy and fault tolerance?
+A. Bus
+B. Star
+C. Ring
+D. Full Mesh
+ANSWER: D
+
+Which topology is most expensive to implement due to cabling costs?
+A. Bus
+B. Star
+C. Ring
+D. Full Mesh
+ANSWER: D
+
+What is a disadvantage of the bus topology?
+A. Difficult to install
+B. Single point of failure on the backbone cable
+C. Requires too much cable
+D. Complex troubleshooting
+ANSWER: B
+
+Which topology uses a token-passing mechanism to control data access?
+A. Star
+B. Bus
+C. Ring
+D. Mesh
+ANSWER: C
+
+A point-to-point topology connects exactly how many devices?
+A. Two
+B. Three
+C. Four
+D. Unlimited
+ANSWER: A
+
+When connecting two routers back-to-back using Ethernet interfaces, which cable type is required?
+A. Straight-through
+B. Crossover
+C. Console
+D. Serial
+ANSWER: B
+
+When connecting a router to a switch using Ethernet, which cable type is used?
+A. Crossover
+B. Straight-through
+C. Rollover
+D. Serial
+ANSWER: B
+
+Which interface type on a Cisco router is commonly used for WAN connections?
+A. FastEthernet
+B. GigabitEthernet
+C. Serial
+D. Console
+ANSWER: C
+
+In a serial connection between two routers, which end provides the clocking signal?
+A. DTE
+B. DCE
+C. Both provide clocking
+D. Neither provides clocking
+ANSWER: B
+
+Which command configures the clock rate on a DCE serial interface?
+A. clock rate 64000
+B. set clock 64000
+C. timing 64000
+D. speed 64000
+ANSWER: A
+
+How can you determine if a serial interface is DTE or DCE?
+A. show interface serial
+B. show controllers serial
+C. show ip interface brief
+D. show running-config
+ANSWER: B
+
+What is the default encapsulation type on a Cisco serial interface?
+A. PPP
+B. HDLC
+C. Frame Relay
+D. ATM
+ANSWER: B
+
+Which command changes the encapsulation on a serial interface to PPP?
+A. encapsulation ppp
+B. set encapsulation ppp
+C. ppp enable
+D. protocol ppp
+ANSWER: A
+
+In a point-to-point WAN topology between two branch offices, how many subnets are needed for the link?
+A. One for each router
+B. One /30 or /31 subnet
+C. A /24 subnet
+D. No subnet is needed
+ANSWER: B
+
+Which WAN topology provides no redundancy if the central site fails?
+A. Full mesh
+B. Partial mesh
+C. Hub-and-spoke
+D. Ring
+ANSWER: C
+
+What does the command `bandwidth 128` configure on a serial interface?
+A. The actual physical speed
+B. The bandwidth value used by routing protocols for metric calculation
+C. The clock rate
+D. The MTU size
+ANSWER: B
+
+When two routers are connected via serial interfaces and one shows `up/down`, what is the most likely cause?
+A. Wrong IP address
+B. Missing clock rate on DCE end
+C. Wrong encapsulation type
+D. ACL blocking traffic
+ANSWER: B
+
+Which command verifies the Layer 1 and Layer 2 status of a serial interface?
+A. show ip route
+B. show interfaces serial
+C. show controllers
+D. show running-config
+ANSWER: B
+
+Which command enters interface configuration mode for FastEthernet 0/0?
+A. interface fastethernet 0/0
+B. config interface fa0/0
+C. enter interface fa0/0
+D. set interface fa0/0
+ANSWER: A
+
+What is the command to assign IP address 192.168.1.1/24 to an interface?
+A. ip address 192.168.1.1 255.255.255.0
+B. set ip 192.168.1.1 /24
+C. address 192.168.1.1 255.255.255.0
+D. configure ip 192.168.1.1
+ANSWER: A
+
+Which command administratively shuts down an interface?
+A. disable
+B. shutdown
+C. down
+D. stop
+ANSWER: B
+
+Which command re-enables an interface that was shut down?
+A. enable
+B. no shutdown
+C. up
+D. start
+ANSWER: B
+
+What does the command `description Link-to-ISP` do on an interface?
+A. Changes the interface IP address
+B. Adds a text description visible in show commands
+C. Sets the interface speed
+D. Configures the default gateway
+ANSWER: B
+
+What is the purpose of a loopback interface?
+A. To connect to another router physically
+B. To provide a stable router ID and management IP
+C. To replace physical interfaces
+D. To increase interface speed
+ANSWER: B
+
+Which command displays all interfaces and their IP addresses in a brief format?
+A. show interfaces
+B. show ip interface brief
+C. show running-config
+D. show ip route
+ANSWER: B
+
+What does the status `administratively down` mean?
+A. The interface is physically disconnected
+B. The interface has been manually shut down
+C. The cable is faulty
+D. The interface has no IP address
+ANSWER: B
+
+Which command shows detailed statistics for a specific interface?
+A. show interface fastethernet 0/0
+B. show ip interface fa0/0
+C. display interface fa0/0
+D. interface show fa0/0
+ANSWER: A
+
+Which command sets the enable password to "cisco"?
+A. password cisco
+B. enable password cisco
+C. set enable cisco
+D. secret cisco
+ANSWER: B
+
+What is the difference between `enable password` and `enable secret`?
+A. No difference
+B. `enable secret` is encrypted by default, `enable password` is not
+C. `enable password` is stronger
+D. `enable secret` is for console only
+ANSWER: B
+
+Which command encrypts all plaintext passwords in the configuration?
+A. encrypt passwords
+B. service password-encryption
+C. password encryption
+D. secure passwords
+ANSWER: B
+
+Which command sets the VTY (Telnet/SSH) password?
+A. line vty 0 4; password cisco; login
+B. vty password cisco
+C. telnet password cisco
+D. remote password cisco
+ANSWER: A
+
+What does the `login` command do under line configuration?
+A. Enables the line
+B. Requires password authentication to access the line
+C. Logs all commands
+D. Creates a user account
+ANSWER: B
+
+Which command configures a message-of-the-day banner?
+A. banner motd #Authorized Access Only#
+B. message Authorized Access Only
+C. motd Authorized Access Only
+D. banner login Authorized Access Only
+ANSWER: A
+
+What does `erase startup-config` do?
+A. Erases the running configuration
+B. Erases the saved configuration in NVRAM
+C. Resets the router clock
+D. Deletes all interface configurations
+ANSWER: B
+
+Which command reloads the router?
+A. restart
+B. reload
+C. reboot
+D. reset
+ANSWER: B
+
+Which command displays the current date and time on a router?
+A. show clock
+B. show time
+C. display date
+D. get time
+ANSWER: A
+
+What does the command `show version` display?
+A. Only the IOS version
+B. IOS version, uptime, hardware info, and configuration register
+C. Only the routing table
+D. Only interface statistics
+ANSWER: B
+
+Which command shows the contents of the running configuration?
+A. show config
+B. show running-config
+C. display running
+D. get config
+ANSWER: B
+
+What information does `show ip route` display?
+A. Interface IP addresses
+B. The routing table with all known networks
+C. ARP table entries
+D. DHCP bindings
+ANSWER: B
+
+What does `show cdp neighbors` show?
+A. Directly connected Cisco devices
+B. All devices on the network
+C. Only routers
+D. Only switches
+ANSWER: A
+
+Which command provides detailed information about CDP neighbors?
+A. show cdp neighbors detail
+B. show cdp detail
+C. display cdp neighbors
+D. cdp show detail
+ANSWER: A
+
+What does the `ping` command use by default?
+A. TCP packets
+B. UDP packets
+C. ICMP echo requests
+D. ARP requests
+ANSWER: C
+
+Which command traces the path to a destination showing each hop?
+A. ping
+B. traceroute
+C. tracepath
+D. pathping
+ANSWER: B
+
+What does `show ip interface brief` show that `show interfaces` does not?
+A. Physical layer status
+B. A summary table of all interfaces with IP and status
+C. MAC addresses
+D. Error statistics
+ANSWER: B
+
+Which command checks the encapsulation type on a serial interface?
+A. show ip interface serial
+B. show interface serial
+C. show encapsulation
+D. display serial
+ANSWER: B
+
+What does the `debug ip rip` command do?
+A. Shows the routing table
+B. Displays real-time RIP routing updates
+C. Configures RIP
+D. Disables RIP
+ANSWER: B
+
+What does `show history` display?
+A. System logs
+B. Previously entered commands in the current session
+C. Router uptime history
+D. Interface error history
+ANSWER: B
+
+Which command sets the router's console to not timeout?
+A. exec-timeout 0 0
+B. no timeout
+C. console permanent
+D. session never
+ANSWER: A
+
+Which command enters router configuration mode for RIP?
+A. router rip
+B. rip enable
+C. configure rip
+D. routing rip
+ANSWER: A
+
+Which command advertises network 192.168.1.0 in RIP?
+A. network 192.168.1.0
+B. advertise 192.168.1.0
+C. route 192.168.1.0
+D. rip network 192.168.1.0
+ANSWER: A
+
+Which command enables RIP version 2?
+A. version 2
+B. rip v2
+C. enable version 2
+D. rip version 2
+ANSWER: A
+
+Which command enters OSPF router configuration with process ID 1?
+A. router ospf 1
+B. ospf 1
+C. enable ospf 1
+D. routing ospf 1
+ANSWER: A
+
+Which command advertises a network in OSPF Area 0?
+A. network 192.168.1.0 0.0.0.255 area 0
+B. ospf network 192.168.1.0 area 0
+C. advertise 192.168.1.0 area 0
+D. area 0 network 192.168.1.0
+ANSWER: A
+
+What is the purpose of the wildcard mask in OSPF network statements?
+A. To define the subnet mask
+B. To match interface IP addresses for OSPF participation
+C. To encrypt the network
+D. To define the area size
+ANSWER: B
+
+Which command configures a static default route?
+A. ip route 0.0.0.0 0.0.0.0 192.168.1.1
+B. default-route 192.168.1.1
+C. route default 192.168.1.1
+D. ip default-gateway 192.168.1.1
+ANSWER: A
+
+Which command shows only OSPF neighbors?
+A. show ip ospf neighbor
+B. show ospf neighbors
+C. display ospf neighbor
+D. show ip route ospf
+ANSWER: A
+
+What does `show ip protocols` display?
+A. Only IP addresses
+B. Configured routing protocols and their parameters
+C. Network cables used
+D. DNS server information
+ANSWER: B
+
+Which command removes a static route from the configuration?
+A. delete ip route
+B. no ip route 192.168.2.0 255.255.255.0 10.1.1.1
+C. remove route 192.168.2.0
+D. clear ip route 192.168.2.0
+ANSWER: B
+
+Which protocol is used for automatic IP address assignment?
+A. DNS
+B. DHCP
+C. NAT
+D. ARP
+ANSWER: B
+
+What does ARP stand for?
+A. Address Resolution Protocol
+B. Automatic Routing Protocol
+C. Advanced Resolution Process
+D. Address Routing Path
+ANSWER: A
+
+What is the function of ARP?
+A. To resolve IP addresses to MAC addresses
+B. To resolve domain names to IP addresses
+C. To assign IP addresses automatically
+D. To encrypt network traffic
+ANSWER: A
+
+Which protocol resolves domain names to IP addresses?
+A. ARP
+B. DNS
+C. DHCP
+D. FTP
+ANSWER: B
+
+What is the default administrative distance of a directly connected route?
+A. 0
+B. 1
+C. 90
+D. 110
+ANSWER: A
+
+What is the default administrative distance of a static route?
+A. 0
+B. 1
+C. 90
+D. 110
+ANSWER: B
+
+Which has a lower administrative distance: OSPF or RIP?
+A. RIP
+B. OSPF
+C. Both are equal
+D. It depends on the metric
+ANSWER: B
+
+In a routing table, what does the code 'S' represent?
+A. Static route
+B. OSPF route
+C. RIP route
+D. Connected route
+ANSWER: A
+
+What does the code 'R' represent in a Cisco routing table?
+A. Static route
+B. RIP route
+C. OSPF route
+D. Connected route
+ANSWER: B
+
+What does the code 'D' represent in a Cisco routing table?
+A. Static route
+B. RIP route
+C. EIGRP route
+D. OSPF route
+ANSWER: C
+
+Which WAN topology connects every site to every other site?
+A. Star
+B. Hub-and-spoke
+C. Full mesh
+D. Point-to-point
+ANSWER: C
+
+In a hub-and-spoke WAN topology, which site connects to all other sites?
+A. Every site connects to every other site
+B. The central hub site connects to all spoke sites
+C. Only adjacent sites connect
+D. Sites connect in a ring pattern
+ANSWER: B
+
+What is a disadvantage of the full mesh WAN topology?
+A. Poor redundancy
+B. High cost due to many links
+C. Single point of failure
+D. Difficult to add new sites
+ANSWER: B
+
+Which WAN technology uses virtual circuits rather than dedicated physical lines?
+A. Leased line
+B. Frame Relay
+C. DSL
+D. Cable
+ANSWER: B
+
+What does PPP stand for?
+A. Point-to-Point Protocol
+B. Packet-to-Packet Protocol
+C. Private Public Protocol
+D. Physical Port Protocol
+ANSWER: A
+
+What is the purpose of the `ppp authentication chap` command?
+A. To enable CHAP authentication on a PPP link
+B. To disable authentication
+C. To set the password
+D. To configure IP addressing
+ANSWER: A
+
+Which command verifies PPP encapsulation on an interface?
+A. show ppp
+B. show interface serial
+C. show encapsulation ppp
+D. display ppp
+ANSWER: B
+
+In a point-to-point topology, how many devices can directly communicate without a switch?
+A. Unlimited
+B. Two
+C. Ten
+D. One hundred
+ANSWER: B
+
+Which command configures a description on a serial interface?
+A. description WAN-Link-to-Branch-Office
+B. interface-desc WAN Link
+C. set description WAN Link
+D. comment WAN Link
+ANSWER: A
+
+In the OSI model, which layer is responsible for translating between application data formats and network formats?
+A. Presentation Layer
+B. Session Layer
+C. Transport Layer
+D. Application Layer
+ANSWER: A
+
+A network engineer captures frames and notices the FCS field is incorrect. At which OSI layer was this error detected?
+A. Layer 1
+B. Layer 2
+C. Layer 3
+D. Layer 4
+ANSWER: B
+
+What is the primary difference between bandwidth and throughput in a congested network?
+A. Bandwidth is always higher than throughput
+B. Throughput can never exceed bandwidth
+C. Bandwidth is theoretical maximum; throughput is actual achieved rate affected by congestion
+D. They are identical measurements
+ANSWER: C
+
+Which OSI layer PDU is called a "segment"?
+A. Layer 2
+B. Layer 3
+C. Layer 4
+D. Layer 5
+ANSWER: C
+
+In TCP/IP, which layer handles logical addressing and path determination?
+A. Application Layer
+B. Transport Layer
+C. Internet Layer
+D. Network Access Layer
+ANSWER: C
+
+What happens at the Presentation layer when data is compressed before transmission?
+A. Encryption
+B. Compression
+C. Segmentation
+D. Routing
+ANSWER: B
+
+Which layer establishes, manages, and terminates sessions between applications?
+A. Presentation Layer
+B. Session Layer
+C. Transport Layer
+D. Network Layer
+ANSWER: B
+
+A frame arrives at a switch with a destination MAC address not in the CAM table. What does the switch do?
+A. Drops the frame
+B. Floods the frame to all ports except the incoming port
+C. Sends an ARP request
+D. Forwards to the default gateway
+ANSWER: B
+
+In Packet Tracer, a student configures a router but cannot ping from PC to router interface. The PC has correct IP, subnet mask, and default gateway. What should be checked first?
+A. Whether the router interface is in `no shutdown` state
+B. Whether DNS is configured
+C. Whether NAT is enabled
+D. Whether OSPF is running
+ANSWER: A
+
+A packet sniffer shows TCP SYN packets being sent repeatedly without SYN-ACK responses. What is the most likely cause?
+A. The destination port is closed or filtered
+B. The source IP is incorrect
+C. The MTU is too large
+D. The TTL has expired
+ANSWER: A
+
+In Packet Tracer, two PCs on the same switch but different VLANs cannot ping each other. What is the correct explanation?
+A. The switch is malfunctioning
+B. VLANs create separate broadcast domains requiring a Layer 3 device for inter-VLAN communication
+C. The PCs need crossover cables
+D. The switch needs a reboot
+ANSWER: B
+
+A network admin uses a packet sniffer and sees gratuitous ARP frames. What is their purpose?
+A. To resolve IP to MAC for the first time
+B. To update ARP caches when a device's MAC address changes
+C. To discover the default gateway
+D. To request a DHCP lease
+ANSWER: B
+
+In Packet Tracer, a switch port LED shows amber/orange instead of green. What does this typically indicate?
+A. The port is operating at full duplex
+B. The port is blocked by STP
+C. The port has a speed mismatch
+D. The port is transmitting data
+ANSWER: B
+
+A student connects a PC to a switch port and sees no link light. The cable tests good. What is the most likely issue?
+A. The switch port is administratively down
+B. The PC needs a static IP
+C. The switch needs a default gateway
+D. The VLAN is not created
+ANSWER: A
+
+Which Packet Tracer mode allows simulation of packet flow step-by-step?
+A. Realtime mode
+B. Simulation mode
+C. Configuration mode
+D. Physical mode
+ANSWER: B
+
+A packet capture shows a frame with destination MAC FF:FF:FF:FF:FF:FF. What type of traffic is this?
+A. Unicast
+B. Multicast
+C. Broadcast
+D. Anycast
+ANSWER: C
+
+In Packet Tracer, which device icon represents a wireless router?
+A. A cylinder
+B. A box with antennas
+C. A cloud shape
+D. A monitor icon
+ANSWER: B
+
+A network engineer needs to verify which devices are directly connected to a switch. Which combination of tools is most efficient?
+A. `show mac address-table` and `show cdp neighbors`
+B. `show ip route` and `ping`
+C. `show vlan brief` and `show running-config`
+D. `debug ip rip` and `traceroute`
+ANSWER: A
+
+A router configuration shows `enable secret 5 $1$mERr$...`. What does the `5` indicate?
+A. MD5 hashing algorithm
+B. SHA-256 hashing algorithm
+C. Clear text password
+D. AES encryption
+ANSWER: A
+
+An admin configures `service password-encryption` but later sees `enable secret 5` still displays as hashed. Why?
+A. The command failed
+B. `enable secret` is always encrypted with stronger hashing and cannot be reversed by `service password-encryption`
+C. The router needs a reload
+D. The command only works for console passwords
+ANSWER: B
+
+Which command creates an encrypted password that cannot be easily decrypted?
+A. enable password
+B. enable secret
+C. username admin password
+D. line console 0 password
+ANSWER: B
+
+A company policy requires different banners for different access methods. Which banner appears when a user connects via reverse Telnet?
+A. MOTD banner
+B. Login banner
+C. Exec banner
+D. Incoming banner
+ANSWER: D
+
+An admin configures `banner login #Access Restricted#` but users see nothing when connecting via console. What is missing?
+A. The `login` command under `line console 0`
+B. The banner is too short
+C. The router needs to be reloaded
+D. The console speed is wrong
+ANSWER: A
+
+Which command encrypts the enable password using a non-reversible hash?
+A. enable password md5
+B. enable secret
+C. service password-encryption md5
+D. encrypt enable-password
+ANSWER: B
+
+A router has `enable password cisco` and `enable secret cisco123`. A user types `enable` and enters `cisco`. What happens?
+A. Access is granted using the password
+B. Access is denied because secret takes precedence
+C. The router asks for the secret password
+D. The router crashes
+ANSWER: B
+
+Which command sets the inactivity timeout for console sessions to 5 minutes?
+A. exec-timeout 5 0
+B. timeout 5
+C. session-timeout 5
+D. idle-timeout 300
+ANSWER: A
+
+An admin wants to prevent console messages from interrupting command typing. Which command helps?
+A. logging synchronous
+B. no logging console
+C. terminal monitor
+D. exec-timeout 0 0
+ANSWER: A
+
+What is the purpose of the `privilege level` command in Cisco IOS?
+A. To assign different command access levels to users
+B. To set the router priority
+C. To configure QoS
+D. To define VLAN priorities
+ANSWER: A
+
+A router shows a CDP neighbor but the neighbor's IP address is missing in `show cdp neighbors detail`. What is the most likely cause?
+A. CDP is disabled globally
+B. The neighbor interface has no IP address configured
+C. LLDP is blocking CDP
+D. The physical link is down
+ANSWER: B
+
+An admin disables CDP on a specific interface using `no cdp enable`. What is the effect?
+A. CDP is disabled globally
+B. CDP is disabled only on that interface
+C. CDP is enabled globally but not on that interface
+D. The router stops responding to all CDP packets
+ANSWER: B
+
+A `traceroute` shows `* * *` at a particular hop but the trace completes. What does this most likely indicate?
+A. The packet was lost
+B. The router at that hop does not respond to ICMP time-exceeded messages
+C. The destination is unreachable
+D. The TTL was too low
+ANSWER: B
+
+An admin runs `ping 192.168.1.1 source 10.1.1.1`. What is the purpose of the `source` parameter?
+A. To specify the destination
+B. To specify which interface IP to use as the source address
+C. To enable extended ping options
+D. To set the TTL
+ANSWER: B
+
+Which extended ping option allows specifying the MTU size to test fragmentation?
+A. datagram size
+B. timeout
+C. source address
+D. sweep range
+ANSWER: A
+
+A `ping` succeeds but `traceroute` fails to show hops. What is a possible reason?
+A. The destination is down
+B. Intermediate routers block ICMP time-exceeded messages
+C. The source IP is wrong
+D. DNS resolution is failing
+ANSWER: B
+
+An admin needs to verify Layer 2 connectivity between two directly connected routers. Which command is most appropriate?
+A. show ip route
+B. show cdp neighbors
+C. ping
+D. traceroute
+ANSWER: B
+
+What does `show cdp traffic` display?
+A. The CDP neighbor table
+B. CDP packet statistics including sent and received packets
+C. The routing table learned via CDP
+D. Interface CDP status
+ANSWER: B
+
+A company has network 172.16.0.0/16. They need: 400 subnets with 100 hosts each, 200 subnets with 50 hosts each, and 100 point-to-point links. What is the most efficient VLSM approach?
+A. Use /23 for 100 hosts, /24 for 50 hosts, /30 for links
+B. Use /24 for 100 hosts, /25 for 50 hosts, /30 for links
+C. Use /22 for 100 hosts, /23 for 50 hosts, /29 for links
+D. Use /25 for 100 hosts, /26 for 50 hosts, /31 for links
+ANSWER: A
+
+Given 10.0.0.0/8, what is the first valid host address of the subnet containing 10.128.64.32/18?
+A. 10.128.0.1
+B. 10.128.64.1
+C. 10.128.63.1
+D. 10.128.64.33
+ANSWER: A
+
+A network uses 192.168.10.0/24. The largest subnet needs 60 hosts, the second needs 28, the third needs 14, and two WAN links need 2 hosts each. What is the subnet mask for the second subnet?
+A. 255.255.255.192
+B. 255.255.255.224
+C. 255.255.255.240
+D. 255.255.255.248
+ANSWER: B
+
+How many total IP addresses are consumed by 50 point-to-point WAN links using /30 subnets from a single /24 network?
+A. 50
+B. 100
+C. 200
+D. 400
+ANSWER: C
+
+An IP plan uses 172.20.0.0/16 with /20 subnets for regional offices. What is the broadcast address of the 5th subnet?
+A. 172.20.79.255
+B. 172.20.80.255
+C. 172.20.64.255
+D. 172.20.95.255
+ANSWER: A
+
+A subnet mask of 255.255.255.248 provides how many subnets if applied to a Class B network using fixed-length subnetting?
+A. 512
+B. 1024
+C. 2048
+D. 8192
+ANSWER: D
+
+Given 172.16.0.0/22, what is the last valid host address?
+A. 172.16.3.254
+B. 172.16.4.254
+C. 172.16.3.255
+D. 172.16.4.255
+ANSWER: A
+
+A network engineer needs to summarize 192.168.8.0/24, 192.168.9.0/24, 192.168.10.0/24, and 192.168.11.0/24. What is the summary route?
+A. 192.168.8.0/22
+B. 192.168.8.0/23
+C. 192.168.8.0/21
+D. 192.168.0.0/20
+ANSWER: A
+
+What is the CIDR notation for subnet mask 255.255.254.0?
+A. /22
+B. /23
+C. /24
+D. /25
+ANSWER: B
+
+A /27 subnet is further subnetted into /30 subnets. How many /30 subnets can be created from one /27 subnet?
+A. 4
+B. 6
+C. 8
+D. 16
+ANSWER: C
+
+A switch has VLANs 10, 20, 30. A trunk is configured with `switchport trunk allowed vlan 10,30` and native VLAN 99. What happens to VLAN 20 traffic?
+A. It is forwarded untagged
+B. It is dropped
+C. It is forwarded with VLAN 99 tag
+D. It causes a trunk mismatch
+ANSWER: B
+
+In a router-on-a-stick configuration, what happens if the encapsulation command on a subinterface does not match the VLAN on the switch trunk?
+A. The subinterface processes all VLAN traffic
+B. The subinterface cannot communicate with that VLAN
+C. The router crashes
+D. All VLANs stop working
+ANSWER: B
+
+A Layer 3 switch has `ip routing` enabled. VLAN 10 has SVI interface with IP 192.168.10.1/24. What additional command is needed for hosts in VLAN 10 to use this as their gateway?
+A. No additional command is needed on the switch
+B. `ip default-gateway` on the switch
+C. A static route on each host
+D. A routing protocol must be configured
+ANSWER: A
+
+A trunk port receives an untagged frame. Which VLAN does the switch associate it with?
+A. VLAN 1
+B. The native VLAN
+C. The management VLAN
+D. It drops the frame
+ANSWER: B
+
+What is the purpose of `switchport nonegotiate` on a trunk port?
+A. To disable DTP and prevent trunk negotiation
+B. To force trunk mode
+C. To enable dynamic trunking
+D. To disable the port
+ANSWER: A
+
+An admin configures `switchport mode dynamic desirable` on one end and `switchport mode dynamic auto` on the other. What is the resulting trunk state?
+A. The link remains an access link
+B. The link becomes a trunk
+C. The link is err-disabled
+D. The link oscillates between modes
+ANSWER: B
+
+Which VLAN cannot be deleted or renamed on a Cisco switch?
+A. VLAN 100
+B. VLAN 1
+C. VLAN 999
+D. VLAN 4094
+ANSWER: B
+
+In Inter-VLAN routing using a Layer 3 switch, what is the purpose of the `no switchport` command on a physical interface?
+A. To disable the interface
+B. To convert the interface to a routed port
+C. To enable trunking
+D. To create a VLAN
+ANSWER: B
+
+A network uses VTP. A new switch with higher revision number and different VLAN database is connected. What happens?
+A. The new switch learns the existing VLANs
+B. The existing switches adopt the new switch's VLAN database
+C. Nothing changes
+D. VTP is disabled automatically
+ANSWER: B
+
+A DHCP server has a scope for 192.168.1.0/24 with `default-router 192.168.1.1`. The admin adds `ip dhcp excluded-address 192.168.1.1 192.168.1.20`. What is the maximum number of leases available?
+A. 233
+B. 234
+C. 235
+D. 254
+ANSWER: A
+
+A DHCP relay agent receives a DHCP Discover from a client. Which destination IP does it use when forwarding to the DHCP server?
+A. 255.255.255.255
+B. The unicast IP of the DHCP server
+C. 192.168.1.1
+D. The broadcast address of the server subnet
+ANSWER: B
+
+What is the purpose of the `dns-server` command in a DHCP pool?
+A. To configure the router as a DNS server
+B. To provide DNS server IP addresses to DHCP clients
+C. To enable DNS relay
+D. To configure dynamic DNS updates
+ANSWER: B
+
+A client sends DHCP Request with `ciaddr` field set to 0.0.0.0. What does this indicate?
+A. The client is renewing a lease
+B. The client is requesting a new IP address
+C. The client is releasing an IP
+D. The client has a static IP
+ANSWER: B
+
+Which DHCP message type does a client send to decline an offered IP address?
+A. DHCP NAK
+B. DHCP Decline
+C. DHCP Release
+D. DHCP Inform
+ANSWER: B
+
+In a DHCP relay scenario, what additional information does the relay agent add to the DHCP packet?
+A. The client's MAC address
+B. The giaddr (gateway IP address) field
+C. The DNS server address
+D. The subnet mask
+ANSWER: B
+
+A DHCP server is configured with `lease 2`. How long is the lease duration?
+A. 2 minutes
+B. 2 hours
+C. 2 days
+D. 2 seconds
+ANSWER: C
+
+What happens when a DHCP client's lease reaches 50% of its duration?
+A. The client releases the IP
+B. The client sends a DHCP Request to the original server to renew
+C. The client requests a new IP from any server
+D. The client stops using the IP
+ANSWER: B
+
+Which command on a Windows PC forces it to release its current DHCP lease?
+A. ipconfig /release
+B. ipconfig /renew
+C. ipconfig /flushdns
+D. netsh dhcp release
+ANSWER: A
+
+A DHCP scope has `domain-name example.com`. What does this provide to clients?
+A. The DNS domain suffix
+B. The Windows domain controller
+C. The Active Directory domain
+D. The email domain
+ANSWER: A
+
+What is the purpose of a floating static route?
+A. To provide load balancing
+B. To provide a backup route with higher administrative distance
+C. To summarize multiple routes
+D. To redistribute into dynamic protocols
+ANSWER: B
+
+In OSPF, what is the purpose of the Dead Interval?
+A. To age out LSAs
+B. To determine when a neighbor is down
+C. To calculate the SPF algorithm
+D. To establish adjacencies
+ANSWER: B
+
+EIGRP uses which algorithm to calculate the best path?
+A. Dijkstra
+B. Bellman-Ford
+C. DUAL (Diffusing Update Algorithm)
+D. SPF
+ANSWER: C
+
+What is the feasible condition in EIGRP?
+A. The reported distance must be less than the feasible distance
+B. The reported distance must be less than the successor's feasible distance
+C. The metric must be equal for all paths
+D. The hop count must be less than 15
+ANSWER: B
+
+Which EIGRP packet type is used to request specific information from neighbors?
+A. Update
+B. Query
+C. Reply
+D. Hello
+ANSWER: B
+
+In OSPF, what is a stub area?
+A. An area with no external routes
+B. An area with only one ABR
+C. An area that does not use LSAs
+D. An area with no internal routers
+ANSWER: A
+
+What is the OSPF Router ID determined by, in order of priority?
+A. Highest loopback IP, highest active interface IP, manually configured
+B. Manually configured, highest loopback IP, highest active interface IP
+C. Highest active interface IP, highest loopback IP, manually configured
+D. First configured interface IP
+ANSWER: B
+
+Which command displays OSPF database summary?
+A. show ip ospf database
+B. show ip ospf neighbor
+C. show ip route ospf
+D. show ip protocols
+ANSWER: A
+
+A company has public IP range 203.0.113.0/29. They need to provide Internet access to 200 internal hosts. What NAT solution is most appropriate?
+A. Static NAT for all hosts
+B. Dynamic NAT using the /29 pool
+C. PAT using one public IP from the pool
+D. No NAT needed
+ANSWER: C
+
+Which command configures inside NAT translation for a web server at 192.168.1.10 to public IP 203.0.113.5?
+A. ip nat inside source static 192.168.1.10 203.0.113.5
+B. ip nat outside source static 192.168.1.10 203.0.113.5
+C. nat static inside 192.168.1.10 203.0.113.5
+D. ip nat inside static 192.168.1.10 203.0.113.5
+ANSWER: A
+
+What is the difference between `ip nat inside` and `ip nat outside` commands?
+A. They are interchangeable
+B. `inside` marks the interface facing the private network; `outside` marks the interface facing the public network
+C. `inside` is for incoming traffic; `outside` is for outgoing traffic
+D. `inside` enables NAT; `outside` disables NAT
+ANSWER: B
+
+A NAT router translates source port 1025 to port 30001. What allows the return traffic to reach the correct internal host?
+A. The destination IP address
+B. The destination port number in the NAT table
+C. The source MAC address
+D. The TTL value
+ANSWER: B
+
+Which command clears all dynamic NAT translations?
+A. clear ip nat translation *
+B. delete nat translations
+C. reset nat table
+D. clear nat all
+ANSWER: A
+
+What is NAT overload another name for?
+A. Static NAT
+B. Dynamic NAT
+C. PAT
+D. Twice NAT
+ANSWER: C
+
+An admin configures `ip nat inside source list 1 pool NAT-POOL overload` but forgets `overload`. With 50 internal hosts and 5 public IPs, what happens?
+A. All 50 hosts can access simultaneously
+B. Only 5 hosts can access simultaneously (one per public IP)
+C. No translation occurs
+D. The router crashes
+ANSWER: B
+
+Which NAT type is required for an internal FTP server to be accessible from the Internet?
+A. PAT
+B. Dynamic NAT
+C. Static NAT
+D. NAT exemption
+ANSWER: C
+
+What does `show ip nat statistics` display?
+A. Only active translations
+B. NAT configuration summary, hits, misses, and translations
+C. The routing table
+D. Interface status
+ANSWER: B
+
+In a NAT configuration, what is an "inside global" address?
+A. The private IP of an internal host
+B. The public IP representing an internal host
+C. The IP of the NAT router's inside interface
+D. The DNS server address
+ANSWER: B
+
+An extended ACL 101 has entries in this order: `permit tcp any any eq 80`, `deny ip 192.168.1.0 0.0.0.255 any`, `permit ip any any`. A host 192.168.1.50 tries to access a web server. What happens?
+A. Access is permitted (first matching entry)
+B. Access is denied (second entry)
+C. Access is permitted (third entry)
+D. The packet is dropped by implicit deny
+ANSWER: A
+
+Where should an extended ACL be placed for optimal effectiveness?
+A. Close to the source
+B. Close to the destination
+C. In the middle of the network
+D. On the Internet-facing interface only
+ANSWER: B
+
+Which wildcard mask matches exactly IP address 192.168.1.1?
+A. 0.0.0.0
+B. 0.0.0.255
+C. 255.255.255.0
+D. 255.255.255.255
+ANSWER: A
+
+What does the wildcard mask 0.0.0.15 match?
+A. The last octet bits 0-3 (4 addresses)
+B. The last octet bits 0-15 (16 addresses)
+C. The last octet bits 16-31
+D. All addresses
+ANSWER: B
+
+An ACL uses `permit tcp any host 10.1.1.1 established`. What does "established" check?
+A. The TCP connection is already established (ACK or RST flag set)
+B. The connection uses encryption
+C. The connection is authenticated
+D. The connection is from a trusted host
+ANSWER: A
+
+Which command applies ACL 101 inbound on interface FastEthernet 0/0?
+A. access-group 101 in
+B. ip access-group 101 in
+C. apply acl 101 in
+D. interface acl 101 in
+ANSWER: B
+
+What is the effect of `access-list 1 permit 0.0.0.0 255.255.255.255`?
+A. Permits nothing
+B. Permits all IP addresses
+C. Permits only 0.0.0.0
+D. Creates an error
+ANSWER: B
+
+An admin wants to block Telnet access to a router from a specific subnet. Which ACL type and placement is best?
+A. Standard ACL inbound on VTY lines
+B. Extended ACL inbound on the interface closest to the source subnet
+C. Extended ACL outbound on the interface closest to the router
+D. Standard ACL outbound on the VTY lines
+ANSWER: B
+
+What is a reflexive ACL used for?
+A. To allow return traffic for outbound sessions
+B. To block all inbound traffic
+C. To replace stateful firewalls
+D. To configure NAT
+ANSWER: A
+
+In STP, what is the purpose of the Forward Delay timer?
+A. To age out MAC addresses
+B. To control the time spent in Listening and Learning states
+C. To determine root bridge election
+D. To set the hello interval
+ANSWER: B
+
+What is the default Forward Delay timer value in STP?
+A. 2 seconds
+B. 15 seconds
+C. 20 seconds
+D. 50 seconds
+ANSWER: B
+
+Which STP port role has the lowest cost path to the root bridge on a non-root bridge?
+A. Designated Port
+B. Root Port
+C. Alternate Port
+D. Backup Port
+ANSWER: B
+
+What is the Max Age timer in STP?
+A. The time a port waits before becoming a root port
+B. The time a switch stores BPDU information before discarding it
+C. The maximum age of a switch
+D. The time between hello packets
+ANSWER: B
+
+Which RSTP (802.1w) port role provides an alternate path to the root bridge?
+A. Designated
+B. Root
+C. Alternate
+D. Edge
+ANSWER: C
+
+What is the purpose of BPDU Guard?
+A. To protect against BPDU flooding
+B. To disable ports that receive BPDUs (typically PortFast ports)
+C. To encrypt BPDUs
+D. To speed up convergence
+ANSWER: B
+
+Which command enables BPDU Guard globally?
+A. spanning-tree portfast bpduguard default
+B. spanning-tree bpduguard enable
+C. bpduguard global
+D. portfast bpduguard
+ANSWER: A
+
+What is the difference between BPDU Guard and Root Guard?
+A. They are the same
+B. BPDU Guard blocks ports receiving BPDUs; Root Guard prevents unauthorized root bridges
+C. Root Guard blocks all traffic; BPDU Guard only blocks BPDUs
+D. BPDU Guard is for trunks; Root Guard is for access ports
+ANSWER: B
+
+In MST (Multiple Spanning Tree), what is an MST instance?
+A. A single VLAN mapped to a spanning tree
+B. Multiple VLANs mapped to a single spanning tree
+C. A backup root bridge
+D. A type of port role
+ANSWER: B
+
+What is the purpose of the `spanning-tree uplinkfast` command?
+A. To speed up convergence on access layer switches when an uplink fails
+B. To enable fast Ethernet on uplinks
+C. To create redundant uplinks
+D. To disable STP on uplinks
+ANSWER: A
+
+A network has two routers connected via serial. One shows encapsulation HDLC, the other PPP. What is the symptom?
+A. The link shows `up/down`
+B. The link shows `down/down`
+C. The link works fine
+D. The link shows `up/up` but no routing updates pass
+ANSWER: A
+
+An admin configures `ip route 192.168.10.0 255.255.255.0 10.1.1.2 200`. What does the 200 represent?
+A. The metric
+B. The administrative distance (floating static)
+C. The hop count
+D. The interface number
+ANSWER: B
+
+A switch CAM table is full due to a MAC flooding attack. What is the symptom for legitimate traffic?
+A. Traffic is dropped
+B. Traffic is flooded to all ports
+C. Traffic is blocked
+D. The switch reboots
+ANSWER: B
+
+A router has OSPF and EIGRP running, both advertising 10.0.0.0/8. Which route appears in the routing table?
+A. OSPF (lower AD)
+B. EIGRP (lower AD)
+C. Both (load balancing)
+D. Neither
+ANSWER: B
+
+An admin runs `debug ip packet` and the console freezes. What is the most likely cause?
+A. The router CPU is overwhelmed by debug output
+B. The router has insufficient memory
+C. The console cable is faulty
+D. The interface is down
+ANSWER: A
+
+A network uses VRRP instead of HSRP. What is the key difference?
+A. VRRP is Cisco proprietary; HSRP is open standard
+B. HSRP is Cisco proprietary; VRRP is open standard
+C. VRRP uses more resources
+D. HSRP provides faster failover
+ANSWER: B
+
+What is the purpose of `ip helper-address` on a router interface?
+A. To help the router find its default gateway
+B. To forward broadcast DHCP requests to a remote DHCP server
+C. To configure DNS relay
+D. To enable NAT
+ANSWER: B
+
+A traceroute from Router A to Router C via Router B shows only Router A and Router C, missing Router B. Why?
+A. Router B is down
+B. Router B does not decrement TTL or does not respond to ICMP time-exceeded
+C. Router B is not in the routing table
+D. The packet took a different path
+ANSWER: B
+
+An admin configures `ip nat inside source static tcp 192.168.1.10 80 203.0.113.5 8080`. What does this accomplish?
+A. Static NAT for all traffic
+B. Port forwarding: external port 8080 maps to internal port 80
+C. Dynamic NAT with port preservation
+D. PAT for web traffic
+ANSWER: B
+
+Which layer of the OSI model is responsible for physical addressing (MAC addresses)?
+A. Layer 1
+B. Layer 2
+C. Layer 3
+D. Layer 4
+ANSWER: B
+
+What is the default subnet mask for a Class C IP address?
+A. 255.0.0.0
+B. 255.255.0.0
+C. 255.255.255.0
+D. 255.255.255.255
+ANSWER: C
+
+What is the loopback IP address used for testing?
+A. 192.168.1.1
+B. 10.0.0.1
+C. 127.0.0.1
+D. 172.16.0.1
+ANSWER: C
+
+Which protocol automatically assigns IP addresses to devices?
+A. DNS
+B. DHCP
+C. NAT
+D. ARP
+ANSWER: B
+
+What does DNS stand for?
+A. Domain Name System
+B. Dynamic Network Service
+C. Data Name Server
+D. Digital Network System
+ANSWER: A
+
+What is the purpose of a default gateway?
+A. To assign IP addresses
+B. To route traffic to remote networks
+C. To encrypt data
+D. To create VLANs
+ANSWER: B
+
+Which device connects multiple devices in a LAN and forwards frames based on MAC addresses?
+A. Hub
+B. Switch
+C. Router
+D. Modem
+ANSWER: B
+
+Which port on a router is used for initial configuration?
+A. Ethernet port
+B. Serial port
+C. Console port
+D. USB port
+ANSWER: C
+
+What type of device is a server in network terminology?
+A. Intermediate device
+B. End device
+C. Networking device
+D. Security device
+ANSWER: B
+
+Which device forwards data between different networks?
+A. Switch
+B. Hub
+C. Router
+D. Bridge
+ANSWER: C
+
+Which command enters privileged EXEC mode from user EXEC mode?
+A. configure terminal
+B. enable
+C. login
+D. admin
+ANSWER: B
+
+What symbol appears at the User EXEC mode prompt?
+A. #
+B. (config)#
+C. >
+D. !
+ANSWER: C
+
+What does `hostname R1` do on a router?
+A. Changes the IP address
+B. Changes the device's display name
+C. Creates a user account
+D. Sets the domain name
+ANSWER: B
+
+Which command creates VLAN 20 on a switch?
+A. create vlan 20
+B. vlan 20
+C. switchport vlan 20
+D. new vlan 20
+ANSWER: B
+
+What is the purpose of NAT?
+A. To encrypt traffic
+B. To translate private IPs to public IPs
+C. To assign MAC addresses
+D. To create VLANs
+ANSWER: B
+
+Which command tests basic connectivity between two devices?
+A. traceroute
+B. ping
+C. show ip route
+D. debug
+ANSWER: B
+
+What does `tracert` show that `ping` does not?
+A. Whether the destination is reachable
+B. Each hop along the path
+C. The DNS server address
+D. The MAC address
+ANSWER: B
+
+If a PC cannot get an IP from DHCP, what address might it self-assign?
+A. 192.168.1.1
+B. 10.0.0.1
+C. 169.254.x.x
+D. 127.0.0.1
+ANSWER: C
+
+Which Windows command displays IP configuration?
+A. show ip
+B. ipconfig
+C. ifconfig
+D. netstat
+ANSWER: B
+
+What does STP prevent in a switched network?
+A. Slow Internet
+B. Layer 2 loops
+C. IP address exhaustion
+D. Wireless interference
+ANSWER: B
+
+In the TCP/IP model, which layer corresponds to OSI Layers 5, 6, and 7?
+A. Internet Layer
+B. Transport Layer
+C. Application Layer
+D. Network Access Layer
+ANSWER: C
+
+What is the primary difference between bandwidth and throughput?
+A. Bandwidth is actual data transfer; throughput is theoretical maximum
+B. Bandwidth is theoretical maximum; throughput is actual data transferred
+C. They are the same thing
+D. Bandwidth measures delay; throughput measures speed
+ANSWER: B
+
+Which OSI layer PDU is called a "packet"?
+A. Layer 2
+B. Layer 3
+C. Layer 4
+D. Layer 5
+ANSWER: B
+
+What does latency measure?
+A. Total data transferred
+B. Delay between sending and receiving data
+C. Maximum link speed
+D. Number of packets lost
+ANSWER: B
+
+Which topology connects each device to exactly two others, forming a closed loop?
+A. Bus
+B. Star
+C. Ring
+D. Mesh
+ANSWER: C
+
+In a full mesh topology with 4 routers, how many total links are required?
+A. 4
+B. 5
+C. 6
+D. 8
+ANSWER: C
+
+In Packet Tracer, which mode allows step-by-step packet simulation?
+A. Realtime mode
+B. Simulation mode
+C. Physical mode
+D. Configuration mode
+ANSWER: B
+
+What is the primary purpose of packet sniffing?
+A. To increase bandwidth
+B. To capture and analyze network traffic
+C. To assign IP addresses
+D. To encrypt data
+ANSWER: B
+
+Which command enters Global Configuration mode on a Cisco router?
+A. enable
+B. configure terminal
+C. interface fa0/0
+D. exit
+ANSWER: B
+
+Which command sets the enable secret password?
+A. enable password
+B. enable secret
+C. secret enable
+D. password secret
+ANSWER: B
+
+What is the purpose of `service password-encryption`?
+A. To encrypt all passwords in the configuration file
+B. To disable password authentication
+C. To create stronger passwords
+D. To delete existing passwords
+ANSWER: A
+
+Which banner displays before the username and password prompt?
+A. MOTD banner
+B. Login banner
+C. Exec banner
+D. Incoming banner
+ANSWER: B
+
+Which command configures a console password and requires login?
+A. line console 0; password cisco; login
+B. console password cisco
+C. password console cisco
+D. login console cisco
+ANSWER: A
+
+What does `no shutdown` do on an interface?
+A. Disables the interface
+B. Enables the interface administratively
+C. Changes the IP address
+D. Resets the interface counters
+ANSWER: B
+
+What does CDP stand for?
+A. Common Discovery Protocol
+B. Cisco Discovery Protocol
+C. Central Data Protocol
+D. Configured Device Protocol
+ANSWER: B
+
+Which command enables CDP globally?
+A. cdp enable
+B. cdp run
+C. enable cdp
+D. run cdp
+ANSWER: B
+
+Which command displays directly connected Cisco devices?
+A. show neighbors
+B. show cdp neighbors
+C. show devices
+D. show connected
+ANSWER: B
+
+What information does `traceroute` provide that `ping` does not?
+A. Packet loss percentage
+B. Each hop/router along the path
+C. DNS resolution time
+D. Bandwidth utilization
+ANSWER: B
+
+Given 192.168.10.0/24, what subnet mask provides 30 usable hosts?
+A. 255.255.255.224
+B. 255.255.255.240
+C. 255.255.255.192
+D. 255.255.255.248
+ANSWER: A
+
+How many usable hosts are in a /28 subnet?
+A. 16
+B. 14
+C. 30
+D. 62
+ANSWER: B
+
+In VLSM, which subnet should be allocated first?
+A. The smallest subnet
+B. The largest subnet
+C. The WAN link
+D. Any random order
+ANSWER: B
+
+What is the block size of subnet mask 255.255.255.240?
+A. 8
+B. 16
+C. 32
+D. 64
+ANSWER: B
+
+What is the purpose of a trunk port?
+A. To connect end devices
+B. To carry multiple VLAN traffic between switches
+C. To block broadcasts
+D. To assign IP addresses
+ANSWER: B
+
+Which command configures a port as a trunk?
+A. switchport mode access
+B. switchport mode trunk
+C. trunk enable
+D. port trunk
+ANSWER: B
+
+Which device performs Inter-VLAN routing?
+A. Layer 2 switch
+B. Router or Layer 3 switch
+C. Hub
+D. Bridge
+ANSWER: B
+
+Which DHCP message does a client send first to discover servers?
+A. DHCP Offer
+B. DHCP Request
+C. DHCP Discover
+D. DHCP Acknowledge
+ANSWER: C
+
+What does `ip dhcp excluded-address` do?
+A. Assigns specific addresses
+B. Prevents DHCP from assigning specific addresses
+C. Deletes the DHCP pool
+D. Creates a reservation
+ANSWER: B
+
+Which routing protocol uses hop count as its metric?
+A. EIGRP
+B. OSPF
+C. RIP
+D. BGP
+ANSWER: C
+
+Which routing protocol is Cisco proprietary?
+A. RIP
+B. OSPF
+C. EIGRP
+D. BGP
+ANSWER: C
+
+What type of protocol is OSPF?
+A. Distance-vector
+B. Link-state
+C. Path-vector
+D. Hybrid
+ANSWER: B
+
+Which command displays the routing table?
+A. show routes
+B. show ip route
+C. display routing table
+D. show route table
+ANSWER: B
+
+Which type of NAT maps one private IP to one public IP?
+A. Dynamic NAT
+B. PAT
+C. Static NAT
+D. Overloading
+ANSWER: C
+
+Which command configures static NAT?
+A. nat static inside source
+B. ip nat inside source static
+C. static nat inside
+D. nat source static
+ANSWER: B
+
+Which NAT type allows multiple hosts to share one public IP?
+A. Static NAT
+B. Dynamic NAT
+C. PAT
+D. Bidirectional NAT
+ANSWER: C
+
+Which ACL type filters based on source IP only?
+A. Extended ACL
+B. Standard ACL
+C. Named ACL
+D. Dynamic ACL
+ANSWER: B
+
+Which ACL type filters based on source IP, destination IP, protocol, and port?
+A. Standard ACL
+B. Extended ACL
+C. Reflexive ACL
+D. Time-based ACL
+ANSWER: B
+
+Where should a standard ACL be placed?
+A. Close to the destination
+B. Close to the source
+C. In the middle
+D. On the Internet interface
+ANSWER: B
+
+What does STP prevent?
+A. Slow Internet
+B. Layer 2 loops
+C. IP exhaustion
+D. Wireless interference
+ANSWER: B
+
+What is the default bridge priority on a Cisco switch?
+A. 4096
+B. 8192
+C. 32768
+D. 65535
+ANSWER: C
+
+Which command enables PortFast on an interface?
+A. spanning-tree portfast
+B. portfast enable
+C. stp portfast
+D. spanning-tree fast
+ANSWER: A
+
+A network engineer notices that doubling bandwidth from 100 Mbps to 1 Gbps did not improve web page load times. What is the most likely explanation?
+A. Throughput decreased
+B. Latency is the bottleneck, not bandwidth
+C. The OSI model is malfunctioning
+D. The TCP/IP stack needs reconfiguration
+ANSWER: B
+
+In the OSI model, which layer handles translation between application data formats and network formats?
+A. Session Layer
+B. Presentation Layer
+C. Transport Layer
+D. Application Layer
+ANSWER: B
+
+A frame arrives at a switch with an unknown destination MAC. What does the switch do?
+A. Drops the frame
+B. Floods it to all ports except incoming
+C. Sends an ARP request
+D. Forwards to default gateway
+ANSWER: B
+
+A student connects a router to a router via Ethernet but the link does not come up. Both interfaces show `up/down`. What is most likely missing?
+A. Wrong IP address
+B. No clock rate configured
+C. The cable should be crossover
+D. NAT is not configured
+ANSWER: C
+
+A router interface shows `up/down` on a serial link. What is the most likely cause?
+A. Wrong encapsulation
+B. Missing clock rate on DCE end
+C. No IP address
+D. ACL blocking traffic
+ANSWER: B
+
+A router has both `enable password cisco` and `enable secret cisco123`. A user enters `cisco` at the enable prompt. What happens?
+A. Access granted
+B. Access denied (secret takes precedence)
+C. Router asks for secret
+D. Router crashes
+ANSWER: B
+
+What does `enable secret 5 $1$mERr$...` indicate? The `5` means:
+A. MD5 hashing
+B. SHA-256 hashing
+C. Clear text
+D. AES encryption
+ANSWER: A
+
+Which command prevents console messages from interrupting command typing?
+A. no logging console
+B. logging synchronous
+C. exec-timeout 0 0
+D. terminal no monitor
+ANSWER: B
+
+A company needs subnets for: 120 hosts, 60 hosts, 30 hosts, and 2 WAN links from 192.168.1.0/24. Which subnet gets allocated first in VLSM?
+A. 30-host subnet
+B. 60-host subnet
+C. 120-host subnet
+D. WAN link
+ANSWER: C
+
+Given 172.16.0.0/16 with /20 subnets for regional offices, what is the network address of the 4th subnet?
+A. 172.16.48.0
+B. 172.16.64.0
+C. 172.16.32.0
+D. 172.16.128.0
+ANSWER: A
+
+A /27 subnet is subnetted into /30 subnets. How many /30 subnets result?
+A. 4
+B. 6
+C. 8
+D. 16
+ANSWER: C
+
+A trunk is configured with `switchport trunk allowed vlan 10,20` and native VLAN 99. What happens to VLAN 30 traffic?
+A. Forwarded untagged
+B. Dropped
+C. Forwarded with VLAN 99 tag
+D. Causes trunk mismatch
+ANSWER: B
+
+In router-on-a-stick, what encapsulation command is required on subinterface Fa0/0.10 for VLAN 10?
+A. encapsulation 802.1q 10
+B. encapsulation dot1q 10
+C. switchport trunk encapsulation dot1q
+D. vlan encapsulation 10
+ANSWER: B
+
+A Layer 3 switch has `ip routing` enabled. What additional command enables Inter-VLAN routing for VLAN 10?
+A. router rip
+B. interface vlan 10 with an IP address
+C. switchport mode trunk
+D. ip helper-address
+ANSWER: B
+
+A DHCP server is on VLAN 10. Clients on VLAN 20 are not getting IPs. The router has `ip helper-address 192.168.10.10` on VLAN 20 interface. What else is needed?
+A. Move DHCP server to VLAN 20
+B. DHCP scope for 192.168.20.0 must exist
+C. Disable APIPA
+D. Configure DNS relay
+ANSWER: B
+
+A client receives IP 169.254.5.10. DHCP server is online. Other clients work. What is most likely?
+A. DHCP scope exhausted
+B. Client is on different subnet without relay
+C. Client has static IP
+D. DHCP service stopped
+ANSWER: B
+
+What is a feasible successor in EIGRP?
+A. Primary path to destination
+B. Backup path meeting feasibility condition
+C. Router with highest priority
+D. Static redistributed route
+ANSWER: B
+
+An OSPF router connects Area 1 to Area 0. What is this router called?
+A. Internal Router
+B. Area Border Router
+C. Backbone Router
+D. ASBR
+ANSWER: B
+
+A company has 5 public IPs and 200 internal hosts. Which NAT solution allows all 200 to access Internet simultaneously?
+A. Static NAT
+B. Dynamic NAT without overload
+C. PAT (NAT Overload)
+D. No NAT
+ANSWER: C
+
+A web server inside must be accessible from Internet with fixed public IP. Which NAT type?
+A. Dynamic NAT
+B. PAT
+C. Static NAT
+D. NAT exemption
+ANSWER: C
+
+What does `ip nat inside source list 1 interface Gig0/1 overload` do?
+A. Uses multiple public IPs
+B. Multiple inside hosts share one public IP using ports
+C. Overloads router CPU
+D. Overloads interface bandwidth
+ANSWER: B
+
+An extended ACL 101 has: `permit tcp any any eq 80`, `deny ip 192.168.1.0 0.0.0.255 any`, `permit ip any any`. Host 192.168.1.50 tries HTTP. Result?
+A. Permitted (first match)
+B. Denied (second entry)
+C. Permitted (third entry)
+D. Dropped by implicit deny
+ANSWER: A
+
+What does `permit tcp any host 10.1.1.1 established` check?
+A. TCP connection already established (ACK/RST set)
+B. Connection uses encryption
+C. Connection is authenticated
+D. From trusted host
+ANSWER: A
+
+In STP, what is the Forward Delay timer?
+A. Time to age MAC addresses
+B. Time in Listening and Learning states
+C. Root bridge election time
+D. Hello interval
+ANSWER: B
+
+What is the default Forward Delay in STP?
+A. 2 seconds
+B. 15 seconds
+C. 20 seconds
+D. 50 seconds
+ANSWER: B
+
+What does BPDU Guard do?
+A. Protects against BPDU flooding
+B. Disables ports receiving BPDUs (typically PortFast)
+C. Encrypts BPDUs
+D. Speeds convergence
+ANSWER: B
+
+What is Root Guard used for?
+A. To speed up convergence
+B. To prevent unauthorized switches from becoming root bridge
+C. To enable PortFast
+D. To disable STP
+ANSWER: B
+
+A switch CAM table is full from MAC flooding. What happens to legitimate traffic?
+A. Dropped
+B. Flooded to all ports
+C. Blocked
+D. Switch reboots
+ANSWER: B
+
+An admin runs `debug ip packet` and console freezes. Most likely cause?
+A. Router CPU overwhelmed by debug output
+B. Insufficient memory
+C. Faulty console cable
+D. Interface down
+ANSWER: A
+
+A company has headquarters in New York and branch offices in Chicago, Los Angeles, and Miami. They need to connect all locations with dedicated leased lines. Which topology best describes this if each branch connects directly to headquarters but not to each other?
+A. Full mesh
+B. Partial mesh
+C. Hub-and-spoke
+D. Ring
+ANSWER: C
+
+A university campus has 5 buildings connected via fiber optic cables forming a closed loop for redundancy. If one fiber link fails, traffic can still flow in the opposite direction. Which topology is this?
+A. Bus
+B. Star
+C. Ring
+D. Mesh
+ANSWER: C
+
+A data center requires maximum redundancy between 4 core switches. The network architect wants every switch connected to every other switch. How many total links are needed?
+A. 4
+B. 5
+C. 6
+D. 8
+ANSWER: C
+
+A manufacturing plant has machines on a factory floor connected in a line where each machine connects to the next. The main cable runs the length of the floor. Which topology is this?
+A. Star
+B. Bus
+C. Ring
+D. Mesh
+ANSWER: B
+
+Two routers, R1 and R2, are connected back-to-back via their Serial0/0/0 interfaces. R1 is configured as DCE with `clock rate 64000`. The link shows `up/down` on R2. What should the engineer check first?
+A. IP address mismatch
+B. Whether R2 has correct encapsulation
+C. If R1's interface is `no shutdown`
+D. Routing protocol configuration
+ANSWER: C
+
+A network engineer connects two Cisco routers via Ethernet interfaces using a straight-through cable. The link does not come up. What is the correct fix?
+A. Change to console cable
+B. Change to crossover cable
+C. Add a switch between them
+D. Configure PPP encapsulation
+ANSWER: B
+
+A WAN link between HQ and Branch uses PPP. The link was working but stopped after changing authentication. `debug ppp authentication` shows "CHAP authentication failure." What is the likely cause?
+A. Mismatched IP subnets
+B. Mismatched hostnames or passwords
+C. Wrong encapsulation type
+D. Missing clock rate
+ANSWER: B
+
+A network has three routers: R1 connects to R2, R2 connects to R3. R1 can ping R2, R2 can ping R3, but R1 cannot ping R3. All interfaces are up. What is most likely missing?
+A. Static routes or routing protocol on R2
+B. Crossover cable between R2 and R3
+C. NAT configuration on R2
+D. VLAN configuration on R2
+ANSWER: A
+
+An engineer connects a new router to an existing network. The existing router has IP 192.168.1.1/24. The new router's interface is configured with 192.168.2.1/24 on the same physical segment. What is the result?
+A. They can communicate normally
+B. They cannot communicate due to different subnets
+C. They can communicate if a switch is added
+D. They can communicate if NAT is enabled
+ANSWER: B
+
+A branch office router has a DSL connection to the Internet. The engineer needs to verify the PPPoE session is established. Which command is most useful?
+A. show ip route
+B. show pppoe session
+C. show ip interface brief
+D. debug ppp negotiation
+ANSWER: B
+
+A company has two routers connected via Frame Relay. Router A uses DLCI 100 to reach Router B. The PVC status shows "inactive." What does this indicate?
+A. Router A configuration is wrong
+B. The Frame Relay switch has no mapping for DLCI 100
+C. Router B is down
+D. The physical line is down
+ANSWER: B
+
+A company has been allocated 192.168.10.0/24. They need subnets for: 50 hosts (HR), 25 hosts (Sales), 10 hosts (IT), and 2 point-to-point WAN links. Using VLSM, what is the first subnet allocated?
+A. 192.168.10.0/26 for HR
+B. 192.168.10.0/27 for Sales
+C. 192.168.10.0/28 for IT
+D. 192.168.10.0/30 for WAN links
+ANSWER: A
+
+An engineer allocates 192.168.10.0/26 for 50 hosts. What is the broadcast address of this subnet?
+A. 192.168.10.63
+B. 192.168.10.64
+C. 192.168.10.127
+D. 192.168.10.255
+ANSWER: A
+
+After allocating the HR subnet, the engineer needs 25 hosts for Sales from the remaining space. What is the correct subnet?
+A. 192.168.10.64/26
+B. 192.168.10.64/27
+C. 192.168.10.128/27
+D. 192.168.10.96/28
+ANSWER: B
+
+A network uses 172.16.0.0/16. The engineering team needs 512 subnets with at least 126 hosts each. What prefix length meets this requirement?
+A. /23
+B. /24
+C. /25
+D. /26
+ANSWER: C
+
+An engineer configures 10.1.1.129/26 on a router interface but receives "bad mask" error. What is wrong?
+A. /26 is invalid on Class A
+B. 10.1.1.129 is a network address
+C. 10.1.1.129 is a broadcast address for /26
+D. The IP and mask combination is invalid because 10.1.1.129 falls in 10.1.1.128/26 which is valid
+ANSWER: D
+
+A company merges with another. Network A uses 192.168.1.0/24 and Network B uses 192.168.1.0/24. What is the immediate problem?
+A. They cannot communicate
+B. IP address overlap prevents proper routing between networks
+C. They need NAT
+D. They need a larger subnet mask
+ANSWER: B
+
+An engineer needs to summarize 192.168.8.0/24, 192.168.9.0/24, 192.168.10.0/24, and 192.168.11.0/24 into a single route. What is the correct summary?
+A. 192.168.8.0/22
+B. 192.168.8.0/23
+C. 192.168.8.0/21
+D. 192.168.0.0/20
+ANSWER: A
+
+A /30 subnet is used for a WAN link. The engineer assigns 10.1.1.1/30 to Router A. What is the only valid IP for Router B?
+A. 10.1.1.2/30
+B. 10.1.1.3/30
+C. 10.1.1.4/30
+D. 10.1.1.0/30
+ANSWER: A
+
+A DHCP scope is configured for 192.168.1.0/24. The engineer reserves 192.168.1.1-192.168.1.20 for servers. How many addresses remain for DHCP clients?
+A. 233
+B. 234
+C. 235
+D. 254
+ANSWER: A
+
+An IPv6 network uses 2001:DB8:ACAD::/48. The engineer needs 256 subnets. What prefix length should each subnet use?
+A. /56
+B. /64
+C. /60
+D. /52
+ANSWER: A
+
+A company has VLAN 10 (Sales), VLAN 20 (HR), and VLAN 30 (IT) on Switch A. Switch B needs the same VLANs. The link between switches is configured as access port in VLAN 1. What is the problem?
+A. VLANs are not created on Switch B
+B. The inter-switch link must be a trunk to carry multiple VLANs
+C. The native VLAN is wrong
+D. VTP is not configured
+ANSWER: B
+
+A router-on-a-stick configuration has subinterface Gi0/0.10 with `encapsulation dot1q 10`. The switch trunk has native VLAN 99. Hosts in VLAN 10 cannot reach the router. What is wrong?
+A. The subinterface should use `encapsulation dot1q 10 native`
+B. The switch native VLAN should be 10
+C. The router physical interface needs an IP address
+D. The trunk should be access mode
+ANSWER: A
+
+A Layer 3 switch has `ip routing` enabled. VLAN 10 has SVI with IP 192.168.10.1/24. A host in VLAN 10 has gateway 192.168.10.1 but cannot ping other VLANs. What is missing?
+A. The host needs a different gateway
+B. The other VLANs need SVIs configured
+C. A routing protocol must be enabled
+D. The switch needs `no switchport` on VLAN 10
+ANSWER: B
+
+An engineer configures `switchport trunk allowed vlan 10,20` on a trunk. Later, VLAN 30 is added to the network but users in VLAN 30 cannot communicate across the trunk. Why?
+A. VLAN 30 is not in the allowed list
+B. The native VLAN is wrong
+C. VTP pruning removed VLAN 30
+D. The trunk encapsulation is incorrect
+ANSWER: A
+
+A switch has ports in VLAN 10. The engineer creates VLAN 20 and moves some ports to VLAN 20. Users in VLAN 20 cannot communicate with VLAN 10 users. What is needed?
+A. A router or Layer 3 switch for Inter-VLAN routing
+B. A trunk between all switches
+C. VTP configuration
+D. More VLANs
+ANSWER: A
+
+An engineer enables VTP on three switches. Switch A is server with VLANs 10, 20. Switch B is client. Switch C is transparent with VLAN 30. What VLANs does Switch B learn?
+A. 10, 20, 30
+B. 10, 20 only
+C. 30 only
+D. No VLANs
+ANSWER: B
+
+A switch port is configured with `switchport mode dynamic auto`. The connected device is another switch with `switchport mode dynamic desirable`. What is the resulting mode?
+A. Access
+B. Trunk
+C. Error-disabled
+D. Negotiating indefinitely
+ANSWER: B
+
+A network uses Inter-VLAN routing via a Layer 3 switch. The engineer wants to route between VLAN 10 (192.168.10.0/24) and VLAN 20 (192.168.20.0/24) without a routing protocol. What is sufficient?
+A. Static routes between VLANs
+B. Only SVIs with IP addresses; directly connected routes are automatic
+C. A default route
+D. OSPF configuration
+ANSWER: B
+
+An engineer configures `switchport port-security maximum 2` on an access port. A third MAC address tries to connect. What happens with default violation mode?
+A. The port shuts down
+B. The new MAC is learned and oldest is removed
+C. The port drops packets from the new MAC but stays up
+D. The port enters err-disabled state
+ANSWER: C
+
+A DHCP server is on subnet 192.168.10.0/24. Clients on 192.168.20.0/24 are not getting IP addresses. The router between subnets has no special configuration. What is missing?
+A. The DHCP server needs a second scope
+B. The router needs `ip helper-address` pointing to the DHCP server
+C. The clients need static IPs
+D. The switch needs VLAN configuration
+ANSWER: B
+
+An engineer configures `ip helper-address 192.168.10.10` on the router interface facing 192.168.20.0/24. Clients still don't get IPs. The DHCP server has scope for 192.168.10.0/24 only. What is wrong?
+A. The helper address is wrong
+B. The DHCP server needs a scope for 192.168.20.0/24
+C. The router needs NAT
+D. The clients need to release and renew
+ANSWER: B
+
+A DHCP client receives IP 169.254.15.20. The DHCP server is confirmed working for other clients. What is the most likely cause for this specific client?
+A. The DHCP scope is full
+B. The client is on a different subnet without a relay agent
+C. The client has a static IP configured
+D. The DHCP server service stopped
+ANSWER: B
+
+An engineer configures a DHCP pool with `lease 0 2 0`. How long is the lease duration?
+A. 2 minutes
+B. 2 hours
+C. 2 days
+D. 0 days, 2 hours, 0 minutes
+ANSWER: D
+
+A company wants DHCP clients to use DNS servers 8.8.8.8 and 8.8.4.4. Which DHCP pool command achieves this?
+A. dns-server 8.8.8.8 8.8.4.4
+B. ip name-server 8.8.8.8 8.8.4.4
+D. netbios-name-server 8.8.8.8
+ANSWER: A
+
+A client at 50% of DHCP lease time sends a unicast DHCP Request to the original server. The server does not respond. At 87.5% of lease time, what does the client do?
+A. Releases the IP
+B. Broadcasts DHCP Discover to any server
+C. Uses APIPA
+D. Stops using the IP
+ANSWER: B
+
+An engineer configures `ip dhcp excluded-address 192.168.1.1 192.168.1.10` and `network 192.168.1.0 255.255.255.0`. What is the maximum number of assignable addresses?
+A. 244
+B. 245
+C. 254
+D. 255
+ANSWER: A
+
+A DNS server resolves www.example.com to 203.0.113.50. A client pings 203.0.113.50 successfully but cannot ping www.example.com. What is the problem?
+A. The web server is down
+B. DNS resolution is not working on the client
+C. The routing table is missing
+D. NAT is misconfigured
+ANSWER: B
+
+An engineer wants to configure a DHCP reservation for a printer with MAC address aaaa.bbbb.cccc. Which command is used?
+A. ip dhcp pool PRINTER; host 192.168.1.50 255.255.255.0; client-identifier aaaa.bbbb.cccc
+B. ip dhcp excluded-address 192.168.1.50
+C. static-ip 192.168.1.50 aaaa.bbbb.cccc
+D. reserve 192.168.1.50 aaaa.bbbb.cccc
+ANSWER: A
+
+A router is configured as DHCP server. The engineer wants to verify which clients have received leases. Which command shows this?
+A. show dhcp leases
+B. show ip dhcp binding
+C. show ip dhcp pool
+D. show dhcp clients
+ANSWER: B
+
+An OSPF router has interfaces in Area 0, Area 1, and Area 2. What LSA type does this router generate for Area 1 routes into Area 0?
+A. Type 1
+B. Type 2
+C. Type 3
+D. Type 5
+ANSWER: C
+
+In EIGRP, Router A has feasible distance 1000 to a network via Router B. Router C advertises the same network with reported distance 800. Is Router C a feasible successor?
+A. Yes, because reported distance 800 < feasible distance 1000
+B. No, because reported distance must be less than successor's reported distance
+C. Yes, because EIGRP allows multiple successors
+D. No, because only one successor is allowed
+ANSWER: A
+
+An OSPF network has a DR-BDR election on a broadcast segment. A new router with higher priority joins. When does it become DR?
+A. Immediately
+B. After the current DR fails
+C. After OSPF process restart on all routers
+D. Never; DR election is not preemptive
+ANSWER: D
+
+A router has EIGRP route with composite metric 28160. The bandwidth is 100000 Kbit and delay is 100 usec. What is the calculated metric formula component for bandwidth?
+A. 10^7 / 100000 = 100
+B. 10^7 / 100000 * 256 = 25600
+C. 100000 / 10^7 = 0.01
+D. 100000 * 256 = 25600000
+ANSWER: B
+
+An engineer configures OSPF with `network 192.168.1.0 0.0.0.255 area 0` and `network 10.0.0.0 0.255.255.255 area 1`. Interface Gi0/0 has IP 10.1.1.1/24. Which area is Gi0/0 in?
+A. Area 0
+B. Area 1
+C. Both areas
+D. Not in any area
+ANSWER: B
+
+A RIP network has 16 routers in a line (R1-R2-R3-...-R16). R1 advertises a network. Can R16 reach it?
+A. Yes, RIP supports unlimited hops
+B. No, 15 hop count limit makes the network unreachable at R16
+C. Yes, if split horizon is disabled
+D. No, because RIP only supports 10 hops
+ANSWER: B
+
+An engineer wants OSPF to prefer a path through a high-bandwidth link over a low-bandwidth link. What should be configured?
+A. Change OSPF reference bandwidth
+B. Change interface bandwidth values
+C. Manually configure OSPF cost on interfaces
+D. Any of the above
+ANSWER: D
+
+A router redistributes RIP routes into OSPF. What LSA type are these redistributed routes in OSPF?
+A. Type 1
+B. Type 3
+C. Type 4
+D. Type 5
+ANSWER: D
+
+A company has public IP 203.0.113.0/29 (6 usable). 200 internal hosts need Internet access. What NAT solution is most appropriate?
+A. Static NAT for all 200 hosts
+B. Dynamic NAT using the /29 pool
+C. PAT using one public IP
+D. No NAT; use public IPs internally
+ANSWER: C
+
+An engineer configures `ip nat inside source static tcp 192.168.1.10 80 203.0.113.5 8080`. External users access http://203.0.113.5:8080. What happens internally?
+A. Traffic goes to 192.168.1.10:80
+B. Traffic goes to 192.168.1.10:8080
+C. Traffic is dropped
+D. Traffic goes to 203.0.113.5:80
+ANSWER: A
+
+A NAT router has `ip nat inside source list 1 interface Gig0/1 overload`. The NAT translation table shows 100 entries. A 101st connection attempt is made. What happens?
+A. The oldest translation is removed
+B. The new connection is dropped
+C. The router crashes
+D. All translations are cleared
+ANSWER: B
+
+An engineer configures an ACL: `access-list 101 permit tcp any any established`, `deny tcp any any eq 23`, `permit ip any any`. A user tries to Telnet from inside to outside. Result?
+A. Permitted by first line
+B. Denied by second line
+C. Permitted by third line
+D. Denied by implicit deny
+ANSWER: B
+
+A standard ACL 10 has `deny 192.168.1.50` and `permit any`. It is applied inbound on Fa0/0 (inside network). Where can 192.168.1.50 still send traffic?
+A. Nowhere
+B. To other hosts on the same subnet without passing through router
+C. To the router's other interfaces
+D. To the Internet
+ANSWER: B
+
+An extended ACL needs to block HTTP from 192.168.10.0/24 to server 10.1.1.100 during business hours only. What additional feature is needed?
+A. Reflexive ACL
+B. Time-based ACL
+C. Dynamic ACL
+D. Named ACL only
+ANSWER: B
+
+A router has `ip access-group 101 in` on Fa0/0 and `ip access-group 102 out` on Fa0/1. A packet enters Fa0/0 and exits Fa0/1. How many times is it checked against ACLs?
+A. Once
+B. Twice
+C. Never
+D. Four times
+ANSWER: B
+
+An engineer wants to allow only established TCP connections from outside to inside. Which ACL entry achieves this?
+A. `permit tcp any any`
+B. `permit tcp any any established`
+C. `permit ip any any`
+D. `permit tcp any any eq established`
+ANSWER: B
+
+A NAT configuration uses `ip nat inside source list 1 pool NAT-POOL` without `overload`. The pool has 5 addresses. 10 internal hosts try to access the Internet simultaneously. Result?
+A. All 10 can access
+B. Only 5 can access
+C. None can access
+D. The router uses PAT automatically
+ANSWER: B
+
+An engineer needs to verify which inside local addresses are currently translated. Which command shows active translations?
+A. show nat translations
+B. show ip nat translations
+C. display nat table
+D. show ip nat statistics
+ANSWER: B
+
+A network has three switches in a triangle: A-B-C-A. STP blocks the port on C toward A. If the link between A and B fails, how long until C's blocked port forwards traffic with default timers?
+A. Immediately
+B. ~30-50 seconds
+C. 15 seconds
+D. 2 seconds
+ANSWER: B
+
+An engineer enables RSTP (802.1w) on all switches. A port is configured as edge port with PortFast. What happens if it receives a BPDU?
+A. It becomes a normal RSTP port
+B. It remains edge port
+C. It is disabled
+D. Nothing happens
+ANSWER: A
+
+A switch has bridge priority 4096 and MAC 0000.0C00.1111. Another has priority 4096 and MAC 0000.0C00.2222. Which becomes root bridge?
+A. First switch (lower MAC)
+B. Second switch (higher MAC)
+C. Neither; priorities must differ
+D. Both share root duties
+ANSWER: A
+
+An engineer configures `spanning-tree portfast bpduguard default` globally. A user connects a small switch to an access port. What happens?
+A. The port transitions quickly to forwarding
+B. The port is placed in err-disabled state
+C. The port becomes a trunk
+D. BPDU Guard is disabled on that port
+ANSWER: B
+
+A network uses MST (Multiple Spanning Tree). VLANs 10-20 are mapped to instance 1, VLANs 30-40 to instance 2. What is the benefit?
+A. All VLANs share one spanning tree, saving resources
+B. Different spanning trees for different VLAN groups allow better load balancing
+C. MST eliminates the need for STP
+D. MST automatically configures VLANs
+ANSWER: B
+
+An engineer wants to prevent a rogue switch from becoming root bridge on access ports. Which feature should be used?
+A. BPDU Guard
+B. Root Guard
+C. Loop Guard
+D. PortFast
+ANSWER: B
+
+In STP, what happens if the root bridge fails?
+A. The network remains partitioned
+B. A new root bridge election occurs
+C. All switches become isolated
+D. STP is disabled
+ANSWER: B
+
+An engineer configures `spanning-tree uplinkfast` on an access layer switch. What is its purpose?
+A. To speed up server port transitions
+B. To quickly transition to alternate uplink upon root port failure
+C. To disable STP on uplinks
+D. To create redundant uplinks
+ANSWER: B
+
+A switch has Root Guard enabled on a port. It receives a superior BPDU on that port. What happens?
+A. The port becomes root port
+B. The port is placed in root-inconsistent state
+C. The port is disabled
+D. Nothing; Root Guard ignores BPDUs
+ANSWER: B
+
+A router can ping its own interface IP but not the directly connected neighbor. Both interfaces show `up/up`. The neighbor has `ip access-group 100 in` on its interface. What is most likely?
+A. The neighbor interface is down
+B. The ACL blocks ICMP
+C. The cable is faulty
+D. Routing protocol is not configured
+ANSWER: B
+
+A `traceroute` to a destination shows `* * *` at hop 3 but the trace completes to hop 5. What does `* * *` at hop 3 indicate?
+A. Hop 3 is down
+B. Hop 3 does not respond to ICMP time-exceeded
+C. The packet was lost
+D. TTL expired prematurely
+ANSWER: B
+
+A switch CAM table shows thousands of entries for the same source MAC on different ports. What is likely happening?
+A. Normal operation
+B. MAC flooding attack
+C. STP reconvergence
+D. VLAN hopping
+ANSWER: B
+
+A router CPU usage spikes to 99% after an engineer runs `debug ip packet detail`. Console becomes unresponsive. What is the best recovery action?
+A. Reload the router
+B. Press Ctrl+Shift+6 then x, then `no debug all`
+C. Disconnect and reconnect console cable
+D. Wait for CPU to normalize
+ANSWER: B
+
+A network has HSRP configured. Router A is active with priority 110, Router B is standby with priority 100. Router A's interface fails. Router B becomes active. Router A's interface recovers. What happens by default?
+A. Router A preempts and becomes active again
+B. Router B remains active; preemption is not enabled by default
+C. Both become active
+D. HSRP fails
+ANSWER: B
+
+A DHCP client receives IP 169.254.100.50. The interface shows APIPA address. The cable tests good. The switch port shows `up/up`. What is the most likely cause?
+A. DHCP server is down
+B. No DHCP server on the subnet and no relay agent configured
+C. The client NIC is faulty
+D. The subnet mask is wrong
+ANSWER: B
+
+A router has two paths to 192.168.10.0/24: OSPF cost 100 and EIGRP metric 28160. Both are in routing table. Which is used?
+A. OSPF (lower cost)
+B. EIGRP (lower AD 90 vs 110)
+C. Both (load balancing)
+D. Neither; they conflict
+ANSWER: B
+
+An engineer configures NAT but inside hosts cannot access the Internet. `show ip nat translations` shows no entries. What is most likely missing?
+A. `ip nat inside` and `ip nat outside` on interfaces
+B. The routing table
+C. DHCP configuration
+D. ACL configuration
+ANSWER: A
+
+A switch port configured with `switchport port-security` has a security violation. The port LED is off. `show interface status` shows `err-disabled`. What is the quickest way to recover?
+A. `no shutdown` on the interface
+B. `errdisable recovery cause psecure-violation` or manually `shutdown` then `no shutdown`
+C. Reload the switch
+D. Remove port-security configuration
+ANSWER: B
+
+A company has HQ with VLANs 10, 20, 30 and a branch office. They want to extend VLAN 10 to the branch across a routed WAN link. What technology is most appropriate?
+A. Trunking across the WAN
+B. Layer 2 tunneling (EoMPLS or VXLAN)
+C. Router-on-a-stick at branch
+D. Simply create VLAN 10 at branch with same subnet
+ANSWER: B
+
+A network engineer needs to connect two routers over an existing Ethernet infrastructure that does not support VLANs. They need a point-to-point logical connection. Which solution works?
+A. GRE tunnel
+B. VLAN trunk
+C. Frame Relay
+D. PPP over Ethernet
+ANSWER: A
+
+A company uses /30 subnets for 50 WAN links. The engineer wants to conserve IP addresses further. What alternative could be used for point-to-point links?
+A. /31 subnets per RFC 3021
+B. /32 host routes
+C. IPv6 only
+D. Unnumbered interfaces
+ANSWER: A
+
+An engineer needs to verify the path a packet takes through multiple routers, including which interfaces are used. Which combination of commands is most effective?
+A. `traceroute` and `show ip route` on each hop
+B. `ping` and `show cdp neighbors`
+C. `show ip interface brief` only
+D. `debug ip packet` on all routers
+ANSWER: A
+
+A network has redundant links between two sites: primary fiber and backup DSL. The engineer wants automatic failover with the fiber as primary. What routing approach is best?
+A. Equal-cost default routes
+B. Floating static route with higher AD for DSL backup
+C. Dynamic routing with bandwidth adjustment
+D. Policy-based routing only
+ANSWER: B
+
+A switch has VLAN 10 with IP 192.168.10.0/24. The engineer adds a second switch and wants the same VLAN extended. They connect with a trunk. Hosts on the second switch in VLAN 10 get IPs but cannot ping the first switch's VLAN 10 SVI. What is wrong?
+A. The second switch needs an SVI in VLAN 10
+B. The trunk is not carrying VLAN 10
+C. The first switch SVI is down
+D. Inter-VLAN routing is needed
+ANSWER: A
+
+A router has `ip nat inside source list 1 pool NAT-POOL overload` and `ip nat inside source static 192.168.1.10 203.0.113.10`. An internal host 192.168.1.10 accesses the Internet. Which translation is used?
+A. The dynamic NAT pool entry
+B. The static NAT entry (takes precedence for this host)
+C. Both simultaneously
+D. The overload entry only
+ANSWER: B
+
+A company wants to allow web traffic from any source to their DMZ web server at 10.1.1.100 but block all other traffic to the DMZ. Which ACL approach is correct?
+A. Standard ACL permitting 10.1.1.100
+B. Extended ACL permitting tcp any host 10.1.1.100 eq 80, then deny ip any 10.1.1.0 0.0.0.255
+C. Extended ACL denying all then permitting web
+D. Reflexive ACL on the DMZ interface
+ANSWER: B
+
+An engineer needs to verify that OSPF hello packets are being sent on an interface. Which debug command is most appropriate?
+A. debug ip ospf events
+B. debug ip ospf hello
+C. debug ip packet
+D. debug ip ospf adj
+ANSWER: B
+
+A multinational company has offices in New York, London, and Tokyo. Each office has its own /24 network. They want secure communication over the Internet between offices. Which solution is most appropriate?
+A. Leased lines between all offices
+B. Site-to-site VPN tunnels over Internet
+C. Frame Relay cloud
+D. Direct fiber connections
+ANSWER: B
+
+A data center has two core switches running HSRP. Switch A has priority 110, Switch B has priority 105. They track interface Fa0/1. If Fa0/1 on Switch A fails, what happens?
+A. Switch A remains active
+B. Switch B becomes active if priority decrement makes Switch A lower than 105
+C. Both become active
+D. HSRP fails entirely
+ANSWER: B
+
+An engineer configures a new switch with VTP mode server and connects it to the existing network. The new switch has no VLANs but higher VTP revision number. What happens to the existing VLAN database?
+A. The new switch learns existing VLANs
+B. Existing switches adopt the new switch's empty VLAN database
+C. Nothing changes
+D. VTP conflict is reported
+ANSWER: B
+
+A network has 500 IoT devices that need IP addresses. The engineer wants to separate them from corporate users for security. They have one physical network infrastructure. What is the best approach?
+A. Create a separate physical network
+B. Create a dedicated VLAN for IoT devices
+C. Use different IP subnet on same VLAN
+D. Assign static IPs to all IoT devices
+ANSWER: B
+
+A company is merging two networks: Network A uses 10.0.0.0/8 and Network B uses 10.0.0.0/8 with overlapping subnets. They need full communication during migration. What is the best temporary solution?
+A. Re-IP one network immediately
+B. Use NAT with twice NAT (source and destination translation)
+C. Create VLANs to separate
+D. Use different routing protocols
+ANSWER: B
+
+What type of network spans a single building or campus and typically uses Ethernet cabling?
+A. WAN
+B. MAN
+C. LAN
+D. PAN
+ANSWER: C
+
+A company has offices in New York, London, and Tokyo. Which network type connects these geographically dispersed locations?
+A. LAN
+B. MAN
+C. WAN
+D. VLAN
+ANSWER: C
+
+A metropolitan area network (MAN) typically covers which geographical scope?
+A. A single room
+B. A city or large campus
+C. A single country
+D. A continent
+ANSWER: B
+
+Which device operates at Layer 3 of the OSI model and makes forwarding decisions based on IP addresses?
+A. Switch
+B. Hub
+C. Router
+D. Bridge
+ANSWER: C
+
+In a network topology, which device is considered an end device rather than an intermediate device?
+A. Router
+B. Switch
+C. Printer
+D. Firewall
+ANSWER: C
+
+A network administrator needs to connect two switches in different wiring closets using fiber optic cable. Which cable type is most appropriate for this backbone connection?
+A. Cat5e UTP
+B. Coaxial cable
+C. Single-mode fiber
+D. Cat6 patch cable
+ANSWER: C
+
+Which tool is used to capture and analyze network packets traversing a specific interface?
+A. Traceroute
+B. Wireshark
+C. Ping
+D. Netstat
+ANSWER: B
+
+When configuring a Cisco router, which command sets the hostname to "Branch-Router-01"?
+A. set hostname Branch-Router-01
+B. hostname Branch-Router-01
+C. name Branch-Router-01
+D. configure hostname Branch-Router-01
+ANSWER: B
+
+Which command encrypts all plaintext passwords stored in the router configuration?
+A. service password-encryption
+B. encrypt passwords
+C. enable secret encryption
+D. password secure
+ANSWER: A
+
+A network administrator wants to display a warning message before the login prompt on a Cisco router. Which command achieves this?
+A. banner login
+B. banner motd
+C. message of the day
+D. display warning
+ANSWER: B
+
+Two routers are directly connected via their Serial 0/0/0 interfaces. Which type of cable is required for this same-device connectivity?
+A. Straight-through cable
+B. Crossover cable
+C. Serial DCE/DTE cable
+D. Rollover cable
+ANSWER: C
+
+A PC is connected to a switch's FastEthernet 0/1 port. Which cable type should be used for this different-device connectivity?
+A. Crossover cable
+B. Straight-through cable
+C. Serial cable
+D. Console cable
+ANSWER: B
+
+From Router-A, which command verifies Layer 3 connectivity to Router-B at IP address 192.168.1.2?
+A. trace 192.168.1.2
+B. ping 192.168.1.2
+C. verify 192.168.1.2
+D. test 192.168.1.2
+ANSWER: B
+
+A network requires 4 subnets with 50 hosts each, 2 subnets with 20 hosts each, and 2 subnets with 2 hosts each. Which technique allows for this efficient allocation?
+A. FLSM
+B. VLSM
+C. CIDR only
+D. Classful addressing
+ANSWER: B
+
+Given the network 192.168.10.0/24, what is the most appropriate subnet mask for a point-to-point WAN link requiring only 2 usable IP addresses?
+A. 255.255.255.0
+B. 255.255.255.128
+C. 255.255.255.252
+D. 255.255.255.224
+ANSWER: C
+
+A network administrator needs to create 8 subnets from 172.16.0.0/16. What prefix length should be used to optimize address space?
+A. /17
+B. /18
+C. /19
+D. /20
+ANSWER: C
+
+A PC cannot reach its default gateway at 192.168.1.1. Which command on the PC helps diagnose if the gateway is reachable?
+A. ipconfig
+B. ping 192.168.1.1
+C. tracert 192.168.1.1
+D. netstat -r
+ANSWER: B
+
+Using VLSM on 10.0.0.0/8, a subnet needs 1000 hosts. What prefix length provides the most efficient allocation?
+A. /20
+B. /21
+C. /22
+D. /24
+ANSWER: C
+
+In a VLSM-designed network, which subnet from 192.168.1.0/24 would be assigned to a serial link between two routers to minimize wasted addresses?
+A. 192.168.1.0/30
+B. 192.168.1.0/29
+C. 192.168.1.0/28
+D. 192.168.1.0/27
+ANSWER: A
+
+A topology has three LANs requiring 60, 30, and 14 hosts respectively. Starting with 192.168.1.0/24, which subnet should be assigned to the LAN needing 60 hosts?
+A. 192.168.1.0/25
+B. 192.168.1.0/26
+C. 192.168.1.0/27
+D. 192.168.1.0/28
+ANSWER: B
+
+Which Cisco IOS command creates VLAN 20 with the name "Sales"?
+A. vlan 20 name Sales
+B. vlan 20 name Sales
+C. create vlan 20 Sales
+D. interface vlan 20 description Sales
+ANSWER: B
+
+On a Cisco switch, which command configures interface GigabitEthernet 0/1 as a trunk port carrying all VLANs?
+A. switchport mode trunk
+B. switchport trunk allowed all
+C. trunk mode on
+D. switchport mode dynamic
+ANSWER: A
+
+A router needs to route traffic between VLAN 10 and VLAN 20. Which technique enables this inter-VLAN routing?
+A. VLAN trunking
+B. Router-on-a-stick
+C. Spanning Tree Protocol
+D. Port security
+ANSWER: B
+
+In a router-on-a-stick configuration, which subinterface command encapsulates traffic for VLAN 30 using 802.1Q?
+A. encapsulation dot1q 30
+B. trunk vlan 30
+C. switchport trunk encapsulation dot1q 30
+D. vlan encapsulation 30
+ANSWER: A
+
+Which command on a Cisco switch verifies the trunking status of all interfaces?
+A. show trunk
+B. show interfaces trunk
+C. display trunk status
+D. show vlan trunk
+ANSWER: B
+
+A DHCP server needs to exclude addresses 192.168.1.1 through 192.168.1.10 from being assigned. Which command achieves this?
+A. ip dhcp excluded-address 192.168.1.1 192.168.1.10
+B. dhcp exclude 192.168.1.1 to 192.168.1.10
+C. no dhcp address 192.168.1.1 192.168.1.10
+D. ip dhcp pool exclude 192.168.1.1 192.168.1.10
+ANSWER: A
+
+Which command defines a DHCP address pool named "LAN-POOL" for network 192.168.1.0/24?
+A. ip dhcp pool LAN-POOL network 192.168.1.0 255.255.255.0
+B. dhcp pool LAN-POOL 192.168.1.0/24
+C. ip dhcp LAN-POOL 192.168.1.0
+D. network dhcp LAN-POOL 192.168.1.0
+ANSWER: A
+
+A router interface needs to forward DHCP requests from a local subnet to a DHCP server on a different subnet. Which command enables this relay functionality?
+A. ip helper-address 192.168.10.5
+B. dhcp relay 192.168.10.5
+C. ip dhcp relay 192.168.10.5
+D. forward dhcp 192.168.10.5
+ANSWER: A
+
+Which command verifies the DHCP bindings on a Cisco router acting as a DHCP server?
+A. show dhcp bindings
+B. show ip dhcp binding
+C. display dhcp leases
+D. show dhcp server bindings
+ANSWER: B
+
+A network administrator configures a static route to reach 192.168.5.0/24 via next-hop 10.1.1.2. Which command is correct?
+A. ip route 192.168.5.0 255.255.255.0 10.1.1.2
+B. route static 192.168.5.0/24 10.1.1.2
+C. ip static-route 192.168.5.0 10.1.1.2
+D. add route 192.168.5.0 255.255.255.0 10.1.1.2
+ANSWER: A
+
+Which static route configuration sends all traffic with no specific match to the next-hop 203.0.113.1?
+A. ip route 0.0.0.0 0.0.0.0 203.0.113.1
+B. default-route 203.0.113.1
+C. ip default-gateway 203.0.113.1
+D. route 0.0.0.0 203.0.113.1
+ANSWER: A
+
+Which command displays the routing table on a Cisco router to verify installed routes?
+A. show route
+B. show ip route
+C. display routing-table
+D. show routing
+ANSWER: B
+
+A router running RIP needs to advertise the directly connected network 192.168.10.0. Which command is used?
+A. network 192.168.10.0
+B. router rip network 192.168.10.0
+C. rip network 192.168.10.0
+D. advertise 192.168.10.0
+ANSWER: B
+
+Which dynamic routing protocol uses DUAL algorithm and supports unequal-cost load balancing?
+A. RIP
+B. OSPF
+C. EIGRP
+D. BGP
+ANSWER: C
+
+In OSPF, which command enables the routing process and enters router configuration mode?
+A. router ospf 1
+B. ospf enable 1
+C. ip ospf 1
+D. routing ospf 1
+ANSWER: A
+
+Which OSPF command advertises the network 10.1.1.0/24 into area 0?
+A. network 10.1.1.0 0.0.0.255 area 0
+B. ospf network 10.1.1.0/24 area 0
+C. area 0 network 10.1.1.0
+D. network 10.1.1.0 255.255.255.0 area 0
+ANSWER: A
+
+Which command displays the OSPF neighbor table to verify adjacency formation?
+A. show ospf neighbors
+B. show ip ospf neighbor
+C. display ospf adjacency
+D. show neighbors ospf
+ANSWER: B
+
+A router needs to translate a specific internal IP 192.168.1.10 to a specific public IP 203.0.113.10. Which NAT type is this?
+A. Dynamic NAT
+B. Static NAT
+C. PAT
+D. NAT overload
+ANSWER: B
+
+Which command configures a static NAT translation mapping inside local 192.168.1.5 to inside global 203.0.113.5?
+A. ip nat inside source static 192.168.1.5 203.0.113.5
+B. nat static 192.168.1.5 203.0.113.5
+C. ip nat static 192.168.1.5 203.0.113.5
+D. static nat 192.168.1.5 203.0.113.5
+ANSWER: A
+
+Dynamic NAT uses a pool of public addresses. Which command defines the NAT pool "PUBLIC-POOL" with addresses 203.0.113.10 to 203.0.113.20?
+A. ip nat pool PUBLIC-POOL 203.0.113.10 203.0.113.20 netmask 255.255.255.0
+B. nat pool PUBLIC-POOL 203.0.113.10 203.0.113.20
+C. ip nat dynamic pool PUBLIC-POOL 203.0.113.10 203.0.113.20
+D. nat address pool PUBLIC-POOL 203.0.113.10 203.0.113.20
+ANSWER: A
+
+PAT (Port Address Translation) allows multiple internal hosts to share a single public IP address. Which command enables PAT using interface overload?
+A. ip nat inside source list 1 interface serial 0/0/0 overload
+B. nat pat interface serial 0/0/0
+C. ip nat overload serial 0/0/0
+D. pat enable serial 0/0/0
+ANSWER: A
+
+Which command designates an interface as the "inside" NAT interface?
+A. ip nat inside
+B. nat inside
+C. interface nat inside
+D. ip nat interface inside
+ANSWER: A
+
+A standard ACL filters traffic based on which criteria?
+A. Source IP address only
+B. Source and destination IP addresses
+C. Source IP, destination IP, and port numbers
+D. Protocol type only
+ANSWER: A
+
+Which command creates a standard ACL numbered 10 that denies host 192.168.1.100?
+A. access-list 10 deny 192.168.1.100 0.0.0.0
+B. access-list 10 deny host 192.168.1.100
+C. acl 10 deny 192.168.1.100
+D. Both A and B
+ANSWER: D
+
+An extended ACL can filter based on source IP, destination IP, protocol, and port number. Which number range is valid for extended ACLs?
+A. 1-99
+B. 100-199
+C. 1300-1999
+D. 200-299
+ANSWER: B
+
+Which command creates an extended ACL 101 that blocks Telnet (port 23) from any source to the server at 192.168.10.5?
+A. access-list 101 deny tcp any host 192.168.10.5 eq 23
+B. access-list 101 deny telnet any 192.168.10.5
+C. access-list 101 deny any host 192.168.10.5 port 23
+D. access-list 101 block tcp any 192.168.10.5 23
+ANSWER: A
+
+Where should a standard ACL be placed in the network topology for optimal effectiveness?
+A. Close to the destination
+B. Close to the source
+C. On the outbound interface of the destination router
+D. On any trunk interface
+ANSWER: B
+
+Where should an extended ACL be placed in the network topology for optimal effectiveness?
+A. Close to the source
+B. Close to the destination
+C. On the inbound interface of the destination router
+D. On the core switch
+ANSWER: A
+
+Which command applies ACL 10 to filter incoming traffic on interface FastEthernet 0/0?
+A. ip access-group 10 in
+B. access-list apply 10 in
+C. interface access-group 10 in
+D. apply acl 10 inbound
+ANSWER: A
+
+Spanning Tree Protocol (STP) prevents which network issue in redundant topologies?
+A. Broadcast storms and Layer 2 loops
+B. IP address conflicts
+C. Routing loops
+D. VLAN leaks
+ANSWER: A
+
+In STP, which port role has the lowest cost path to the root bridge?
+A. Root port
+B. Designated port
+C. Alternate port
+D. Blocked port
+ANSWER: A
+
+Which command on a Cisco switch verifies the STP root bridge election and port roles?
+A. show spanning-tree
+B. show stp status
+C. display spanning-tree
+D. show tree
+ANSWER: A
+
+A switch has a lower bridge priority value than its neighbor. What is the likely outcome in STP root bridge election?
+A. The neighbor becomes root
+B. This switch becomes root
+C. Both share root duties
+D. STP is disabled
+ANSWER: B
+
+Which command configures a switch to become the root bridge for VLAN 10 using the primary macro?
+A. spanning-tree vlan 10 root primary
+B. stp vlan 10 root
+C. root bridge vlan 10
+D. spanning-tree root vlan 10 primary
+ANSWER: A
+
+In a topology with redundant links between switches, which STP port state learns MAC addresses but does not forward user frames?
+A. Blocking
+B. Listening
+C. Learning
+D. Forwarding
+ANSWER: C
+
+A network topology shows three switches connected in a triangle. Without STP, what problem occurs when a broadcast frame enters this topology?
+A. The frame is dropped immediately
+B. Broadcast storm consumes all bandwidth
+C. The frame routes to the default gateway
+D. Unicast flooding occurs only
+ANSWER: B
+
+Which command enables Rapid PVST+ on a Cisco switch?
+A. spanning-tree mode rapid-pvst
+B. stp rapid enable
+C. spanning-tree rapid
+D. rapid spanning-tree
+ANSWER: A
+
+A packet sniffer is placed on a switch port. By default, it only captures traffic destined for that port. Which switch feature allows capturing all VLAN traffic?
+A. VLAN trunking
+B. SPAN (Switched Port Analyzer)
+C. Port mirroring
+D. Both B and C
+ANSWER: D
+
+Which command on a Cisco router enables synchronous logging so that console messages do not interrupt command typing?
+A. logging synchronous
+B. synchronous logging
+C. console logging sync
+D. log sync console
+ANSWER: A
+
+In a network topology, Router R1 connects to Router R2 via serial link and to Switch S1 via Ethernet. Which command on R1's Ethernet interface enables it to receive DHCP requests from S1's VLANs and forward them to a DHCP server at 10.10.10.10?
+A. ip helper-address 10.10.10.10
+B. dhcp relay 10.10.10.10
+C. ip dhcp forward 10.10.10.10
+D. helper-address dhcp 10.10.10.10
+ANSWER: A
+
+A topology requires a /30 subnet for a WAN link between HQ and Branch routers. If 192.168.100.0/24 is available, which subnet is correctly assigned without overlapping previously allocated /26 subnets?
+A. 192.168.100.192/30
+B. 192.168.100.224/30
+C. 192.168.100.252/30
+D. 192.168.100.248/30
+ANSWER: D
+
+Which command verifies the NAT translations currently active on a router?
+A. show nat translations
+B. show ip nat translations
+C. display nat table
+D. show translations nat
+ANSWER: B
+
+A router interface is configured with "ip nat outside". What does this designation indicate?
+A. The interface faces the internal private network
+B. The interface faces the external public network
+C. The interface is disabled for NAT
+D. The interface uses dynamic NAT only
+ANSWER: B
+
+Which RIP version supports VLSM and authentication?
+A. RIP v1
+B. RIP v2
+C. RIPng
+D. Both A and B
+ANSWER: B
+
+In EIGRP, which command disables automatic summarization at classful boundaries?
+A. no auto-summary
+B. disable summary
+C. no eigrp summary
+D. eigrp no-auto-summary
+ANSWER: A
+
+Which OSPF network type is used by default on Ethernet interfaces in a multi-access topology?
+A. Point-to-point
+B. Broadcast
+C. Non-broadcast
+D. Point-to-multipoint
+ANSWER: B
+
+A topology has two routers connected via a serial link using HDLC encapsulation. The administrator wants to use PPP with CHAP authentication. Which command changes the encapsulation?
+A. encapsulation ppp
+B. ppp encapsulation
+C. interface ppp
+D. protocol ppp
+ANSWER: A
+
+Which command verifies the interface IP address, status, and protocol state on a Cisco router?
+A. show ip interface brief
+B. show interfaces
+C. display ip brief
+D. show status
+ANSWER: A
+
+A university campus network connects multiple buildings across a 5-mile radius using fiber infrastructure. Which network classification best describes this deployment?
+A. LAN
+B. MAN
+C. WAN
+D. PAN
+ANSWER: B
+
+In a hierarchical network design, which layer is responsible for high-speed backbone connectivity between distribution switches?
+A. Access layer
+B. Distribution layer
+C. Core layer
+D. Edge layer
+ANSWER: C
+
+A network engineer connects a workstation to a switch using a cable where pins 1,2,3,6 on one end map to pins 3,6,1,2 on the other. What type of cable is this?
+A. Straight-through
+B. Crossover
+C. Rollover
+D. Serial
+ANSWER: B
+
+Which intermediate device operates at Layer 2 and makes forwarding decisions based on MAC addresses?
+A. Router
+B. Layer 3 switch
+C. Layer 2 switch
+D. Firewall
+ANSWER: C
+
+An end device in a topology needs to communicate with devices on the same subnet. Which protocol resolves the Layer 3 address to a Layer 2 address?
+A. DNS
+B. DHCP
+C. ARP
+D. NAT
+ANSWER: C
+
+A network administrator captures packets on a mirrored port to analyze VoIP traffic quality issues. Which technique is being employed?
+A. Port scanning
+B. Packet sniffing/SPAN
+C. VLAN hopping
+D. MAC flooding
+ANSWER: B
+
+Which Cisco IOS command configures a console password to be "cisco123" and requires it for login?
+A. password cisco123 login
+B. console password cisco123
+C. line console 0 password cisco123 login
+D. set console password cisco123
+ANSWER: C
+
+To secure privileged EXEC mode with an encrypted password "secret99", which command is used?
+A. enable password secret99
+B. enable secret secret99
+C. privileged password secret99
+D. secret enable secret99
+ANSWER: B
+
+A router displays the message "%SYS-5-CONFIG_I: Configured from console by console" during command entry. Which command prevents this from interrupting typing?
+A. no logging console
+B. logging synchronous
+C. terminal monitor off
+D. no terminal messages
+ANSWER: B
+
+Which command creates a login banner that displays "AUTHORIZED ACCESS ONLY" before the username prompt?
+A. banner motd AUTHORIZED ACCESS ONLY
+B. banner login AUTHORIZED ACCESS ONLY
+C. message login AUTHORIZED ACCESS ONLY
+D. display banner AUTHORIZED ACCESS ONLY
+ANSWER: B
+
+In a lab topology, two routers are connected back-to-back via serial interfaces. One must provide clocking. Which command on the DCE end sets the clock rate to 64000?
+A. clock rate 64000
+B. clock set 64000
+C. set clock 64000
+D. serial clock 64000
+ANSWER: A
+
+A PC at 192.168.1.50/24 cannot ping 192.168.1.1. Which command on the PC reveals if the default gateway is reachable?
+A. arp -a
+B. ping 192.168.1.1
+C. route print
+D. nslookup 192.168.1.1
+ANSWER: B
+
+Which command on Router R1 tests connectivity to Router R2 at 10.1.1.2 and traces every hop along the path?
+A. ping 10.1.1.2
+B. traceroute 10.1.1.2
+C. trace 10.1.1.2
+D. path 10.1.1.2
+ANSWER: B
+
+A company has been allocated 172.16.0.0/16. The engineering department needs 500 hosts, sales needs 200, and IT needs 100. Using VLSM, what is the correct prefix for the engineering subnet?
+A. /22
+B. /23
+C. /24
+D. /21
+ANSWER: B
+
+Given 192.168.20.0/24, a topology requires subnets for: 45 hosts (LAN1), 25 hosts (LAN2), 12 hosts (LAN3), and 2 hosts (WAN). Which subnet mask should be used for LAN2?
+A. 255.255.255.192
+B. 255.255.255.224
+C. 255.255.255.240
+D. 255.255.255.248
+ANSWER: B
+
+A network uses 10.0.0.0/8 with VLSM. The first subnet allocated is 10.0.0.0/20 for 4000 hosts. What is the network address of the next available subnet if a /22 is needed for 1000 hosts?
+A. 10.0.16.0/22
+B. 10.0.32.0/22
+C. 10.0.4.0/22
+D. 10.0.8.0/22
+ANSWER: A
+
+A PC on subnet 192.168.5.0/26 reports it cannot reach the internet. Its IP is 192.168.5.62, gateway is 192.168.5.1. What is the most likely issue?
+A. The gateway is on a different subnet
+B. The PC IP is a network address
+C. The PC IP is a broadcast address
+D. The subnet mask is too large
+ANSWER: C
+
+Using VLSM with 172.16.0.0/16, allocate subnets in order: 2000 hosts, 1000 hosts, 500 hosts, 2 hosts (WAN). What is the broadcast address of the 500-host subnet?
+A. 172.16.31.255
+B. 172.16.23.255
+C. 172.16.15.255
+D. 172.16.7.255
+ANSWER: B
+
+A topology diagram shows Router A with interfaces: G0/0 (192.168.1.1/26), G0/1 (192.168.1.65/26), S0/0/0 (192.168.1.129/30). What is the first usable host address on the G0/1 subnet?
+A. 192.168.1.64
+B. 192.168.1.65
+C. 192.168.1.66
+D. 192.168.1.67
+ANSWER: C
+
+A network administrator needs to summarize the following subnets: 192.168.10.0/24, 192.168.11.0/24, 192.168.12.0/24, 192.168.13.0/24. What is the correct summary route?
+A. 192.168.10.0/22
+B. 192.168.8.0/22
+C. 192.168.10.0/23
+D. 192.168.12.0/22
+ANSWER: A
+
+On a Cisco switch, which command enters VLAN database configuration mode to create VLAN 50 named "Finance"?
+A. vlan database vlan 50 name Finance
+B. configure terminal vlan 50 name Finance
+C. vlan 50 name Finance
+D. create vlan 50 Finance
+ANSWER: B
+
+A trunk link between two switches must carry only VLANs 10, 20, and 30. Which command restricts the allowed VLANs on the trunk?
+A. switchport trunk allowed vlan 10,20,30
+B. trunk allow vlan 10,20,30
+C. switchport trunk vlan 10,20,30
+D. allowed vlan trunk 10,20,30
+ANSWER: A
+
+Which native VLAN is used by default on an 802.1Q trunk, and which command changes it to VLAN 99?
+A. VLAN 1; switchport trunk native vlan 99
+B. VLAN 99; switchport trunk native vlan 1
+C. VLAN 0; switchport trunk native vlan 99
+D. VLAN 1; native vlan 99
+ANSWER: A
+
+In a router-on-a-stick topology, the router subinterface for VLAN 20 has IP 192.168.20.1/24. Which command on the physical interface enables trunking to carry this VLAN?
+A. No command needed on physical interface
+B. switchport mode trunk
+C. encapsulation dot1q 20
+D. trunk enable
+ANSWER: A
+
+A multilayer switch performs inter-VLAN routing without external routers. Which feature must be enabled?
+A. IP routing
+B. VLAN routing
+C. Layer 2 switching
+D. Router-on-a-stick
+ANSWER: A
+
+Which command on a Layer 3 switch creates a switched virtual interface (SVI) for VLAN 40 with IP 192.168.40.1/24?
+A. interface vlan 40 ip address 192.168.40.1 255.255.255.0 no shutdown
+B. vlan 40 interface 192.168.40.1
+C. svi 40 192.168.40.1
+D. interface svi 40 ip address 192.168.40.1
+ANSWER: A
+
+A switchport is configured with "switchport mode access" and "switchport access vlan 25". What happens to untagged frames entering this port?
+A. They are dropped
+B. They are assigned to VLAN 25
+C. They are forwarded to the native VLAN
+D. They are tagged with VLAN 1
+ANSWER: B
+
+Which command verifies which VLANs are currently active and their associated ports on a switch?
+A. show vlan brief
+B. show vlan status
+C. display vlans
+D. show switch vlan
+ANSWER: A
+
+A DHCP server configuration shows: ip dhcp pool CORP; network 10.10.10.0 255.255.255.0; default-router 10.10.10.1; dns-server 8.8.8.8. Which IP will a client most likely receive if it is the first to request?
+A. 10.10.10.0
+B. 10.10.10.1
+C. 10.10.10.2
+D. 10.10.10.255
+ANSWER: C
+
+Which command on a router acting as DHCP server reserves the range 192.168.1.1 through 192.168.1.20 so they are never assigned to clients?
+A. ip dhcp excluded-address 192.168.1.1 192.168.1.20
+B. dhcp reserve 192.168.1.1 192.168.1.20
+C. ip dhcp pool exclude 192.168.1.1 192.168.1.20
+D. no dhcp assign 192.168.1.1 192.168.1.20
+ANSWER: A
+
+A DHCP relay agent receives a broadcast DHCPDISCOVER from a client. What destination IP does the relay agent use to forward this to the DHCP server?
+A. 255.255.255.255
+B. The IP configured in ip helper-address
+C. 0.0.0.0
+D. The client's IP address
+ANSWER: B
+
+Which command displays the complete DHCP pool configuration and utilization statistics on a Cisco router?
+A. show ip dhcp pool
+B. show dhcp pool
+C. display ip dhcp pool
+D. show ip dhcp statistics
+ANSWER: A
+
+A DHCP client sends a DHCPREQUEST. What is the source IP address in this packet if the client has not yet received an IP?
+A. 0.0.0.0
+B. 255.255.255.255
+C. The offered IP address
+D. The server's IP address
+ANSWER: A
+
+A topology has three routers: R1, R2, R3 in a triangle. R1 needs a static route to reach 192.168.30.0/24 via R2 at 10.1.1.2. Which command is correct on R1?
+A. ip route 192.168.30.0 255.255.255.0 10.1.1.2
+B. route static 192.168.30.0/24 10.1.1.2
+C. static route 192.168.30.0 10.1.1.2
+D. ip route 192.168.30.0 10.1.1.2
+ANSWER: A
+
+A stub router has only one exit point to the ISP at 203.0.113.1. Which floating static route command provides backup via 203.0.113.2 with AD 10?
+A. ip route 0.0.0.0 0.0.0.0 203.0.113.2 10
+B. ip route 0.0.0.0 0.0.0.0 203.0.113.2
+C. floating route 0.0.0.0 203.0.113.2 10
+D. ip route 0.0.0.0 0.0.0.0 203.0.113.2 permanent 10
+ANSWER: A
+
+Which command on a router shows only connected routes and their outgoing interfaces?
+A. show ip route connected
+B. show ip route | include C
+C. show ip route summary
+D. show ip interface brief
+ANSWER: B
+
+A router has the following routes: 192.168.1.0/24 via 10.1.1.1, 192.168.1.128/25 via 10.1.1.2, 0.0.0.0/0 via 10.1.1.3. A packet destined for 192.168.1.200 arrives. Which route is selected?
+A. 192.168.1.0/24
+B. 192.168.1.128/25
+C. 0.0.0.0/0
+D. Packet is dropped
+ANSWER: B
+
+Router R1 is running RIPv2. It has interfaces in 192.168.1.0/24, 192.168.2.0/24, and a WAN link 10.1.1.0/30. Which command prevents RIP from advertising the WAN link?
+A. passive-interface serial 0/0/0
+B. no network 10.1.1.0
+C. exclude interface serial 0/0/0
+D. rip passive serial 0/0/0
+ANSWER: A
+
+Which RIP timer controls how long a route remains in the routing table after no updates are received?
+A. Update timer
+B. Invalid timer
+C. Holddown timer
+D. Flush timer
+ANSWER: D
+
+EIGRP uses which composite metric by default for route selection?
+A. Bandwidth only
+B. Delay only
+C. Bandwidth and Delay
+D. Hop count and Delay
+ANSWER: C
+
+Which EIGRP command on a router advertises the 172.16.0.0/16 network without subnetting constraints?
+A. network 172.16.0.0 0.0.255.255
+B. network 172.16.0.0
+C. eigrp network 172.16.0.0
+D. router eigrp 100 network 172.16.0.0 255.255.0.0
+ANSWER: B
+
+In OSPF, which LSA type is generated by an ABR to advertise routes from one area to another?
+A. Type 1
+B. Type 2
+C. Type 3
+D. Type 5
+ANSWER: C
+
+Which OSPF command on a broadcast interface changes the network type to point-to-point, eliminating the need for DR/BDR election?
+A. ip ospf network point-to-point
+B. ospf mode point-to-point
+C. network point-to-point
+D. ip ospf point-to-point
+ANSWER: A
+
+An OSPF router has Router ID 1.1.1.1 and is connected to area 0 and area 1. What is this router's role?
+A. Internal Router
+B. Backbone Router
+C. Area Border Router (ABR)
+D. Autonomous System Boundary Router (ASBR)
+ANSWER: C
+
+Which command verifies the OSPF database and displays all LSAs known to the router?
+A. show ip ospf database
+B. show ospf lsdb
+C. display ip ospf database
+D. show ip ospf lsa
+ANSWER: A
+
+A company has a web server at 192.168.1.10 that must always be accessible from the internet using 203.0.113.10. Which NAT configuration is required?
+A. ip nat inside source static 192.168.1.10 203.0.113.10
+B. ip nat inside source dynamic 192.168.1.10 203.0.113.10
+C. ip nat pool WEB 192.168.1.10 203.0.113.10
+D. ip nat inside source list 1 pool WEB
+ANSWER: A
+
+Which command clears all dynamic NAT translations from the translation table on a Cisco router?
+A. clear ip nat translation *
+B. clear nat translations
+C. reset ip nat
+D. delete nat translations
+ANSWER: A
+
+PAT is configured with overload on interface GigabitEthernet 0/0. What is the maximum number of unique TCP sessions that can be supported theoretically using a single public IP?
+A. 254
+B. 1024
+C. 64512
+D. 65536
+ANSWER: C
+
+A router has interfaces: G0/0 (ip nat inside), G0/1 (ip nat outside). A packet from 192.168.1.50 arrives at G0/0 destined for 8.8.8.8. Where does NAT translation occur?
+A. On G0/0 inbound
+B. On G0/0 outbound
+C. On G0/1 inbound
+D. On G0/1 outbound
+ANSWER: D
+
+Which command verifies the NAT statistics including total translations, hits, and misses?
+A. show ip nat statistics
+B. show nat stats
+C. display ip nat statistics
+D. show ip nat translations
+ANSWER: A
+
+A standard ACL numbered 20 is applied inbound on a router interface. Which direction of traffic does it filter?
+A. Traffic entering the interface
+B. Traffic exiting the interface
+C. Traffic in both directions
+D. Traffic only from the router itself
+ANSWER: A
+
+Which wildcard mask is equivalent to subnet mask 255.255.255.224 for use in ACLs or OSPF network statements?
+A. 0.0.0.31
+B. 0.0.0.255
+C. 0.0.0.224
+D. 0.0.0.63
+ANSWER: A
+
+An extended ACL 150 needs to permit HTTP traffic from any source to web server 192.168.10.100. Which command is correct?
+A. access-list 150 permit tcp any host 192.168.10.100 eq 80
+B. access-list 150 permit http any 192.168.10.100
+C. access-list 150 permit tcp any 192.168.10.100 port 80
+D. access-list 150 allow tcp any host 192.168.10.100 eq www
+ANSWER: A
+
+A standard ACL is applied to filter Telnet access to a router's VTY lines. Where should the ACL be applied?
+A. On the inbound interface closest to the users
+B. On the VTY lines using access-class
+C. On the outbound interface
+D. On the console line
+ANSWER: B
+
+Which command applies ACL 120 to filter outbound traffic on interface Serial 0/0/0?
+A. ip access-group 120 out
+B. access-list 120 out serial 0/0/0
+C. ip access-group 120 outbound
+D. apply access-list 120 out
+ANSWER: A
+
+An extended ACL is configured with "access-list 110 deny tcp 192.168.1.0 0.0.0.255 any eq 23". Which traffic is blocked?
+A. Telnet from 192.168.1.0/24 to any destination
+B. SSH from any to 192.168.1.0/24
+C. Telnet from any to 192.168.1.0/24
+D. HTTP from 192.168.1.0/24 to any
+ANSWER: A
+
+Which command at the end of every ACL ensures that unmatched traffic is explicitly denied?
+A. access-list deny any
+B. deny ip any any
+C. access-list 10 deny any
+D. Implicit deny is already present
+ANSWER: D
+
+In an STP topology, the root bridge has been elected. A non-root switch has two paths to the root. How does it determine which port becomes the root port?
+A. Lowest MAC address
+B. Lowest port number
+C. Lowest root path cost
+D. Highest bridge priority
+ANSWER: C
+
+Which STP port state immediately follows the Listening state during convergence?
+A. Blocking
+B. Learning
+C. Forwarding
+D. Disabled
+ANSWER: B
+
+A network topology has redundant links between Switch-A and Switch-B. STP places one link in blocking state. If the forwarding link fails, how long does it take for the blocked port to transition to forwarding using default timers?
+A. 2 seconds
+B. 15 seconds
+C. 30 seconds
+D. 50 seconds
+ANSWER: D
+
+Which command on a Cisco switch changes the bridge priority to 4096 for VLAN 20 to influence root bridge election?
+A. spanning-tree vlan 20 priority 4096
+B. spanning-tree vlan 20 root primary
+C. stp priority 4096 vlan 20
+D. bridge priority 4096 vlan 20
+ANSWER: A
+
+PortFast is configured on a switchport connected to a server. What is the primary benefit?
+A. Increases bandwidth
+B. Bypasses STP listening/learning states for immediate forwarding
+C. Enables trunking automatically
+D. Prevents MAC flooding
+ANSWER: B
+
+Which command enables BPDU Guard on a switch to protect PortFast ports from receiving BPDUs?
+A. spanning-tree portfast bpduguard
+B. spanning-tree bpduguard enable
+C. spanning-tree portfast bpduguard default
+D. bpduguard enable
+ANSWER: C
+
+A topology shows four switches in a loop. STP has blocked one port to prevent loops. If the blocked port suddenly starts forwarding due to a configuration error, what immediate symptom occurs?
+A. All switches reboot
+B. Broadcast storm and MAC table instability
+C. VLANs are deleted
+D. Routing table corruption
+ANSWER: B
+
+Which command displays the STP port roles, states, and costs for all interfaces on a switch?
+A. show spanning-tree
+B. show stp interface
+C. display spanning-tree ports
+D. show port stp
+ANSWER: A
+
+A network engineer uses Wireshark to capture traffic on a promiscuous mode interface. Which OSI layer information can be analyzed from the captured frames?
+A. Layer 1 only
+B. Layer 2 and above
+C. Layer 3 only
+D. Layer 4 only
+ANSWER: B
+
+In a packet capture, the Ethernet frame shows destination MAC ff:ff:ff:ff:ff:ff. What type of traffic is this?
+A. Unicast
+B. Multicast
+C. Broadcast
+D. Anycast
+ANSWER: C
+
+A network topology requires a rollover cable. Which pinout is characteristic of this cable type?
+A. 1-1, 2-2, 3-3, 6-6
+B. 1-3, 2-6, 3-1, 6-2
+C. 1-8, 2-7, 3-6, 4-5, 5-4, 6-3, 7-2, 8-1
+D. 1-2, 2-1, 3-4, 4-3
+ANSWER: C
+
+Which command on a Cisco router saves the running configuration to NVRAM so it persists after reboot?
+A. save config
+B. copy running-config startup-config
+C. write memory
+D. Both B and C
+ANSWER: D
+
+A router interface shows "administratively down" in the output of show ip interface brief. What command is needed to enable it?
+A. interface up
+B. no shutdown
+C. enable interface
+D. activate
+ANSWER: B
+
+In a topology with VLSM, a subnet 172.16.4.0/22 is allocated. How many total IP addresses are in this subnet?
+A. 256
+B. 512
+C. 1024
+D. 2048
+ANSWER: C
+
+A network uses 192.168.100.0/24. The first subnet is 192.168.100.0/26 for 60 hosts. What is the broadcast address of the second /26 subnet?
+A. 192.168.100.63
+B. 192.168.100.127
+C. 192.168.100.191
+D. 192.168.100.255
+ANSWER: B
+
+Which command on a switch removes VLAN 100 from the VLAN database entirely?
+A. no vlan 100
+B. delete vlan 100
+C. remove vlan 100
+D. vlan 100 delete
+ANSWER: A
+
+A trunk port receives an untagged frame. Which VLAN is this frame associated with if the native VLAN is changed to 999?
+A. VLAN 1
+B. VLAN 999
+C. VLAN 0
+D. The frame is dropped
+ANSWER: B
+
+In a router-on-a-stick topology, the router has one physical interface divided into subinterfaces. What is the maximum number of VLANs that can be supported by this design?
+A. 256
+B. 1000
+C. 4094
+D. Unlimited
+ANSWER: C
+
+Which command on a multilayer switch enables routing between VLANs using SVIs?
+A. ip routing
+B. routing enable
+C. layer3 routing
+D. svi routing
+ANSWER: A
+
+A DHCP client is on VLAN 50 with subnet 192.168.50.0/24. The DHCP server is at 192.168.10.5 on VLAN 10. Which device needs the ip helper-address configuration?
+A. The DHCP server
+B. The client's default gateway/SVI
+C. The core switch
+D. No device needs it
+ANSWER: B
+
+Which command verifies the IP addresses assigned by DHCP to clients along with their MAC addresses and lease expiration?
+A. show ip dhcp binding
+B. show dhcp leases
+C. show ip dhcp pool
+D. show dhcp clients
+ANSWER: A
+
+A static route is configured as "ip route 10.0.0.0 255.0.0.0 Null0". What is the purpose of this route?
+A. To forward traffic to 10.0.0.0/8 via the null interface
+B. To create a summary route that prevents routing loops
+C. To block all traffic to 10.0.0.0/8
+D. To enable dynamic routing for 10.0.0.0/8
+ANSWER: B
+
+Which command on a router running EIGRP displays the successor and feasible successor routes for all networks?
+A. show ip eigrp topology
+B. show eigrp routes
+C. show ip route eigrp
+D. show eigrp topology table
+ANSWER: A
+
+In OSPF, which command changes the reference bandwidth to accommodate modern high-speed links like 10 Gbps?
+A. auto-cost reference-bandwidth 10000
+B. ospf bandwidth 10000
+C. reference-bandwidth 10000
+D. ip ospf cost reference 10000
+ANSWER: A
+
+Which OSPF LSA type is generated by an ASBR to advertise external routes redistributed into OSPF?
+A. Type 1
+B. Type 3
+C. Type 4
+D. Type 5
+ANSWER: D
+
+A router is configured with both OSPF and EIGRP. Which feature allows routes learned from EIGRP to be advertised into OSPF?
+A. Route redistribution
+B. Route summarization
+C. Route filtering
+D. Route tagging
+ANSWER: A
+
+Which NAT type translates multiple private addresses to a single public address using unique source port numbers?
+A. Static NAT
+B. Dynamic NAT
+C. PAT
+D. Overlapping NAT
+ANSWER: C
+
+A router has the following NAT configuration: ip nat inside source list 10 pool PUBLIC overload. What does "overload" signify?
+A. The pool can contain more than 100 addresses
+B. PAT is enabled using the pool addresses
+C. The router will use both inside and outside interfaces
+D. Multiple pools can be used simultaneously
+ANSWER: B
+
+Which command verifies the active NAT translations showing inside local, inside global, outside local, and outside global addresses?
+A. show ip nat translations
+B. show nat active
+C. display ip nat translations
+D. show ip nat statistics
+ANSWER: A
+
+An ACL is configured with "access-list 25 permit 192.168.10.0 0.0.0.255". Which statement is true about this ACL?
+A. It is an extended ACL
+B. It filters based on destination IP
+C. It is a standard ACL numbered 25
+D. It permits traffic from any source
+ANSWER: C
+
+Which command creates a named extended ACL called "BLOCK-TELNET" that denies Telnet access?
+A. ip access-list extended BLOCK-TELNET deny tcp any any eq 23
+B. access-list extended BLOCK-TELNET deny telnet
+C. named acl BLOCK-TELNET deny tcp any any eq 23
+D. extended access-list BLOCK-TELNET deny telnet
+ANSWER: A
+
+An ACL is applied inbound on a router's LAN interface. Where should it be placed to filter traffic from the internet before it enters the internal network?
+A. Inbound on the WAN interface
+B. Outbound on the LAN interface
+C. Inbound on the LAN interface
+D. Outbound on the WAN interface
+ANSWER: A
+
+Which command displays the contents of all configured ACLs on a router?
+A. show access-lists
+B. show ip access-list
+C. display acl
+D. show acl configuration
+ANSWER: A
+
+In STP, which bridge ID component is compared first during root bridge election?
+A. MAC address
+B. Bridge priority
+C. Port ID
+D. Root path cost
+ANSWER: B
+
+A switch port is configured with PortFast and receives a BPDU. What happens if BPDU Guard is enabled?
+A. The port transitions to blocking state
+B. The port is placed in err-disabled state
+C. The port ignores the BPDU
+D. The port becomes a trunk
+ANSWER: B
+
+Which command on a switch configures UplinkFast to accelerate convergence when a direct root link fails?
+A. spanning-tree uplinkfast
+B. spanning-tree mode uplinkfast
+C. uplinkfast enable
+D. spanning-tree fast-convergence
+ANSWER: A
+
+A network topology has a root bridge, and a non-root switch has a root port with cost 19. An alternate path exists with cost 38. What is the feasible condition for the alternate port?
+A. It can immediately become root port if the current root port fails
+B. It must wait for 50 seconds
+C. It is placed in blocking state permanently
+D. It becomes a designated port
+ANSWER: A
+
+Which command enables RSTP (802.1w) on a Cisco switch?
+A. spanning-tree mode rstp
+B. spanning-tree mode rapid-pvst
+C. rstp enable
+D. spanning-tree rstp
+ANSWER: B
+
+A topology shows a switch with PortFast enabled on all access ports. What potential security risk exists if a hub is accidentally connected to one of these ports?
+A. VLAN hopping
+B. Temporary Layer 2 loop until STP converges
+C. MAC address table overflow
+D. DHCP starvation
+ANSWER: B
+
+Which command displays the MAC address table on a switch, showing which MAC addresses are learned on which ports?
+A. show mac address-table
+B. show mac-table
+C. display mac addresses
+D. show cam table
+ANSWER: A
+
+A network engineer needs to test if a specific port (TCP 80) is open on a remote server at 192.168.1.100 from a Cisco router. Which command accomplishes this?
+A. ping 192.168.1.100 port 80
+B. telnet 192.168.1.100 80
+C. test port 192.168.1.100 80
+D. connect 192.168.1.100 80
+ANSWER: B
+
+In a VLSM topology, a company has 172.20.0.0/16. They need subnets for: 3000 hosts (HQ), 1500 hosts (Branch1), 700 hosts (Branch2), 250 hosts (Branch3), and 4 WAN links (2 hosts each). What is the correct allocation order for optimal address conservation?
+A. HQ /20, Branch1 /21, Branch2 /22, Branch3 /23, WAN /30
+B. HQ /21, Branch1 /22, Branch2 /23, Branch3 /24, WAN /30
+C. HQ /19, Branch1 /20, Branch2 /21, Branch3 /22, WAN /30
+D. HQ /22, Branch1 /23, Branch2 /24, Branch3 /25, WAN /30
+ANSWER: B
+
+A router has the following interfaces: Loopback0 (1.1.1.1/32), G0/0 (192.168.1.1/24), G0/1 (10.1.1.1/30). Which interface's IP is most likely used as the OSPF Router ID if no router-id is manually configured?
+A. G0/0
+B. G0/1
+C. Loopback0
+D. The highest IP among all active interfaces
+ANSWER: C
+
+Which command on a router running OSPF forces the router to use a specific Router ID of 2.2.2.2?
+A. router-id 2.2.2.2
+B. ospf router-id 2.2.2.2
+C. ip ospf router-id 2.2.2.2
+D. router ospf id 2.2.2.2
+ANSWER: A
+
+A switch has VLANs 10, 20, and 30. A new trunk link is established between this switch and another. Which command ensures VLAN 20 is pruned from the trunk to save bandwidth?
+A. switchport trunk allowed vlan remove 20
+B. no switchport trunk allowed vlan 20
+C. switchport trunk pruning vlan 20
+D. vlan 20 prune
+ANSWER: A
+
+Which command on a Cisco router displays the current configuration stored in RAM?
+A. show running-config
+B. show startup-config
+C. display current-config
+D. show config
+ANSWER: A
+
+A network topology uses 192.168.0.0/22. How many /30 subnets can be created from this block for WAN links?
+A. 16
+B. 32
+C. 64
+D. 128
+ANSWER: C
+
+Which command on a router clears the ARP cache, forcing it to relearn MAC addresses?
+A. clear arp-cache
+B. clear ip arp
+C. arp clear
+D. delete arp
+ANSWER: B
+
+In a DHCP starvation attack, an attacker exhausts the DHCP pool. Which switch security feature mitigates this by limiting MAC addresses per port?
+A. DHCP Snooping
+B. Port Security
+C. Dynamic ARP Inspection
+D. IP Source Guard
+ANSWER: B
+
+Which command on a switch enables DHCP Snooping on VLAN 10?
+A. ip dhcp snooping vlan 10
+B. dhcp snooping enable vlan 10
+C. ip dhcp snooping
+D. vlan 10 dhcp snooping
+ANSWER: A
+
+A router interface shows the output "Serial0/0/0 is up, line protocol is down". What does this indicate?
+A. Physical layer is good, data link layer has issues
+B. Both physical and data link layers are down
+C. The interface is administratively disabled
+D. The cable is disconnected
+ANSWER: A
+
+Which command on a router sets the bandwidth parameter on an interface to 100000 Kbps for EIGRP/OSPF metric calculation?
+A. bandwidth 100000
+B. speed 100000
+C. interface bandwidth 100000
+D. metric bandwidth 100000
+ANSWER: A
+
+A topology has two routers connected via Frame Relay. The administrator wants to use subinterfaces for multiple PVCs. Which subinterface type is appropriate for point-to-point connections?
+A. multipoint
+B. point-to-point
+C. frame-relay
+D. pvc
+ANSWER: B
+
+Which command on a router verifies the Layer 2 encapsulation protocol (HDLC, PPP, or Frame Relay) on a serial interface?
+A. show interface serial 0/0/0
+B. show encapsulation
+C. display layer2 serial 0/0/0
+D. show protocol serial 0/0/0
+ANSWER: A
+
+A network uses PPP with CHAP authentication. Which command configures the username and password for the remote router named "RemoteR2"?
+A. username RemoteR2 password cisco123
+B. chap username RemoteR2 cisco123
+C. ppp username RemoteR2 password cisco123
+D. auth user RemoteR2 cisco123
+ANSWER: A
+
+Which PPP authentication protocol sends passwords in plaintext by default?
+A. CHAP
+B. PAP
+C. EAP
+D. MS-CHAP
+ANSWER: B
+
+A router is configured with Frame Relay using subinterfaces. Which command maps the remote IP 10.1.1.2 to DLCI 102 on a point-to-point subinterface?
+A. frame-relay map ip 10.1.1.2 102
+B. frame-relay interface-dlci 102
+C. map frame-relay 10.1.1.2 102
+D. dlci map 102 10.1.1.2
+ANSWER: B
+
+Which command on a router displays the Frame Relay PVC status, including DLCI numbers and their status?
+A. show frame-relay pvc
+B. show frame-relay map
+C. display frame-relay status
+D. show pvc
+ANSWER: A
+
+In a hub-and-spoke Frame Relay topology, which OSPF network type should be used on spoke routers to prevent DR/BDR election issues?
+A. Broadcast
+B. Point-to-point
+C. Point-to-multipoint
+D. Non-broadcast
+ANSWER: C
+
+Which command on a Cisco switch configures a port to dynamically negotiate trunking with the connected device?
+A. switchport mode dynamic desirable
+B. switchport mode trunk auto
+C. switchport trunk dynamic
+D. trunk mode negotiate
+ANSWER: A
+
+A switchport is configured with "switchport mode dynamic auto". The connected device is also set to dynamic auto. What is the resulting port mode?
+A. Trunk
+B. Access
+C. Dynamic desirable
+D. Error disabled
+ANSWER: B
+
+A network engineer needs to verify the CDP neighbors connected to a switch. Which command shows device IDs, platform, and port information?
+A. show cdp neighbors
+B. show neighbors cdp
+C. display cdp
+D. show cdp status
+ANSWER: A
+
+Which command on a router enables CDP globally and on a specific interface?
+A. cdp run (global) and cdp enable (interface)
+B. cdp enable (global) and cdp run (interface)
+C. cdp start (global) and cdp interface enable
+D. cdp global on and cdp interface on
+ANSWER: A
+
+A topology shows Router R1 with a floating static route to 192.168.50.0/24 via 10.1.1.2 with AD 5, and the same network learned via OSPF. Which route appears in the routing table under normal conditions?
+A. The floating static route
+B. The OSPF route
+C. Both routes with equal cost
+D. Neither route
+ANSWER: B
+
+Which command on a router displays the administrative distance and metric for each route in the routing table?
+A. show ip route
+B. show ip route detail
+C. show ip route codes
+D. show ip protocols
+ANSWER: A
+
+A router has RIP, EIGRP, and OSPF running simultaneously. All three protocols advertise 10.0.0.0/8. Which route is installed in the routing table based on default administrative distances?
+A. RIP route
+B. EIGRP internal route
+C. OSPF route
+D. All three with load balancing
+ANSWER: B
+
+Which command on a router verifies the routing protocols currently configured and their parameters?
+A. show ip protocols
+B. show routing protocols
+C. display ip protocols
+D. show protocol status
+ANSWER: A
+
+In a network topology, a PC cannot obtain an IP address via DHCP. The switch port shows "err-disabled". What is the most likely cause?
+A. Port security violation
+B. VLAN mismatch
+C. Trunk negotiation failure
+D. Spanning tree blocking
+ANSWER: A
+
+Which command on a switch brings an err-disabled port back to operational status after fixing the underlying issue?
+A. no shutdown
+B. errdisable recovery
+C. shutdown followed by no shutdown
+D. reset port
+ANSWER: C
+
+A router is configured with NAT overload. An internal host at 192.168.1.50 accesses a web server. What information uniquely identifies this translation in the NAT table?
+A. Inside local IP only
+B. Inside global IP only
+C. Inside global IP and source port number
+D. Protocol type only
+ANSWER: C
+
+Which command on a router limits the number of NAT translations to prevent resource exhaustion?
+A. ip nat translation max-entries
+B. ip nat max translations
+C. nat limit translations
+D. ip nat pool limit
+ANSWER: A
+
+A topology requires an ACL to block all ICMP traffic from the 192.168.10.0/24 subnet while permitting all other traffic. Which extended ACL command achieves this?
+A. access-list 110 deny icmp 192.168.10.0 0.0.0.255 any access-list 110 permit ip any any
+B. access-list 10 deny icmp 192.168.10.0 0.0.0.255 and access-list 110 permit ip any any
+C. access-list 110 deny icmp any 192.168.10.0 0.0.0.255
+D. access-list 110 block icmp 192.168.10.0 0.0.0.255
+ANSWER: A
+
+Which command on a router verifies the CPU utilization and memory usage, helping diagnose performance issues during routing protocol convergence?
+A. show processes cpu
+B. show cpu usage
+C. display performance
+D. show router health
+ANSWER: A
+
+A network engineer needs to back up the router configuration to a TFTP server at 192.168.1.10. Which command copies the running-config to the TFTP server?
+A. copy running-config tftp://192.168.1.10
+B. copy running-config tftp
+C. backup config tftp 192.168.1.10
+D. save tftp 192.168.1.10
+ANSWER: B
+
+Which command on a router restores the configuration from a TFTP server during disaster recovery?
+A. copy tftp running-config
+B. restore tftp running-config
+C. load config tftp
+D. import tftp config
+ANSWER: A
+
+A switch in VTP transparent mode receives a VTP advertisement from a server. What does it do with the VLAN information?
+A. Updates its VLAN database and forwards the advertisement
+B. Ignores the advertisement and does not forward it
+C. Forwards the advertisement but does not update its database
+D. Converts to VTP server mode
+ANSWER: C
+
+Which VTP mode allows a switch to create, modify, and delete VLANs and advertise them to other switches?
+A. Client
+B. Server
+C. Transparent
+D. Off
+ANSWER: B
+
+A topology has switches in VTP domain "CORP". A new switch is added with VTP domain "NULL" and higher revision number. What happens when it connects to the existing network?
+A. It learns the CORP domain VLANs
+B. It overwrites the existing VLAN database with its empty database
+C. It becomes the VTP server automatically
+D. Nothing happens due to domain mismatch
+ANSWER: B
+
+Which command on a switch configures it as a VTP client in domain "CORP" with password "secure123"?
+A. vtp mode client vtp domain CORP vtp password secure123
+B. vtp client CORP secure123
+C. vtp domain CORP mode client password secure123
+D. client vtp CORP password secure123
+ANSWER: A
+
+A router interface is configured with HSRP (Hot Standby Router Protocol) for gateway redundancy. Which command sets the virtual IP to 192.168.1.1 on interface G0/0 with group 1?
+A. standby 1 ip 192.168.1.1
+B. hsrp 1 ip 192.168.1.1
+C. standby ip 192.168.1.1 group 1
+D. redundancy ip 192.168.1.1 group 1
+ANSWER: A
+
+Which command on a router verifies the HSRP state (Active/Standby), virtual IP, and priority for a specific group?
+A. show standby
+B. show hsrp
+C. show ip standby
+D. display hsrp
+ANSWER: B
+
+A topology has two routers in HSRP group 1. Router A has priority 110, Router B has default priority. Which router becomes the Active router?
+A. Router A
+B. Router B
+C. Both share the role
+D. The one with the higher IP address
+ANSWER: A
+
+Which command on a router enables preemption in HSRP so that a higher priority router can reclaim the Active role after recovery?
+A. standby 1 preempt
+B. hsrp 1 preempt
+C. preempt standby 1
+D. standby preempt 1
+ANSWER: A
+
+A network engineer configures a loopback interface with IP 2.2.2.2/32. What is the primary purpose of using a loopback interface in routing protocols?
+A. To provide a stable Router ID
+B. To connect to external networks
+C. To replace physical interfaces
+D. To increase bandwidth
+ANSWER: A
+
+A PAN typically connects devices within what range?
+A. A city
+B. A building
+C. A few meters
+D. A country
+ANSWER: C
+
+Which device operates at Layer 1 and simply regenerates electrical signals to all connected ports?
+A. Switch
+B. Router
+C. Hub
+D. Bridge
+ANSWER: C
+
+A network admin needs to connect a router to a PC for console access. Which cable type is required?
+A. Straight-through
+B. Crossover
+C. Rollover
+D. Serial
+ANSWER: C
+
+Which command sets the domain name on a Cisco router to "example.com"?
+A. domain-name example.com
+B. ip domain-name example.com
+C. hostname example.com
+D. set domain example.com
+ANSWER: B
+
+A router is configured with "exec-timeout 5 30" on the console line. What does this command do?
+A. Sets session timeout to 5 minutes 30 seconds
+B. Sets session timeout to 5 hours 30 minutes
+C. Sets session timeout to 5 seconds 30 milliseconds
+D. Sets session timeout to 5 minutes 30 milliseconds
+ANSWER: A
+
+Which command encrypts the enable secret password using MD5 hashing?
+A. service password-encryption
+B. enable secret
+C. enable password encrypted
+D. password md5
+ANSWER: B
+
+A network topology shows two PCs connected directly without a switch. Which cable type is required?
+A. Straight-through
+B. Crossover
+C. Rollover
+D. Console
+ANSWER: B
+
+Which command on a router displays the current date and time settings?
+A. show clock
+B. show time
+C. display date
+D. show datetime
+ANSWER: A
+
+A network engineer needs to verify the IOS version running on a router. Which command is used?
+A. show version
+B. show ios
+C. display version
+D. show firmware
+ANSWER: A
+
+Which command configures a message-of-the-day banner that displays after successful login?
+A. banner motd
+B. banner login
+C. banner exec
+D. banner incoming
+ANSWER: C
+
+In a topology, Router R1 connects to Router R2 via serial interface. Which command on R1 verifies the encapsulation protocol in use?
+A. show interface serial 0/0/0
+B. show encapsulation
+C. display serial 0/0/0
+D. show protocol serial
+ANSWER: A
+
+A PC cannot reach a server at 10.1.1.100. Which command traces the exact path taken by packets?
+A. ping 10.1.1.100
+B. traceroute 10.1.1.100
+C. trace 10.1.1.100
+D. pathping 10.1.1.100
+ANSWER: B
+
+Given 172.30.0.0/16, a company needs subnets for: 1000 hosts (Dept A), 500 hosts (Dept B), 250 hosts (Dept C), 120 hosts (Dept D), and 6 WAN links. Using VLSM, what prefix should be assigned to Dept B?
+A. /21
+B. /22
+C. /23
+D. /24
+ANSWER: B
+
+A network uses 192.168.50.0/24. The first subnet is 192.168.50.0/27 for 25 hosts. What is the network address of the third /27 subnet?
+A. 192.168.50.32
+B. 192.168.50.64
+C. 192.168.50.96
+D. 192.168.50.128
+ANSWER: B
+
+Using VLSM on 10.20.0.0/16, a subnet needs 2000 hosts. What is the broadcast address of this subnet?
+A. 10.20.7.255
+B. 10.20.15.255
+C. 10.20.31.255
+D. 10.20.63.255
+ANSWER: A
+
+A topology shows a router with interface G0/0 configured as 192.168.10.1/28. How many usable host addresses are available on this subnet?
+A. 14
+B. 16
+C. 30
+D. 32
+ANSWER: A
+
+A network admin needs to create a /30 subnet from 172.16.5.0/24 for a WAN link, ensuring it does not overlap with existing /26 subnets. Which subnet is valid?
+A. 172.16.5.192/30
+B. 172.16.5.200/30
+C. 172.16.5.252/30
+D. 172.16.5.248/30
+ANSWER: D
+
+Which command on a router verifies the ARP table, showing IP-to-MAC mappings?
+A. show arp
+B. show ip arp
+C. display arp table
+D. show mac arp
+ANSWER: B
+
+A PC on subnet 192.168.2.0/27 has IP 192.168.2.30. Is this a valid host address?
+A. Yes, it is a valid host
+B. No, it is the network address
+C. No, it is the broadcast address
+D. No, it is a reserved address
+ANSWER: C
+
+Given 10.0.0.0/8, what is the most efficient prefix for a subnet requiring exactly 400 hosts?
+A. /22
+B. /23
+C. /24
+D. /25
+ANSWER: B
+
+Which command on a Cisco switch deletes VLAN 200 from the database and removes all ports assigned to it?
+A. no vlan 200
+B. delete vlan 200
+C. vlan 200 delete
+D. remove vlan 200
+ANSWER: A
+
+A trunk link carries traffic for VLANs 10, 20, 30, and 40. Which command on the trunk interface removes VLAN 30 from the allowed list?
+A. switchport trunk allowed vlan remove 30
+B. no switchport trunk vlan 30
+C. switchport trunk remove 30
+D. vlan 30 remove trunk
+ANSWER: A
+
+Which command on a router subinterface configures encapsulation for VLAN 15 with native VLAN tagging?
+A. encapsulation dot1q 15 native
+B. encapsulation dot1q 15
+C. trunk dot1q 15 native
+D. vlan 15 encapsulation native
+ANSWER: B
+
+A Layer 3 switch has SVIs for VLANs 10, 20, and 30. Which command enables inter-VLAN routing?
+A. ip routing
+B. routing enable
+C. layer3 on
+D. svi routing
+ANSWER: A
+
+Which command on a switch verifies the trunking mode and native VLAN of a specific interface?
+A. show interface trunk
+B. show interface gigabitethernet 0/1 switchport
+C. show trunk status
+D. display switchport trunk
+ANSWER: B
+
+A router-on-a-stick configuration uses subinterface G0/0.10 for VLAN 10. Which IP address should be configured on this subinterface if it serves as the default gateway?
+A. The lowest IP in VLAN 10 subnet
+B. The highest IP in VLAN 10 subnet
+C. Any IP in VLAN 10 subnet
+D. The network address of VLAN 10 subnet
+ANSWER: C
+
+Which command on a switch configures a range of ports (FastEthernet 0/1 to 0/10) as access ports in VLAN 20?
+A. interface range fa0/1-10 switchport mode access switchport access vlan 20
+B. range fa0/1-10 vlan 20
+C. interface fa0/1-10 mode access vlan 20
+D. switchport range fa0/1-10 access vlan 20
+ANSWER: A
+
+A DHCP pool is configured with "default-router 192.168.1.1" and "dns-server 8.8.8.8 8.8.4.4". How many DNS servers are provided to clients?
+A. 1
+B. 2
+C. 3
+D. 4
+ANSWER: B
+
+Which command on a router verifies the DHCP lease time configured in a specific pool?
+A. show ip dhcp pool POOL-NAME
+B. show ip dhcp binding
+C. show dhcp lease
+D. show ip dhcp statistics
+ANSWER: A
+
+A DHCP relay is configured with "ip helper-address 192.168.10.5" on an interface. Which UDP ports are forwarded by default to the DHCP server?
+A. 67 and 68
+B. 53 and 67
+C. 69 and 161
+D. 80 and 443
+ANSWER: A
+
+Which command on a router displays the DHCP conflict database, showing addresses that failed ARP detection?
+A. show ip dhcp conflict
+B. show dhcp conflicts
+C. display ip dhcp conflict
+D. show ip dhcp errors
+ANSWER: A
+
+A static route is configured as "ip route 172.16.0.0 255.240.0.0 10.1.1.1". What is the prefix length of this summary route?
+A. /12
+B. /13
+C. /14
+D. /15
+ANSWER: A
+
+Which command on a router verifies the routing table and filters to show only routes learned via OSPF?
+A. show ip route ospf
+B. show ip ospf route
+C. show route ospf
+D. display ip route ospf
+ANSWER: A
+
+A router has a static route to 192.168.10.0/24 with AD 1 and an EIGRP route to the same network with AD 90. Which route is preferred?
+A. The static route
+B. The EIGRP route
+C. Both are used equally
+D. The router load-balances between them
+ANSWER: A
+
+Which command on a router configures a default static route with next-hop 203.0.113.1 and tracks it using IP SLA?
+A. ip route 0.0.0.0 0.0.0.0 203.0.113.1 track 1
+B. default route 203.0.113.1 track 1
+C. ip static route 0.0.0.0 203.0.113.1 sla 1
+D. track route 0.0.0.0 203.0.113.1
+ANSWER: A
+
+Router R1 is running RIPv2. Which command prevents the router from sending RIP updates out interface G0/0 while still receiving them?
+A. passive-interface g0/0
+B. no rip send g0/0
+C. rip receive-only g0/0
+D. no network g0/0
+ANSWER: A
+
+Which RIP version sends updates as multicast to address 224.0.0.9?
+A. RIP v1
+B. RIP v2
+C. RIPng
+D. Both B and C
+ANSWER: C
+
+In EIGRP, which command displays the feasible distance and advertised distance for a specific network?
+A. show ip eigrp topology 192.168.1.0/24
+B. show eigrp distance 192.168.1.0
+C. show ip eigrp network 192.168.1.0
+D. display eigrp topology 192.168.1.0
+ANSWER: A
+
+An OSPF router is configured with "network 192.168.1.0 0.0.0.255 area 1". What type of area is this?
+A. Backbone area
+B. Standard area
+C. Stub area
+D. Totally stubby area
+ANSWER: B
+
+Which OSPF command on a router displays the DR/BDR election results for a specific interface?
+A. show ip ospf interface
+B. show ospf dr
+C. display ip ospf dr
+D. show ip ospf neighbor
+ANSWER: A
+
+In OSPF, which command changes the cost of an interface to 100 manually?
+A. ip ospf cost 100
+B. ospf cost 100
+C. interface cost 100
+D. metric ospf 100
+ANSWER: A
+
+Which command verifies the OSPF virtual link status between two ABRs?
+A. show ip ospf virtual-links
+B. show ospf virtual
+C. display ip ospf virtual-link
+D. show ip ospf links
+ANSWER: A
+
+A router needs to translate internal range 192.168.1.0/24 to public pool 203.0.113.0/28. Which NAT type is most appropriate?
+A. Static NAT
+B. Dynamic NAT
+C. PAT
+D. Overload NAT
+ANSWER: B
+
+Which command defines an access list for NAT that permits only hosts 192.168.1.10 through 192.168.1.50?
+A. access-list 1 permit 192.168.1.0 0.0.0.63
+B. access-list 1 permit 192.168.1.10 0.0.0.40
+C. access-list 1 permit 192.168.1.0 0.0.0.255
+D. access-list 1 permit 192.168.1.10 0.0.0.0
+ANSWER: C
+
+A router is configured with "ip nat inside source list 1 interface g0/1 overload". Which interface must be marked as "ip nat outside"?
+A. G0/0
+B. G0/1
+C. S0/0/0
+D. Any interface
+ANSWER: B
+
+Which command verifies the NAT pool utilization and available addresses?
+A. show ip nat pool
+B. show nat pool
+C. display ip nat pool
+D. show ip nat statistics
+ANSWER: A
+
+A standard ACL numbered 30 is applied to a router's VTY lines using "access-class 30 in". Which traffic is controlled?
+A. Incoming Telnet/SSH sessions to the router
+B. Outgoing Telnet/SSH sessions from the router
+C. All traffic through the router
+D. Only console access
+ANSWER: A
+
+Which command creates an extended ACL that permits FTP data connections (port 20) from any source to server 192.168.5.5?
+A. access-list 120 permit tcp any host 192.168.5.5 eq 20
+B. access-list 120 permit ftp any 192.168.5.5
+C. access-list 120 permit tcp any 192.168.5.5 port 20
+D. access-list 120 allow tcp any host 192.168.5.5 eq ftp-data
+ANSWER: A
+
+An ACL is configured with "access-list 100 deny ip 10.0.0.0 0.255.255.255 any". Which traffic is blocked?
+A. All traffic from 10.0.0.0/8 to any destination
+B. All traffic to 10.0.0.0/8 from any source
+C. Only TCP traffic from 10.0.0.0/8
+D. Only ICMP traffic from 10.0.0.0/8
+ANSWER: A
+
+Which command on a router displays the time-based ACL entries and their active status?
+A. show time-range
+B. show access-lists
+C. display time acl
+D. show acl time
+ANSWER: B
+
+A reflexive ACL is configured on a router. What is its primary function?
+A. To block all inbound traffic
+B. To permit return traffic for connections initiated from inside
+C. To filter based on MAC addresses
+D. To perform stateful inspection like a firewall
+ANSWER: B
+
+In STP, which port role forwards traffic toward downstream segments and has the lowest cost path to the root bridge for that segment?
+A. Root port
+B. Designated port
+C. Alternate port
+D. Backup port
+ANSWER: B
+
+Which command on a switch configures the root guard feature to prevent a port from becoming a root port?
+A. spanning-tree guard root
+B. spanning-tree root-guard
+C. root guard enable
+D. spanning-tree portfast root guard
+ANSWER: A
+
+A network topology has a root bridge with priority 4096. A new switch is added with priority 2048. What happens to the root bridge election?
+A. The new switch becomes root immediately
+B. The new switch becomes root after 50 seconds
+C. The original switch remains root
+D. Both switches share root duties
+ANSWER: A
+
+Which command on a switch configures the path cost of interface G0/1 to 4 for STP calculations?
+A. spanning-tree cost 4
+B. spanning-tree portcost 4
+C. stp cost 4
+D. spanning-tree g0/1 cost 4
+ANSWER: A
+
+In RSTP, which port state is equivalent to the traditional STP blocking state but actively discards frames and learns MAC addresses?
+A. Discarding
+B. Learning
+C. Forwarding
+D. Listening
+ANSWER: A
+
+Which command enables Loop Guard on a switch to prevent alternate or root ports from becoming designated ports when BPDUs are not received?
+A. spanning-tree loopguard default
+B. spanning-tree guard loop
+C. loop guard enable
+D. spanning-tree loop guard
+ANSWER: A
+
+A topology shows three switches in a triangle with RSTP enabled. How quickly does a port transition from discarding to forwarding if it is an edge port?
+A. 2 seconds
+B. 15 seconds
+C. 30 seconds
+D. 50 seconds
+ANSWER: A
+
+Which command on a switch verifies the spanning-tree mode currently in use (PVST, RSTP, MSTP)?
+A. show spanning-tree summary
+B. show spanning-tree mode
+C. display stp mode
+D. show stp status
+ANSWER: A
+
+A network engineer uses a protocol analyzer to capture TCP three-way handshake packets. Which flag sequence is observed in a successful connection?
+A. SYN, SYN-ACK, ACK
+B. SYN, ACK, SYN-ACK
+C. ACK, SYN, SYN-ACK
+D. SYN, SYN, ACK
+ANSWER: A
+
+Which tool is used to perform a man-in-the-middle attack by sending gratuitous ARP replies on a local network?
+A. Wireshark
+B. Ettercap
+C. Ping
+D. Traceroute
+ANSWER: B
+
+A T1 serial connection uses which physical layer standard for framing and signaling?
+A. HDLC
+B. PPP
+C. Frame Relay
+D. DS1/T1
+ANSWER: D
+
+Which command on a router configures the description "Link to ISP" on interface Serial 0/0/0?
+A. description Link to ISP
+B. interface description Link to ISP
+C. set description Link to ISP
+D. link description Link to ISP
+ANSWER: A
+
+A router interface shows "Serial0/0/0 is down, line protocol is down". What is the first troubleshooting step?
+A. Check cable connections and interface status
+B. Check routing protocol configuration
+C. Check IP address configuration
+D. Check ACL configuration
+ANSWER: A
+
+Which command on a router verifies the interface counters including input/output errors and drops?
+A. show interface serial 0/0/0
+B. show counters
+C. display interface stats
+D. show interface errors
+ANSWER: A
+
+In a VLSM topology, a company has 10.50.0.0/16. They need subnets for: 5000 hosts (Data Center), 2000 hosts (HQ), 1000 hosts (Branch1), 500 hosts (Branch2), and 8 WAN links. What is the correct prefix for the Data Center?
+A. /18
+B. /19
+C. /20
+D. /21
+ANSWER: B
+
+A network uses 172.25.0.0/22. What is the total number of usable host addresses in this block?
+A. 1022
+B. 1024
+C. 2046
+D. 2048
+ANSWER: A
+
+Given 192.168.200.0/24, a topology needs: 50 hosts (LAN1), 25 hosts (LAN2), 10 hosts (LAN3), and 2 WAN links. What is the broadcast address of the subnet assigned to LAN3?
+A. 192.168.200.127
+B. 192.168.200.143
+C. 192.168.200.159
+D. 192.168.200.191
+ANSWER: C
+
+A router interface is configured as 10.10.10.1/30. What is the IP address of the directly connected neighbor on this subnet?
+A. 10.10.10.0
+B. 10.10.10.2
+C. 10.10.10.3
+D. 10.10.10.4
+ANSWER: B
+
+Which command on a router verifies the CDP neighbor table and shows the IP addresses of connected devices?
+A. show cdp neighbors detail
+B. show cdp neighbors ip
+C. display cdp detail
+D. show cdp entry
+ANSWER: A
+
+A switch is configured with VLAN 10, 20, and 30. Which command verifies the VLAN database and shows which ports are in each VLAN?
+A. show vlan brief
+B. show vlan database
+C. display vlan
+D. show switch vlan
+ANSWER: A
+
+Which command on a switch configures a port as a private VLAN host port?
+A. switchport mode private-vlan host
+B. switchport private-vlan host
+C. private-vlan port host
+D. switchport host private-vlan
+ANSWER: A
+
+A router has a DHCP pool with "lease 2 12 30". What is the lease duration?
+A. 2 hours 12 minutes 30 seconds
+B. 2 days 12 hours 30 minutes
+C. 2 weeks 12 days 30 hours
+D. 2 minutes 12 seconds 30 milliseconds
+ANSWER: B
+
+Which command on a router verifies the DHCP relay bindings and shows which clients are being served?
+A. show ip dhcp relay
+B. show ip dhcp binding
+C. show dhcp relay statistics
+D. show ip helper-address
+ANSWER: B
+
+A static route is configured with "ip route 192.168.100.0 255.255.255.0 null0 254". What is the purpose of the administrative distance 254?
+A. To make this route a floating static route
+B. To make this route the preferred route
+C. To prevent the route from appearing in the routing table
+D. To enable load balancing
+ANSWER: C
+
+Which command on a router running RIPv2 displays the routing table and shows which routes were learned via RIP?
+A. show ip route rip
+B. show rip routes
+C. display ip route rip
+D. show ip rip database
+ANSWER: A
+
+In EIGRP, which command configures the router to advertise a summary route of 172.16.0.0/16 out interface G0/0?
+A. ip summary-address eigrp 100 172.16.0.0 255.255.0.0
+B. eigrp summary 172.16.0.0/16 g0/0
+C. summary-address eigrp 100 172.16.0.0 255.255.0.0
+D. ip eigrp summary 172.16.0.0/16
+ANSWER: A
+
+Which OSPF area type does not accept external Type 5 LSAs but does accept inter-area routes?
+A. Stub area
+B. Totally stubby area
+C. NSSA
+D. Backbone area
+ANSWER: A
+
+An OSPF router receives a Type 7 LSA. What type of area must this router be in?
+A. Standard area
+B. Stub area
+C. NSSA
+D. Totally stubby area
+ANSWER: C
+
+Which command on a router verifies the OSPF SPF algorithm execution count and last execution time?
+A. show ip ospf statistics
+B. show ip ospf events
+C. display ip ospf spf
+D. show ospf spf log
+ANSWER: A
+
+A router is configured with NAT and needs to translate a range of internal addresses to a pool of 8 public addresses. Which NAT type should be used without overload?
+A. Static NAT
+B. Dynamic NAT
+C. PAT
+D. Overload NAT
+ANSWER: B
+
+Which command on a router configures a NAT translation timeout for TCP connections to 24 hours?
+A. ip nat translation tcp-timeout 86400
+B. ip nat tcp timeout 86400
+C. nat timeout tcp 86400
+D. ip nat translation timeout tcp 86400
+ANSWER: A
+
+An ACL is configured with "access-list 101 permit tcp any host 192.168.1.10 established". What does "established" mean in this context?
+A. The connection must be already established (ACK or RST flag set)
+B. The connection must use established port numbers
+C. The connection must be encrypted
+D. The connection must be authenticated
+ANSWER: A
+
+Which command on a router creates a time-based ACL that permits HTTP traffic only during business hours (9 AM to 5 PM)?
+A. time-range BUSINESS periodic weekdays 9:00 to 17:00 access-list 120 permit tcp any any eq 80 time-range BUSINESS
+B. access-list 120 time 9:00-17:00 permit tcp any any eq 80
+C. time acl 120 9:00 17:00
+D. access-list 120 permit http time 9-17
+ANSWER: A
+
+A dynamic ACL is configured on a router. What is required for a user to activate the ACL entries?
+A. Authentication via Telnet to the router
+B. Physical access to the router
+C. SNMP authentication
+D. Web browser authentication
+ANSWER: A
+
+Which command on a switch configures the storm control feature to limit broadcast traffic to 50% of bandwidth on interface G0/1?
+A. storm-control broadcast level 50
+B. storm-control g0/1 broadcast 50
+C. broadcast storm 50 g0/1
+D. storm-control limit broadcast 50
+ANSWER: A
+
+In STP, which feature allows a blocked port to be placed in a standby state and quickly take over if the active path fails?
+A. BackboneFast
+B. UplinkFast
+C. PortFast
+D. BPDU Guard
+ANSWER: B
+
+Which command on a switch configures the port priority of G0/2 to 16 for STP root port selection?
+A. spanning-tree port-priority 16
+B. spanning-tree g0/2 priority 16
+C. stp port-priority 16
+D. spanning-tree port priority 16
+ANSWER: A
+
+A topology shows a switch with multiple VLANs. Which command verifies the VLAN Trunking Protocol (VTP) status and domain name?
+A. show vtp status
+B. show vtp domain
+C. display vtp
+D. show trunk vtp
+ANSWER: A
+
+Which command on a router enables NetFlow on interface G0/0 to monitor traffic patterns?
+A. ip flow ingress
+B. netflow enable g0/0
+C. ip netflow g0/0
+D. flow monitor g0/0
+ANSWER: A
+
+A network engineer needs to verify the QoS policy applied to interface G0/0. Which command displays the service policy statistics?
+A. show policy-map interface g0/0
+B. show qos interface g0/0
+C. display service-policy g0/0
+D. show interface g0/0 policy
+ANSWER: A
+
+Which command on a router configures a GRE tunnel interface with source 10.1.1.1 and destination 10.1.1.2?
+A. interface tunnel 0 tunnel source 10.1.1.1 tunnel destination 10.1.1.2
+B. tunnel 0 source 10.1.1.1 destination 10.1.1.2
+C. interface gre 0 source 10.1.1.1 destination 10.1.1.2
+D. gre tunnel 0 10.1.1.1 10.1.1.2
+ANSWER: A
+
+A router is configured with IPsec VPN. Which command verifies the security associations (SAs) and their status?
+A. show crypto ipsec sa
+B. show ipsec sa
+C. display crypto sa
+D. show vpn sa
+ANSWER: A
+
+Which command on a switch configures a port channel (EtherChannel) with interfaces G0/1 and G0/2 using PAgP?
+A. interface range g0/1-2 channel-group 1 mode desirable
+B. port-channel 1 g0/1 g0/2 pagp
+C. etherchannel 1 g0/1 g0/2 desirable
+D. interface port-channel 1 g0/1 g0/2
+ANSWER: A
+
+A network topology uses BGP between two autonomous systems. Which command on a router displays the BGP neighbor relationships and their states?
+A. show ip bgp summary
+B. show bgp neighbors
+C. display ip bgp
+D. show ip bgp peers
+ANSWER: A
+
+Which command on a router configures a route map that sets the next-hop to 10.1.1.1 for matched routes?
+A. route-map SET-NEXT-HOP permit 10 set ip next-hop 10.1.1.1
+B. route map SET-NEXT-HOP 10.1.1.1
+C. ip route-map SET-NEXT-HOP 10.1.1.1
+D. map route SET-NEXT-HOP next-hop 10.1.1.1
+ANSWER: A
+
+A router is configured with policy-based routing (PBR). Which command on an interface applies the route map for PBR?
+A. ip policy route-map MAP-NAME
+B. policy route-map MAP-NAME
+C. ip route-map MAP-NAME
+D. apply route-map MAP-NAME
+ANSWER: A
+
+Which command on a router verifies the policy-based routing statistics and packet matches?
+A. show route-map
+B. show policy-map
+C. show ip policy
+D. display route-map
+ANSWER: A
+
+A switch is configured with private VLANs. Which command associates a secondary VLAN 101 with the primary VLAN 100?
+A. private-vlan association 101
+B. vlan 100 private-vlan association 101
+C. private-vlan 100 secondary 101
+D. vlan 101 primary 100
+ANSWER: B
+
+Which command on a router configures a DHCP client on interface G0/0 to obtain an IP address automatically?
+A. ip address dhcp
+B. dhcp client g0/0
+C. ip dhcp g0/0
+D. interface dhcp g0/0
+ANSWER: A
+
+A router interface shows "GigabitEthernet0/0 is up, line protocol is up (connected)". What does "connected" indicate in parentheses?
+A. The interface is administratively up
+B. The interface has detected a physical connection
+C. The interface is in a VLAN
+D. The interface is using auto-negotiation
+ANSWER: B
+
+Which command on a switch configures the MAC address aging time to 600 seconds?
+A. mac address-table aging-time 600
+B. aging-time mac 600
+C. mac aging 600
+D. switchport aging-time 600
+ANSWER: A
+
+A topology shows a router with an access list applied inbound on G0/0. The ACL has 50 entries. Which command shows the number of packets matched by each ACL entry?
+A. show access-lists
+B. show ip access-lists
+C. display access-list counters
+D. show acl statistics
+ANSWER: A
+
+Which command on a router configures a secure copy (SCP) server to allow encrypted file transfers?
+A. ip scp server enable
+B. scp server enable
+C. ip ssh server enable
+D. secure copy enable
+ANSWER: A
+
+A network engineer needs to verify the routing protocol authentication status on an OSPF interface. Which command is used?
+A. show ip ospf interface
+B. show ip ospf neighbor detail
+C. display ospf auth
+D. show ospf authentication
+ANSWER: A
+
+Which command on a switch configures the errdisable recovery for port security violations to automatically re-enable ports after 300 seconds?
+A. errdisable recovery cause port-security errdisable recovery interval 300
+B. errdisable port-security recover 300
+C. port-security recovery 300
+D. errdisable auto-recovery 300
+ANSWER: A
+
+A router is configured with a floating static route to 0.0.0.0/0 via 203.0.113.2 with AD 200. The primary route is via 203.0.113.1 with AD 1. If the primary fails, how long before the floating route appears in the routing table?
+A. Immediately
+B. After 30 seconds
+C. After the routing protocol converges
+D. After the next routing update
+ANSWER: A
